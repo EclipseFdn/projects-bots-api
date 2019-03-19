@@ -12,7 +12,7 @@ public class BotsTest {
     @Test
     public void testGetByUsername() {
         given()
-          .when().get("bots?username=che-bot")
+          .when().get("/?username=che-bot")
           .then()
              .statusCode(200)
              .body(is("[{\"kind\":\"github\",\"id\":1,\"email\":\"che-bot@eclipse.org\",\"projectId\":\"ecd.che\",\"username\":\"che-bot\"}]"));
@@ -22,7 +22,7 @@ public class BotsTest {
     public void testGetById() {
     	
     	given()
-      .when().get("bots/2")
+      .when().get("/2")
       .then()
          .statusCode(200)
          .body(is("{\"kind\":\"github\",\"id\":2,\"email\":\"sprotty-bot@eclipse.org\",\"projectId\":\"ecd.sprotty\",\"username\":\"eclipse-sprotty-bot\"}"));

@@ -24,7 +24,7 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("/bots")
+@Path("/")
 @Produces(MediaType.APPLICATION_JSON)
 public class BotsResource {
 
@@ -124,7 +124,7 @@ public class BotsResource {
 	}
 	
 	@GET
-	@Path("{id}")
+	@Path("/{id}")
 	public Bot get(@PathParam("id") Integer id) {
 		return this.bots.stream().filter(b -> b.getId() == id.intValue()).findFirst().orElseThrow(NotFoundException::new);
 	}
