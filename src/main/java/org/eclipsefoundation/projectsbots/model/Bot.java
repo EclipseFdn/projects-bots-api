@@ -6,11 +6,12 @@
  */
 package org.eclipsefoundation.projectsbots.model;
 
-import org.wildfly.common.annotation.Nullable;
-
 import com.google.auto.value.AutoValue;
+import com.squareup.moshi.Json;
 import com.squareup.moshi.JsonAdapter;
 import com.squareup.moshi.Moshi;
+
+import org.wildfly.common.annotation.Nullable;
 
 @AutoValue
 public abstract class Bot {
@@ -18,13 +19,17 @@ public abstract class Bot {
 	public abstract int id();
 	public abstract String projectId();
 	public abstract String username();
+	@Nullable
 	public abstract String email();
 	
 	@Nullable
+	@Json(name = "github.com")
 	public abstract GitHub gitHub();
 	@Nullable
+	@Json(name = "oss.sonatype.org")
 	public abstract OSSRH ossrh();
 	@Nullable
+	@Json(name = "docker.com")
 	public abstract DockerHub dockerHub();
 
 	public static JsonAdapter<Bot> jsonAdapter(Moshi moshi) {

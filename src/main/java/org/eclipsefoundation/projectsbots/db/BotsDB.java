@@ -3,6 +3,7 @@ package org.eclipsefoundation.projectsbots.db;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
@@ -74,7 +75,7 @@ public class BotsDB {
 		Pattern pattern = Pattern.compile(".*"+searchStr+".*");
 		
 		Predicate<Bot> p = (b) -> pattern.matcher(b.username()).matches();
-		p = p.or(b -> pattern.matcher(b.email()).matches());
+		p = p.or(b -> Objects.nonNull(b.email()) && pattern.matcher(b.email()).matches());
 		p = p.or(b -> pattern.matcher(b.projectId()).matches());
 		
 		p = p.or(b -> b.gitHub() != null && b.gitHub().matches(pattern));
