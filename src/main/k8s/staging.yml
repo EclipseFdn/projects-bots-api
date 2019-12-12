@@ -51,7 +51,7 @@ metadata:
   annotations:
     haproxy.router.openshift.io/timeout: 20s
 spec:
-  host: "api-staging.eclipse.org"
+  host: "api.eclipse.org"
   path: "/bots"
   port:
     targetPort: "http"
