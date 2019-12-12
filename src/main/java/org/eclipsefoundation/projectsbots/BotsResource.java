@@ -17,10 +17,10 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
+import com.squareup.moshi.Moshi;
+
 import org.eclipsefoundation.projectsbots.db.BotsDB;
 import org.eclipsefoundation.projectsbots.model.Bot;
-
-import com.squareup.moshi.Moshi;
 
 @Path("/bots")
 @Produces(MediaType.APPLICATION_JSON)
@@ -33,6 +33,8 @@ public class BotsResource {
 		
 	@GET
 	public String search(@QueryParam("q") String q) {
+		if (q == null || q.isEmpty())
+			return moshi.adapter(List.class).toJson(db.search(""));
 		return moshi.adapter(List.class).toJson(db.search(q));
 	}
 	
