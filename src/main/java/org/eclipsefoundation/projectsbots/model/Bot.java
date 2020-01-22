@@ -26,6 +26,9 @@ public abstract class Bot {
 	@Json(name = "github.com")
 	public abstract GitHub gitHub();
 	@Nullable
+	@Json(name = "github.com-dependabot")
+	public abstract Dependabot dependabot();
+	@Nullable
 	@Json(name = "oss.sonatype.org")
 	public abstract OSSRH ossrh();
 	@Nullable

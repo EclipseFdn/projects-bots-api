@@ -11,9 +11,9 @@ import com.squareup.moshi.JsonAdapter;
 import com.squareup.moshi.Moshi;
 
 @AutoValue
-public abstract class DockerHub extends BotAccount {
-
-	public static JsonAdapter<DockerHub> jsonAdapter(Moshi moshi) {
-    return new AutoValue_DockerHub.MoshiJsonAdapter(moshi);
+public abstract class Dependabot extends BotAccount {
+	
+	public static JsonAdapter<Dependabot> jsonAdapter(Moshi moshi) {
+    return new AutoValue_Dependabot.MoshiJsonAdapter(moshi);
   }
 }
