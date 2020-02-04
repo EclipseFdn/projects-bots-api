@@ -8,11 +8,11 @@ package org.eclipsefoundation.projectsbots.model;
 
 import com.google.auto.value.AutoValue;
 import com.squareup.moshi.Json;
-import com.squareup.moshi.JsonAdapter;
-import com.squareup.moshi.Moshi;
+import com.squareup.moshi.JsonClass;
 
 import org.wildfly.common.annotation.Nullable;
 
+@JsonClass(generateAdapter = true, generator = "avm")
 @AutoValue
 public abstract class Bot {
 
@@ -24,18 +24,14 @@ public abstract class Bot {
 	
 	@Nullable
 	@Json(name = "github.com")
-	public abstract GitHub gitHub();
+	public abstract BotAccount gitHub();
 	@Nullable
 	@Json(name = "github.com-dependabot")
-	public abstract Dependabot dependabot();
+	public abstract BotAccount dependabot();
 	@Nullable
 	@Json(name = "oss.sonatype.org")
-	public abstract OSSRH ossrh();
+	public abstract BotAccount ossrh();
 	@Nullable
 	@Json(name = "docker.com")
-	public abstract DockerHub dockerHub();
-
-	public static JsonAdapter<Bot> jsonAdapter(Moshi moshi) {
-    return new AutoValue_Bot.MoshiJsonAdapter(moshi);
-  }
+	public abstract BotAccount dockerHub();
 }

@@ -9,8 +9,13 @@ package org.eclipsefoundation.projectsbots.model;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
+import com.google.auto.value.AutoValue;
+import com.squareup.moshi.JsonClass;
+
 import org.wildfly.common.annotation.Nullable;
 
+@JsonClass(generateAdapter = true, generator = "avm")
+@AutoValue
 public abstract class BotAccount {
 
 	public abstract String username();

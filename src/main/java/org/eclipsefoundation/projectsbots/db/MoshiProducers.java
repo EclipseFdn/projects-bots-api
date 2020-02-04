@@ -1,4 +1,4 @@
-package org.eclipsefoundation.projectsbots.model;
+package org.eclipsefoundation.projectsbots.db;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Produces;
@@ -10,6 +10,6 @@ public class MoshiProducers {
 
 	@Produces
   public Moshi moshi(){
-      return new Moshi.Builder().add(BotAdapterFactory.create()).build();
+      return new Moshi.Builder().build();
   }
 }
