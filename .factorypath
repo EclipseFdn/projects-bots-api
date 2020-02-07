@@ -7,4 +7,5 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/com/squareup/javapoet/1.12.0/javapoet-1.12.0.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/com/squareup/moshi/moshi/1.9.2/moshi-1.9.2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/com/squareup/okio/okio/1.16.0/okio-1.16.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/ryanharter/auto/value/auto-value-moshi-factory/1.0.0/auto-value-moshi-factory-1.0.0.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>

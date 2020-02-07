@@ -5,11 +5,15 @@ import javax.enterprise.inject.Produces;
 
 import com.squareup.moshi.Moshi;
 
+import org.eclipsefoundation.projectsbots.model.BotAdapterFactory;
+
 @ApplicationScoped
 public class MoshiProducers {
 
 	@Produces
-  public Moshi moshi(){
-      return new Moshi.Builder().build();
+  public Moshi moshi() {
+      return new Moshi.Builder()
+        .add(BotAdapterFactory.create())
+        .build();
   }
 }

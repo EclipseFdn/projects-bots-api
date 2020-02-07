@@ -10,14 +10,15 @@ import java.util.Objects;
 import java.util.regex.Pattern;
 
 import com.google.auto.value.AutoValue;
-import com.squareup.moshi.JsonClass;
+import com.squareup.moshi.JsonAdapter;
+import com.squareup.moshi.Moshi;
 
 import org.wildfly.common.annotation.Nullable;
 
-@JsonClass(generateAdapter = true, generator = "avm")
 @AutoValue
 public abstract class BotAccount {
 
+	@Nullable
 	public abstract String username();
 	@Nullable
 	public abstract String email();
@@ -27,4 +28,7 @@ public abstract class BotAccount {
 			(Objects.nonNull(email()) && pattern.matcher(email()).matches());
 	}
 
+	public static JsonAdapter<BotAccount> jsonAdapter(Moshi moshi) {
+		return new AutoValue_BotAccount.MoshiJsonAdapter(moshi);
+	}
 }

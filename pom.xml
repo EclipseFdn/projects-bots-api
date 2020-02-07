@@ -61,7 +61,7 @@
 			<groupId>com.ryanharter.auto.value</groupId>
 			<artifactId>auto-value-moshi-annotations</artifactId>
 			<version>${auto-value-moshi.version}</version>
-		</dependency>		
+		</dependency>
 		<dependency>
 			<groupId>io.quarkus</groupId>
 			<artifactId>quarkus-junit5</artifactId>
@@ -102,6 +102,11 @@
 							<artifactId>auto-value-moshi-extension</artifactId>
 							<version>${auto-value-moshi.version}</version>
 						</path>
+						<dependency>
+							<groupId>com.ryanharter.auto.value</groupId>
+							<artifactId>auto-value-moshi-factory</artifactId>
+							<version>${auto-value-moshi.version}</version>
+						</dependency>
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
