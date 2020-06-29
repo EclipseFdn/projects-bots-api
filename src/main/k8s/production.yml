@@ -7,6 +7,16 @@ spec:
   selector:
     matchLabels:
       app: projects-bots-api
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - preference:
+          matchExpressions:
+          - key: speed
+            operator: NotIn
+            values:
+            - fast
+        weight: 1
   replicas: 2
   template:
     metadata:
