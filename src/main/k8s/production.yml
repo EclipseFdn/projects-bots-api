@@ -7,16 +7,6 @@ spec:
   selector:
     matchLabels:
       app: projects-bots-api
-  affinity:
-    nodeAffinity:
-      preferredDuringSchedulingIgnoredDuringExecution:
-      - preference:
-          matchExpressions:
-          - key: speed
-            operator: NotIn
-            values:
-            - fast
-        weight: 1
   replicas: 2
   template:
     metadata:
@@ -24,6 +14,16 @@ spec:
         app: projects-bots-api
         environment: production
     spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - preference:
+              matchExpressions:
+              - key: speed
+                operator: NotIn
+                values:
+                - fast
+            weight: 1
       containers:
       - name: app
         image: eclipsefdn/projects-bots-api:latest
