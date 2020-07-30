@@ -24,7 +24,7 @@ See https://quarkus.io for more information.
 
 ### Re-generate a clean DB
 ```
-$ kubectl exec -n foundation-internal-webdev-apps $(kubectl get -n foundation-internal-webdev-apps pod -l "app=projects-bots-api,environment=production" -o json | jq -r ".items[0]|.metadata.name") cat /deployments/bots.db.json | jq > bots.db.json
+$ kubectl exec -n foundation-internal-webdev-apps $(kubectl get -n foundation-internal-webdev-apps pod -l "app=projects-bots-api,environment=production" -o json | jq -r ".items[0]|.metadata.name") -- cat /deployments/bots.db.json | jq > bots.db.json
 $ ./gen_bot_db.sh bots.db.json | tee bots.db.new.json
 $ jq < bots.db.new.json > bots.db.new.json.formatted && mv bots.db.new.json.formatted bots.db.new.json
 ```
