@@ -7,6 +7,28 @@ set -o pipefail
 
 export PASSWORD_STORE_DIR=~/.password-store-cbi
 
+script_name="$(basename ${0})"
+input_file="${1:-}"
+
+usage() {
+  printf "Usage: %s input_file\n" "$script_name"
+  printf "\t%-16s input file.\n" "input_file"
+}
+
+verify_inputs() {
+  # check that input file exists
+  if [ "${input_file}" == "" ]; then
+    printf "ERROR: make sure an input file is given.\n"
+    usage
+    exit 1
+  fi
+  if [ ! -f "${input_file}" ]; then
+    printf "ERROR: make sure the input file is accessible.\n"
+    usage
+    exit 1
+  fi
+}
+
 printProjectJson() {
   local id="${1}"
   local projectPath="${2}"
@@ -66,11 +88,13 @@ printProjectJson() {
   echo "}"
 }
 
+verify_inputs
+
 echo "["
 
 botCount=1
-for botId in $(jq -r '.[]|.id' < "${1}"); do
-  projectId=$(jq -r '.[]|select(.id=='"${botId}"').projectId' < "${1}")
+for botId in $(jq -r '.[]|.id' < "${input_file}"); do
+  projectId=$(jq -r '.[]|select(.id=='"${botId}"').projectId' < "${input_file}")
   projectPath="${PASSWORD_STORE_DIR}/bots/${projectId:-undefined}"
   if [ -d "${projectPath}" ]; then
     >&2 echo "Re-generating json for bot id ${botId} from ${projectPath} in 'pass'"
@@ -84,9 +108,9 @@ for botId in $(jq -r '.[]|.id' < "${1}"); do
   fi
 done
 
-botId=$(jq -r '[.[]|.id]|max' < "${1}")
+botId=$(jq -r '[.[]|.id]|max' < "${input_file}")
 for projectPath in "${PASSWORD_STORE_DIR}/bots"/*; do
-  if [ -z "$(jq -r '.[]|select(.projectId=="'"${projectPath##*/}"'")' < "${1}")" ]; then
+  if [ -z "$(jq -r '.[]|select(.projectId=="'"${projectPath##*/}"'")' < "${input_file}")" ]; then
     botId=$((botId+1))
     >&2 echo "New project id ${projectPath##*/} detected. Adding it to DB with bot id ${botId}"
     if [[ ${botCount} -gt 1 ]]; then
