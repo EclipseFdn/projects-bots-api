@@ -38,7 +38,7 @@ request_access_token() {
     --data 'grant_type=client_credentials' \
     --data "client_id=${client_id}" \
     --data "client_secret=${client_secret}" \
-    --data 'scope= eclipsefdn_view_all_profiles' | jq -r '.access_token')
+    --data 'scope=eclipsefdn_view_all_profiles' | jq -r '.access_token')
 }
 
 query_email_by_user_id() {
@@ -65,14 +65,6 @@ printProjectJson() {
 
   if [[ "${ldap_email}" != "" ]]; then
     echo ',"email": "'${ldap_email}'"'
-  elif [[ -f "${projectPath}/email.gpg" ]]; then
-    echo ',"email": "'$(pass bots/${projectId}/email)'"'
-  elif [[ -f "${projectPath}/github.com/email.gpg" ]]; then
-    echo ',"email": "'$(pass bots/${projectId}/github.com/email)'"'
-  elif [[ -f "${projectPath}/oss.sonatype.org/email.gpg" ]]; then
-    echo ',"email": "'$(pass bots/${projectId}/oss.sonatype.org/email)'"'
-  elif [[ -f "${projectPath}/docker.com/email.gpg" ]]; then
-    echo ',"email": "'$(pass bots/${projectId}/docker.com/email)'"'
   fi
 
   if [[ -d "${projectPath}/github.com" ]] || [[ -d "${projectPath}/oss.sonatype.org" ]] || [[ -d "${projectPath}/docker.com" ]]; then
