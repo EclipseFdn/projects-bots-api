@@ -65,6 +65,8 @@ printProjectJson() {
 
   if [[ "${ldap_email}" != "" ]]; then
     echo ',"email": "'${ldap_email}'"'
+  else
+    >&2 echo "WARNING: No LDAP email found."
   fi
 
   if [[ -d "${projectPath}/github.com" ]] || [[ -d "${projectPath}/oss.sonatype.org" ]] || [[ -d "${projectPath}/docker.com" ]]; then
