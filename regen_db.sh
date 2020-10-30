@@ -16,4 +16,4 @@ kubectl exec -n foundation-internal-webdev-apps $(kubectl get -n foundation-inte
 ./gen_bot_db.sh bots.db.json | tee bots.db.new.json
 jq < bots.db.new.json > bots.db.new.json.formatted && mv bots.db.new.json.formatted bots.db.new.json
 
-echo "\nRun 'diff bots.db.json bots.db.new.json' before deploying first!!"
+printf "\nRun 'diff bots.db.json bots.db.new.json' before deploying first!!"

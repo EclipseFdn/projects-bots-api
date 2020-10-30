@@ -69,7 +69,7 @@ printProjectJson() {
     >&2 echo "WARNING: No LDAP email found."
   fi
 
-  if [[ -d "${projectPath}/github.com" ]] || [[ -d "${projectPath}/oss.sonatype.org" ]] || [[ -d "${projectPath}/docker.com" ]]; then
+  if [[ -d "${projectPath}/github.com" ]] || [[ -d "${projectPath}/gitlab.eclipse.org" ]] || [[ -d "${projectPath}/oss.sonatype.org" ]] || [[ -d "${projectPath}/docker.com" ]]; then
     echo ","
   fi
 
@@ -77,6 +77,17 @@ printProjectJson() {
     echo '"github.com": {'
     echo '"username": "'$(pass bots/${projectId}/github.com/username)'",'
     echo '"email": "'$(pass bots/${projectId}/github.com/email)'"'
+    if [[ -d "${projectPath}/gitlab.eclipse.org" ]] || [[ -d "${projectPath}/oss.sonatype.org" ]] || [[ -d "${projectPath}/docker.com" ]]; then
+      echo "},"
+    else
+      echo "}"
+   fi
+  fi
+
+  if [[ -d "${projectPath}/gitlab.eclipse.org" ]]; then
+    echo '"gitlab.eclipse.org": {'
+    echo '"username": "'$(pass bots/${projectId}/gitlab.eclipse.org/username)'",'
+    echo '"email": "'$(pass bots/${projectId}/gitlab.eclipse.org/email)'"'
     if [[ -d "${projectPath}/oss.sonatype.org" ]] || [[ -d "${projectPath}/docker.com" ]]; then
       echo "},"
     else
@@ -111,13 +122,13 @@ request_access_token
 
 echo "["
 
-botCount=1
+botCount=0
 for botId in $(jq -r '.[]|.id' < "${input_file}"); do
   projectId=$(jq -r '.[]|select(.id=='"${botId}"').projectId' < "${input_file}")
   projectPath="${PASSWORD_STORE_DIR}/bots/${projectId:-undefined}"
   if [ -d "${projectPath}" ]; then
     >&2 echo "Re-generating json for bot id ${botId} from ${projectPath} in 'pass'"
-    if [[ ${botCount} -gt 1 ]]; then
+    if [[ ${botCount} -gt 0 ]]; then
       echo ","
     fi
     printProjectJson "${botId}" "${projectPath}" | jq -M
@@ -132,7 +143,7 @@ for projectPath in "${PASSWORD_STORE_DIR}/bots"/*; do
   if [ -z "$(jq -r '.[]|select(.projectId=="'"${projectPath##*/}"'")' < "${input_file}")" ]; then
     botId=$((botId+1))
     >&2 echo "New project id ${projectPath##*/} detected. Adding it to DB with bot id ${botId}"
-    if [[ ${botCount} -gt 1 ]]; then
+    if [[ ${botCount} -gt 0 ]]; then
       echo ","
     fi
     printProjectJson "${botId}" "${projectPath}" | jq -M
@@ -145,3 +156,4 @@ done
 echo "]"
 
 >&2 echo "Re-generated ${botCount} bots!"
+
