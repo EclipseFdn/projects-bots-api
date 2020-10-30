@@ -56,6 +56,13 @@ public class BotsDB {
 				.filter(b -> githubUsername.equals(b.gitHub().username()))
 				.findFirst();
 	}
+
+	public Optional<Bot> findByGitlabUsername(String gitlabUsername) {
+		return bots.stream()
+				.filter(b -> b.gitLab() != null)
+				.filter(b -> gitlabUsername.equals(b.gitLab().username()))
+				.findFirst();
+	}
 	
 	public Optional<Bot> findByOSSRHUsername(String ossrhUsername) {
 		return bots.stream()
@@ -79,6 +86,7 @@ public class BotsDB {
 		p = p.or(b -> pattern.matcher(b.projectId()).matches());
 		
 		p = p.or(b -> b.gitHub() != null && b.gitHub().matches(pattern));
+		p = p.or(b -> b.gitLab() != null && b.gitLab().matches(pattern));
 		p = p.or(b -> b.ossrh() != null && b.ossrh().matches(pattern));
 		p = p.or(b -> b.dockerHub() != null && b.dockerHub().matches(pattern));
 		p = p.or(b -> b.dependabot() != null && b.dependabot().matches(pattern));

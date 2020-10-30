@@ -15,7 +15,7 @@ public class AppLifecycleBean {
 
     @Inject BotsDB db;
     
-    void onStart(@Observes StartupEvent ev) throws IOException {               
+    void onStart(@Observes StartupEvent ev) throws IOException {
         db.refresh();
     }
 

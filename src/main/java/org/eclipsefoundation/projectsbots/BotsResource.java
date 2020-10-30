@@ -37,7 +37,7 @@ public class BotsResource {
 			return moshi.adapter(List.class).toJson(db.search(""));
 		return moshi.adapter(List.class).toJson(db.search(q));
 	}
-	
+
 	@GET
 	@Path("/{id}")
 	public String get(@PathParam("id") int id) {
