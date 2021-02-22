@@ -1,3 +1,2 @@
 /target/
-/bots.db.json
-/bots.db.new.json
+/bots.db.*

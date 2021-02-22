@@ -13,7 +13,7 @@ set -o nounset
 set -o pipefail
 
 # check for errors
-jq . bots.db.json
+jq . bots.db.json > /dev/null
 
 # run a clean build
 mvn clean package -DskipTests

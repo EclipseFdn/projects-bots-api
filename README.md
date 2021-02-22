@@ -24,9 +24,7 @@ See https://quarkus.io for more information.
 
 ### Re-generate a clean DB
 ```
-$ kubectl exec -n foundation-internal-webdev-apps $(kubectl get -n foundation-internal-webdev-apps pod -l "app=projects-bots-api,environment=production" -o json | jq -r ".items[0]|.metadata.name") -- cat /deployments/bots.db.json | jq > bots.db.json
-$ ./gen_bot_db.sh bots.db.json | tee bots.db.new.json
-$ jq < bots.db.new.json > bots.db.new.json.formatted && mv bots.db.new.json.formatted bots.db.new.json
+$ ./regen_db.sh
 ```
 
 Check the differences between the currently deployed DB (`bots.db.json`) and the new one (`bots.db.new.json`) and merge in `bots.db.json` if required.
@@ -35,27 +33,10 @@ Check the differences between the currently deployed DB (`bots.db.json`) and the
 $ diff bots.db.json bots.db.new.json 
 ```
 
-### Build a new docker image with the updated DB
-
-Run a clean build of the source (if required)
+### Deploy a new docker image with the updated DB
 
 ```
-$ mvn clean package # if not already build
-```
-
-Build and push the docker image.
-
-```
-$ docker build --pull --rm -t eclipsefdn/projects-bots-api:latest -f src/main/docker/Dockerfile .
-$ docker push eclipsefdn/projects-bots-api:latest
-```
-
-### Deploy to cluster
-
-(Requires kubectl client 1.15+)
-
-```
-$ kubectl rollout restart -n foundation-internal-webdev-apps deployment/projects-bots-api 
+$ ./deploy_db.sh
 ```
 
 ## Copyright 
