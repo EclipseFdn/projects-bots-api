@@ -5,7 +5,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-export PASSWORD_STORE_DIR="${PASSWORD_STORE_DIR:-"~/.password-store-cbi"}"
+export PASSWORD_STORE_DIR="${PASSWORD_STORE_DIR:-"${HOME}/.password-store-cbi"}"
 
 SCRIPT_NAME="$(basename "${0}")"
 INPUT_FILE="${1:-}"
