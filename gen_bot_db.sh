@@ -157,13 +157,14 @@ jq -r '.[]|.id' < "${INPUT_FILE}" | \
 
 botId=$(jq -r '[.[]|.id]|max' < "${INPUT_FILE}")
 for projectPath in "${PASSWORD_STORE_DIR}/bots"/*; do
-  if [ -z "$(jq -r '.[]|select(.projectId=="'"${projectPath##*/}"'")' < "${INPUT_FILE}")" ]; then
+  projectId="${projectPath##*/}"
+  if [ -z "$(jq -r '.[]|select(.projectId=="'"${projectId}"'")' < "${INPUT_FILE}")" ]; then
     botId=$((botId+1))
-    >&2 echo "INFO: New project detected. Adding it to DB with bot ${botId}:${projectPath##*/}"
-    printProjectJson "${botId}" "${projectPath}"
+    >&2 echo "INFO: New project detected. Adding it to DB with bot ${botId}:${projectId}"
+    printProjectJson "${botId}" "${projectId}"
     printf ",\n"
   else 
-    >&2 echo "DEBUG: No need to create new entry for project already in DB: ${projectPath##*/}"
+    >&2 echo "DEBUG: No need to create new entry for project already in DB: ${projectId}"
   fi 
 done
 
