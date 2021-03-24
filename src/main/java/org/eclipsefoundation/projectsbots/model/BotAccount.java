@@ -24,7 +24,7 @@ public abstract class BotAccount {
 	public abstract String email();
 	
 	public boolean matches(Pattern pattern) {
-		return pattern.matcher(username()).matches() || 
+		return (Objects.nonNull(username()) && pattern.matcher(username()).matches()) || 
 			(Objects.nonNull(email()) && pattern.matcher(email()).matches());
 	}
 
