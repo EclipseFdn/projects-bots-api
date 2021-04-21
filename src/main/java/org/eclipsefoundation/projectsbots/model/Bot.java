@@ -6,12 +6,12 @@
  */
 package org.eclipsefoundation.projectsbots.model;
 
+import org.wildfly.common.annotation.Nullable;
+
 import com.google.auto.value.AutoValue;
 import com.squareup.moshi.Json;
 import com.squareup.moshi.JsonAdapter;
 import com.squareup.moshi.Moshi;
-
-import org.wildfly.common.annotation.Nullable;
 
 @AutoValue
 public abstract class Bot {
@@ -31,6 +31,12 @@ public abstract class Bot {
 	@Nullable
 	@Json(name = "github.com-dependabot")
 	public abstract BotAccount dependabot();
+	@Nullable
+	@Json(name = "github.com-openshift-ci-robot")
+	public abstract BotAccount osCiRobot();
+	@Nullable
+	@Json(name = "github.com-openshift-merge-robot")
+	public abstract BotAccount osMergeRobot();
 	@Nullable
 	@Json(name = "oss.sonatype.org")
 	public abstract BotAccount ossrh();

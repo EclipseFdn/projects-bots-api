@@ -90,6 +90,9 @@ public class BotsDB {
 		p = p.or(b -> b.ossrh() != null && b.ossrh().matches(pattern));
 		p = p.or(b -> b.dockerHub() != null && b.dockerHub().matches(pattern));
 		p = p.or(b -> b.dependabot() != null && b.dependabot().matches(pattern));
+		// workaround
+		p = p.or(b -> b.osCiRobot() != null && b.osCiRobot().matches(pattern));
+		p = p.or(b -> b.osMergeRobot() != null && b.osMergeRobot().matches(pattern));
 
 		return bots.stream()
 			.filter(p)
