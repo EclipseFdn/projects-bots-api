@@ -151,11 +151,12 @@ echo "["
 
 export ACCESS_TOKEN
 export -f regenFromRemoteData printProjectJson printSiteIdentityJson passEntry jsonKV jsonKVInt query_email_by_user_id
+botId=$(jq -r '[.[]|.id]|max' < "${INPUT_FILE}")
+
 # shellcheck disable=SC2094
 jq -r '.[]|.id' < "${INPUT_FILE}" | \
   SHELL=$(type -p bash) parallel --no-notice -j200% regenFromRemoteData "${INPUT_FILE}"
 
-botId=$(jq -r '[.[]|.id]|max' < "${INPUT_FILE}")
 for projectPath in "${PASSWORD_STORE_DIR}/bots"/*; do
   projectId="${projectPath##*/}"
   if [ -z "$(jq -r '.[]|select(.projectId=="'"${projectId}"'")' < "${INPUT_FILE}")" ]; then
