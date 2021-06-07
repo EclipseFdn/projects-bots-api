@@ -9,6 +9,10 @@ local projectsWithDependabot = [
   "rt.jetty", 
   "technology.cbi",
   "tools.cdt",
+  "adoptium",
+  "adoptium.temurin",
+  "adoptium.aqavit",
+  "adoptium.incubator",
 ];
 
 [ bot + (
