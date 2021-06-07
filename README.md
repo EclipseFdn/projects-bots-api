@@ -39,6 +39,10 @@ $ diff bots.db.json bots.db.new.json
 $ ./deploy_db.sh
 ```
 
+### Adding an external Bot
+
+Edit file `src/main/jsonnet/extensions.jsonnet` accordingly.
+
 ## Copyright 
 
 Copyright (c) 2020 Eclipse Foundation and others.

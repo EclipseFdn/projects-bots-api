@@ -3,6 +3,9 @@ kind: Deployment
 metadata:
   name: projects-bots-api
   namespace: foundation-internal-webdev-apps
+  labels:
+    app: projects-bots-api
+    environment: production
 spec:
   selector:
     matchLabels:
