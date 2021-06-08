@@ -93,6 +93,7 @@ public class BotsDB {
 		// workaround
 		p = p.or(b -> b.osCiRobot() != null && b.osCiRobot().matches(pattern));
 		p = p.or(b -> b.osMergeRobot() != null && b.osMergeRobot().matches(pattern));
+		p = p.or(b -> b.eclipseOrgEclipsePlatformReleng() != null && b.eclipseOrgEclipsePlatformReleng().matches(pattern));
 
 		return bots.stream()
 			.filter(p)
