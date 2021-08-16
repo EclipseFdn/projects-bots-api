@@ -1,12 +1,13 @@
 local dependabot = {
   "github.com-dependabot": {
     username: "dependabot[bot]",
-    email: "support@github.com",
+    email: "49699333+dependabot[bot]@users.noreply.github.com",
   },
 };
 
 local projectsWithDependabot = [
-  "rt.jetty", 
+  "ee4j.openmq",
+  "rt.jetty",
   "technology.cbi",
   "tools.cdt",
   "adoptium",
