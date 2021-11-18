@@ -9,6 +9,7 @@ local projectsWithDependabot = [
   "ee4j.openmq",
   "rt.jetty",
   "technology.cbi",
+  "technology.tm4e",
   "tools.cdt",
   "adoptium",
   "adoptium.temurin",
@@ -17,9 +18,9 @@ local projectsWithDependabot = [
 ];
 
 [ bot + (
-  if std.member(projectsWithDependabot, bot.projectId) then 
-    dependabot 
-  else if (bot.projectId == "ecd.che") then { 
+  if std.member(projectsWithDependabot, bot.projectId) then
+    dependabot
+  else if (bot.projectId == "ecd.che") then {
     "github.com-openshift-ci-robot": {
       email: "openshift-ci-robot@users.noreply.github.com",
       username: "openshift-ci-robot",
