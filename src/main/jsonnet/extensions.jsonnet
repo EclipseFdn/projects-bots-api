@@ -9,6 +9,7 @@ local projectsWithDependabot = [
   "ee4j.openmq",
   "rt.jetty",
   "technology.cbi",
+  "technology.dash",
   "technology.tm4e",
   "tools.cdt",
   "adoptium",
