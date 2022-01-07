@@ -12,7 +12,10 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
+SCRIPT_FOLDER="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
+
 # check for errors
+pushd "${SCRIPT_FOLDER}"
 jq . bots.db.json > /dev/null
 
 # run a clean build
@@ -24,4 +27,5 @@ docker build --pull --rm -t "${image_name}" -f src/main/docker/Dockerfile .
 docker push "${image_name}"
 
 # deploy to cluster
-kubectl rollout restart -n foundation-internal-webdev-apps deployment/projects-bots-api 
+kubectl rollout restart -n foundation-internal-webdev-apps deployment/projects-bots-api
+popd 
