@@ -14,6 +14,7 @@ local projectsWithDependabot = [
   "technology.tycho",
   "tools.cdt",
   "tools.linuxtools",
+  "tools.wildwebdeveloper",
   "adoptium",
   "adoptium.temurin",
   "adoptium.aqavit",
