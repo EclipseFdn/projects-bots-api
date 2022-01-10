@@ -13,6 +13,7 @@ local projectsWithDependabot = [
   "technology.tm4e",
   "technology.tycho",
   "tools.cdt",
+  "tools.linuxtools",
   "adoptium",
   "adoptium.temurin",
   "adoptium.aqavit",
