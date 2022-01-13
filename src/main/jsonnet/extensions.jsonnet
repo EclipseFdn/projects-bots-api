@@ -10,6 +10,7 @@ local projectsWithDependabot = [
   "rt.jetty",
   "technology.cbi",
   "technology.dash",
+  "technology.lemminx",
   "technology.tm4e",
   "technology.tycho",
   "tools.cdt",
