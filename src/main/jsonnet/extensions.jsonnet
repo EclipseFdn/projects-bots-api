@@ -12,6 +12,7 @@ local projectsWithDependabot = [
   "technology.cbi",
   "technology.dash",
   "technology.lemminx",
+  "technology.m2e",
   "technology.tm4e",
   "technology.tycho",
   "tools.cdt",
