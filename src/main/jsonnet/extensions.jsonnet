@@ -36,7 +36,16 @@ local projectsWithDependabot = [
       email: "openshift-merge-robot@users.noreply.github.com",
       username: "openshift-merge-robot",
     },
-  } else if (bot.projectId == "eclipse.platform" ||  bot.projectId == "eclipse.jdt" || bot.projectId == "eclipse.pde" || bot.projectId == "eclipse.equinox" || bot.projectId == "eclipse.platform.swt") then {
+  } else if (bot.projectId == "eclipse.platform") then {
+    "github.com": {
+      email: "releng-bot@eclipse.org",
+      username: "eclipse-releng-bot",
+    },
+    "eclipse.org-eclipse-platform-releng": {
+      email: "releng-bot@eclipse.org",
+      username: "genie.releng",
+    },
+  } else if (bot.projectId == "eclipse.jdt" || bot.projectId == "eclipse.pde" || bot.projectId == "eclipse.equinox" || bot.projectId == "eclipse.platform.swt") then {
     "eclipse.org-eclipse-platform-releng": {
       email: "releng-bot@eclipse.org",
       username: "genie.releng",
