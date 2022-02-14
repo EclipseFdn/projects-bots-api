@@ -7,6 +7,7 @@ local dependabot = {
 
 local projectsWithDependabot = [
   "automotive.sumo",
+  "ecd.cdt.cloud",
   "ee4j.openmq",
   "rt.jetty",
   "technology.cbi",
