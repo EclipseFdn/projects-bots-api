@@ -29,7 +29,9 @@ local projectsWithDependabot = [
 [ bot + (
   if std.member(projectsWithDependabot, bot.projectId) then
     dependabot
-  else if (bot.projectId == "ecd.che") then {
+  else {}
+  ) + (
+  if (bot.projectId == "ecd.che") then {
     "github.com-openshift-ci-robot": {
       email: "openshift-ci-robot@users.noreply.github.com",
       username: "openshift-ci-robot",
@@ -39,7 +41,7 @@ local projectsWithDependabot = [
       username: "openshift-merge-robot",
     },
   } else if (bot.projectId == "eclipse.platform") then {
-    "github.com": {
+    "github.com-releng": {
       email: "releng-bot@eclipse.org",
       username: "eclipse-releng-bot",
     },

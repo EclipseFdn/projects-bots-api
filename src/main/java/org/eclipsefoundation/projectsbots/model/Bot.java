@@ -26,6 +26,9 @@ public abstract class Bot {
 	@Json(name = "github.com")
 	public abstract BotAccount gitHub();
 	@Nullable
+	@Json(name = "github.com-releng")
+	public abstract BotAccount gitHubReleng();
+	@Nullable
 	@Json(name = "gitlab.eclipse.org")
 	public abstract BotAccount gitLab();
 	@Nullable
