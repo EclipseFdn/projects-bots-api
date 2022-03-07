@@ -23,6 +23,7 @@ local projectsWithDependabot = [
   "technology.tycho",
   "tools.cdt",
   "tools.ajdt",
+  "tools.aspectj",
   "tools.linuxtools",
   "tools.wildwebdeveloper",
 ];
