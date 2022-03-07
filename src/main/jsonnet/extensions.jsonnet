@@ -6,6 +6,10 @@ local dependabot = {
 };
 
 local projectsWithDependabot = [
+  "adoptium",
+  "adoptium.temurin",
+  "adoptium.aqavit",
+  "adoptium.incubator",
   "automotive.sumo",
   "ecd.cdt.cloud",
   "eclipse.platform",
@@ -18,12 +22,9 @@ local projectsWithDependabot = [
   "technology.tm4e",
   "technology.tycho",
   "tools.cdt",
+  "tools.ajdt",
   "tools.linuxtools",
   "tools.wildwebdeveloper",
-  "adoptium",
-  "adoptium.temurin",
-  "adoptium.aqavit",
-  "adoptium.incubator",
 ];
 
 [ bot + (
