@@ -12,6 +12,7 @@ local projectsWithDependabot = [
   "adoptium.incubator",
   "automotive.sumo",
   "ecd.cdt.cloud",
+  "eclipse.equinox",
   "eclipse.platform",
   "ee4j.openmq",
   "rt.jetty",
