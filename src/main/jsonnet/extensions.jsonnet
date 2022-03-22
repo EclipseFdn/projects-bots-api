@@ -14,6 +14,7 @@ local projectsWithDependabot = [
   "ecd.cdt.cloud",
   "eclipse.equinox",
   "eclipse.platform",
+  "ee4j.glassfish",
   "ee4j.openmq",
   "rt.jetty",
   "technology.cbi",
