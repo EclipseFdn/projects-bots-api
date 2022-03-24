@@ -13,6 +13,8 @@ local projectsWithDependabot = [
   "automotive.sumo",
   "ecd.cdt.cloud",
   "eclipse.equinox",
+  "eclipse.jdt",
+  "eclipse.pde",
   "eclipse.platform",
   "ee4j.glassfish",
   "ee4j.jakartaconfig",
@@ -45,7 +47,7 @@ local projectsWithDependabot = [
       email: "openshift-merge-robot@users.noreply.github.com",
       username: "openshift-merge-robot",
     },
-  } else if (bot.projectId == "eclipse.platform" || bot.projectId == "eclipse.equinox") then {
+  } else if (bot.projectId == "eclipse.equinox" || bot.projectId == "eclipse.jdt" || bot.projectId == "eclipse.pde" || bot.projectId == "eclipse.platform") then {
     "github.com-releng": {
       email: "releng-bot@eclipse.org",
       username: "eclipse-releng-bot",
@@ -54,7 +56,7 @@ local projectsWithDependabot = [
       email: "releng-bot@eclipse.org",
       username: "genie.releng",
     },
-  } else if (bot.projectId == "eclipse.jdt" || bot.projectId == "eclipse.pde" || bot.projectId == "eclipse.platform.swt") then {
+  } else if (bot.projectId == "eclipse.platform.swt") then {
     "eclipse.org-eclipse-platform-releng": {
       email: "releng-bot@eclipse.org",
       username: "genie.releng",
