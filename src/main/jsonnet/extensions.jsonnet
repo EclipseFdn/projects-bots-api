@@ -15,6 +15,7 @@ local projectsWithDependabot = [
   "eclipse.equinox",
   "eclipse.platform",
   "ee4j.glassfish",
+  "ee4j.jakartaconfig",
   "ee4j.openmq",
   "rt.jetty",
   "technology.cbi",
