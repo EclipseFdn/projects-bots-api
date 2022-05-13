@@ -11,7 +11,7 @@ local projectsWithDependabot = [
   "adoptium.aqavit",
   "adoptium.incubator",
   "automotive.sumo",
-  "ecd.cdt.cloud",
+  "ecd.cdt-cloud",
   "eclipse.equinox",
   "eclipse.jdt",
   "eclipse.pde",
