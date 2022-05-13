@@ -5,7 +5,23 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-export PASSWORD_STORE_DIR="${PASSWORD_STORE_DIR:-"${HOME}/.password-store-cbi"}"
+LOCAL_CONFIG="${HOME}/.cbi/config"
+
+if [[ ! -f "${LOCAL_CONFIG}" ]]; then
+  echo "ERROR: File '$(readlink -f "${LOCAL_CONFIG}")' does not exists"
+  echo "Create one to configure the location of the password store. Example:"
+  echo '{"password-store": {"cbi-dir": "~/.password-store/cbi"}}'
+fi
+
+PASSWORD_STORE_DIR="$(jq -r '.["password-store"]["cbi-dir"]' "${LOCAL_CONFIG}")"
+
+if [[ -z "${PASSWORD_STORE_DIR}" ]] || [[ "${PASSWORD_STORE_DIR}" == "null" ]]; then
+  printf "ERROR: 'cbi-dir' must be set in %s.\n" "$(readlink -f "${LOCAL_CONFIG}")"
+  exit 1
+fi
+
+PASSWORD_STORE_DIR="$(readlink -f "${PASSWORD_STORE_DIR/#~\//${HOME}/}")"
+export PASSWORD_STORE_DIR
 
 SCRIPT_NAME="$(basename "${0}")"
 INPUT_FILE="${1:-}"

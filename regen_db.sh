@@ -20,5 +20,5 @@ kubectl exec -n foundation-internal-webdev-apps "$(kubectl get -n foundation-int
 jsonnet src/main/jsonnet/extensions.jsonnet | jq -S 'sort_by(.id)' > bots.db.json
 rm -f bots.db.new.jsonnet
 
-printf "\nRun 'diff bots.db.old.json bots.db.json' before deploying first!!"
+printf "\nRun 'diff bots.db.old.json bots.db.json' before deploying first!!\n"
 popd
