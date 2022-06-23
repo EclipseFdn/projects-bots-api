@@ -21,6 +21,7 @@ local projectsWithDependabot = [
   "ee4j.openmq",
   "rt.jetty",
   "technology.cbi",
+  "technology.dataspaceconnector",
   "technology.dash",
   "technology.lemminx",
   "technology.m2e",
