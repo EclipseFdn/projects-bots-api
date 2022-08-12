@@ -20,6 +20,7 @@ local projectsWithDependabot = [
   "ee4j.jakartaconfig",
   "ee4j.openmq",
   "iot.kiso-testing",
+  "iot.vorto",
   "rt.jetty",
   "technology.cbi",
   "technology.dataspaceconnector",
