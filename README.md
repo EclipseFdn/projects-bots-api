@@ -45,6 +45,7 @@ Edit file `src/main/jsonnet/extensions.jsonnet` accordingly.
 
 ## Dependencies
 
+* [bash 4](https://www.gnu.org/software/bash/)
 * [curl](https://curl.se/)
 * [docker](https://www.docker.com)
 * [jq](https://stedolan.github.io/jq/)
