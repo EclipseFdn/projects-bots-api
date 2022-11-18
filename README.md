@@ -43,6 +43,17 @@ $ ./deploy_db.sh
 
 Edit file `src/main/jsonnet/extensions.jsonnet` accordingly.
 
+## Dependencies
+
+* [curl](https://curl.se/)
+* [docker](https://www.docker.com)
+* [jq](https://stedolan.github.io/jq/)
+* [jsonnet](https://jsonnet.org/)
+* [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+* [maven](https://maven.apache.org)
+* parallel (sudo apt install parallel)
+* [pass](https://www.passwordstore.org)
+
 ## Copyright 
 
 Copyright (c) 2020 Eclipse Foundation and others.
