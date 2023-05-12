@@ -64,5 +64,10 @@ local projectsWithDependabot = [
       email: "releng-bot@eclipse.org",
       username: "genie.releng",
     },
+  } else if (bot.projectId == "automotive.tractusx") then {
+    "github.com-workflow-bot": {
+      email: "41898282+github-actions[bot]@users.noreply.github.com",
+      username: "github-actions[bot]",
+    },
   } else {}
 ) for bot in import "../../../bots.db.new.jsonnet"]

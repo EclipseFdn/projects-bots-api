@@ -21,7 +21,7 @@ public abstract class Bot {
 	public abstract String username();
 	@Nullable
 	public abstract String email();
-	
+
 	@Nullable
 	@Json(name = "github.com")
 	public abstract BotAccount gitHub();
@@ -40,6 +40,9 @@ public abstract class Bot {
 	@Nullable
 	@Json(name = "github.com-openshift-merge-robot")
 	public abstract BotAccount osMergeRobot();
+	@Nullable
+	@Json(name = "github.com-workflow-bot")
+	public abstract BotAccount workflowBot();
 	@Nullable
 	@Json(name = "oss.sonatype.org")
 	public abstract BotAccount ossrh();
