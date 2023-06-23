@@ -14,6 +14,10 @@ pipeline {
     TAG_NAME = 'latest'
   }
 
+  tools {
+    maven 'apache-maven-latest'
+  }
+
   options {
     buildDiscarder(logRotator(numToKeepStr: '10'))
     timeout(time: 30, unit: 'MINUTES')
@@ -21,9 +25,6 @@ pipeline {
 
   stages {
     stage('Run clean build') {
-      agent {
-        label 'basic'
-      }
       steps {
         // check for errors and run a clean build
         sh '''
