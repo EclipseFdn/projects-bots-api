@@ -1,0 +1,3525 @@
+[
+  {
+    "email": "che-bot@eclipse.org",
+    "github.com": {
+      "email": "che-bot@eclipse.org",
+      "username": "che-bot"
+    },
+    "github.com-openshift-ci-robot": {
+      "email": "openshift-ci-robot@users.noreply.github.com",
+      "username": "openshift-ci-robot"
+    },
+    "github.com-openshift-merge-robot": {
+      "email": "openshift-merge-robot@users.noreply.github.com",
+      "username": "openshift-merge-robot"
+    },
+    "id": 1,
+    "projectId": "ecd.che",
+    "username": "genie.che"
+  },
+  {
+    "email": "che4z-bot@eclipse.org",
+    "github.com": {
+      "email": "che4z-bot@eclipse.org",
+      "username": "eclipse-che4z-bot"
+    },
+    "id": 2,
+    "projectId": "ecd.che.che4z",
+    "username": "genie.che4z"
+  },
+  {
+    "docker.com": {
+      "email": "codewind-bot@eclipse.org",
+      "username": "codewindbot"
+    },
+    "email": "codewind-bot@eclipse.org",
+    "github.com": {
+      "email": "codewind-bot@eclipse.org",
+      "username": "eclipse-codewind-bot"
+    },
+    "id": 3,
+    "projectId": "ecd.codewind",
+    "username": "genie.codewind"
+  },
+  {
+    "email": "dirigible-inbox@eclipse.org",
+    "id": 4,
+    "projectId": "ecd.dirigible",
+    "username": "genie.dirigible"
+  },
+  {
+    "email": "emfcloud-bot@eclipse.org",
+    "github.com": {
+      "email": "emfcloud-bot@eclipse.org",
+      "username": "eclipse-emfcloud-bot"
+    },
+    "id": 5,
+    "oss.sonatype.org": {
+      "email": "emfcloud-bot@eclipse.org",
+      "username": "emfcloud-bot"
+    },
+    "projectId": "ecd.emfcloud",
+    "username": "genie.emfcloud"
+  },
+  {
+    "email": "glsp-bot@eclipse.org",
+    "github.com": {
+      "email": "glsp-bot@eclipse.org",
+      "username": "eclipse-glsp-bot"
+    },
+    "id": 6,
+    "oss.sonatype.org": {
+      "email": "glsp-bot@eclipse.org",
+      "username": "glsp-bot"
+    },
+    "projectId": "ecd.glsp",
+    "username": "genie.glsp"
+  },
+  {
+    "email": "orion-bot@eclipse.org",
+    "id": 7,
+    "projectId": "ecd.orion",
+    "username": "genie.orion"
+  },
+  {
+    "email": "sprotty-bot@eclipse.org",
+    "github.com": {
+      "email": "sprotty-bot@eclipse.org",
+      "username": "eclipse-sprotty-bot"
+    },
+    "id": 8,
+    "projectId": "ecd.sprotty",
+    "username": "genie.sprotty"
+  },
+  {
+    "id": 9,
+    "projectId": "eclipse",
+    "username": "genie.eclipse"
+  },
+  {
+    "eclipse.org-eclipse-platform-releng": {
+      "email": "releng-bot@eclipse.org",
+      "username": "genie.releng"
+    },
+    "email": "equinox-bot@eclipse.org",
+    "github.com": {
+      "email": "equinox-bot@eclipse.org",
+      "username": "eclipse-equinox-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "github.com-releng": {
+      "email": "releng-bot@eclipse.org",
+      "username": "eclipse-releng-bot"
+    },
+    "id": 10,
+    "projectId": "eclipse.equinox",
+    "username": "genie.equinox"
+  },
+  {
+    "eclipse.org-eclipse-platform-releng": {
+      "email": "releng-bot@eclipse.org",
+      "username": "genie.releng"
+    },
+    "email": "jdt-bot@eclipse.org",
+    "github.com": {
+      "email": "jdt-bot@eclipse.org",
+      "username": "eclipse-jdt-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "github.com-releng": {
+      "email": "releng-bot@eclipse.org",
+      "username": "eclipse-releng-bot"
+    },
+    "id": 11,
+    "oss.sonatype.org": {
+      "email": "jdt-dev@eclipse.org",
+      "username": "jdt-dev"
+    },
+    "projectId": "eclipse.jdt",
+    "username": "genie.jdt"
+  },
+  {
+    "email": "ls-bot@eclipse.org",
+    "github.com": {
+      "email": "ls-bot@eclipse.org",
+      "username": "eclipse-ls-bot"
+    },
+    "id": 12,
+    "projectId": "eclipse.jdt.ls",
+    "username": "genie.ls"
+  },
+  {
+    "eclipse.org-eclipse-platform-releng": {
+      "email": "releng-bot@eclipse.org",
+      "username": "genie.releng"
+    },
+    "email": "pde-bot@eclipse.org",
+    "github.com": {
+      "email": "pde-bot@eclipse.org",
+      "username": "eclipse-pde-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "github.com-releng": {
+      "email": "releng-bot@eclipse.org",
+      "username": "eclipse-releng-bot"
+    },
+    "id": 13,
+    "oss.sonatype.org": {
+      "email": "pde-dev@eclipse.org",
+      "username": "pde-dev"
+    },
+    "projectId": "eclipse.pde",
+    "username": "genie.pde"
+  },
+  {
+    "eclipse.org-eclipse-platform-releng": {
+      "email": "releng-bot@eclipse.org",
+      "username": "genie.releng"
+    },
+    "email": "platform-bot@eclipse.org",
+    "github.com": {
+      "email": "platform-bot@eclipse.org",
+      "username": "eclipse-platform-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "github.com-releng": {
+      "email": "releng-bot@eclipse.org",
+      "username": "eclipse-releng-bot"
+    },
+    "id": 14,
+    "projectId": "eclipse.platform",
+    "username": "genie.platform"
+  },
+  {
+    "docker.com": {
+      "email": "releng-bot@eclipse.org",
+      "username": "eclipseplatformrelengbot"
+    },
+    "email": "releng-bot@eclipse.org",
+    "github.com": {
+      "email": "releng-bot@eclipse.org",
+      "username": "eclipse-releng-bot"
+    },
+    "id": 15,
+    "oss.sonatype.org": {
+      "email": "platform-releng-dev@eclipse.org",
+      "username": "platform-releng-dev"
+    },
+    "projectId": "eclipse.platform.releng",
+    "username": "genie.releng"
+  },
+  {
+    "email": "ee4j-inbox@eclipse.org",
+    "github.com": {
+      "email": "ee4j-bot@eclipse.org",
+      "username": "ee4j-bot"
+    },
+    "id": 16,
+    "oss.sonatype.org": {
+      "email": "ee4j-bot@eclipse.org",
+      "username": "ee4j-bot"
+    },
+    "projectId": "ee4j",
+    "username": "genie.ee4j"
+  },
+  {
+    "email": "bean-validation-bot@eclipse.org",
+    "github.com": {
+      "email": "bean-validation-bot@eclipse.org",
+      "username": "eclipse-bean-validation-bot"
+    },
+    "id": 17,
+    "oss.sonatype.org": {
+      "email": "bean-validation-bot@eclipse.org",
+      "username": "bean-validation-bot"
+    },
+    "projectId": "ee4j.bean-validation",
+    "username": "genie.bean-validation"
+  },
+  {
+    "email": "ca-inbox@eclipse.org",
+    "github.com": {
+      "email": "ca-bot@eclipse.org",
+      "username": "ca-bot"
+    },
+    "id": 18,
+    "oss.sonatype.org": {
+      "email": "ca-bot@eclipse.org",
+      "username": "ca-bot"
+    },
+    "projectId": "ee4j.ca",
+    "username": "genie.ca"
+  },
+  {
+    "email": "cdi-bot@eclipse.org",
+    "github.com": {
+      "email": "cdi-bot@eclipse.org",
+      "username": "eclipse-cdi-bot"
+    },
+    "id": 19,
+    "oss.sonatype.org": {
+      "email": "cdi-bot@eclipse.org",
+      "username": "cdi-bot"
+    },
+    "projectId": "ee4j.cdi",
+    "username": "genie.cdi"
+  },
+  {
+    "email": "cu-inbox@eclipse.org",
+    "github.com": {
+      "email": "cu-bot@eclipse.org",
+      "username": "cu-bot"
+    },
+    "id": 20,
+    "oss.sonatype.org": {
+      "email": "cu-bot@eclipse.org",
+      "username": "cu-bot"
+    },
+    "projectId": "ee4j.cu",
+    "username": "genie.cu"
+  },
+  {
+    "email": "eclipselink-bot@eclipse.org",
+    "github.com": {
+      "email": "eclipselink-bot@eclipse.org",
+      "username": "eclipse-eclipselink-bot"
+    },
+    "id": 21,
+    "oss.sonatype.org": {
+      "email": "eclipselink-bot@eclipse.org",
+      "username": "eclipselink-bot"
+    },
+    "projectId": "ee4j.eclipselink",
+    "username": "genie.eclipselink"
+  },
+  {
+    "email": "ejb-inbox@eclipse.org",
+    "github.com": {
+      "email": "ejb-bot@eclipse.org",
+      "username": "ejb-bot"
+    },
+    "id": 22,
+    "oss.sonatype.org": {
+      "email": "ejb-bot@eclipse.org",
+      "username": "ejb-bot"
+    },
+    "projectId": "ee4j.ejb",
+    "username": "genie.ejb"
+  },
+  {
+    "email": "el-inbox@eclipse.org",
+    "github.com": {
+      "email": "el-bot@eclipse.org",
+      "username": "el-bot"
+    },
+    "id": 23,
+    "oss.sonatype.org": {
+      "email": "el-bot@eclipse.org",
+      "username": "el-bot"
+    },
+    "projectId": "ee4j.el",
+    "username": "genie.el"
+  },
+  {
+    "email": "faces-bot@eclipse.org",
+    "github.com": {
+      "email": "faces-bot@eclipse.org",
+      "username": "eclipse-faces-bot"
+    },
+    "id": 25,
+    "oss.sonatype.org": {
+      "email": "faces-bot@eclipse.org",
+      "username": "faces-bot"
+    },
+    "projectId": "ee4j.faces",
+    "username": "genie.faces"
+  },
+  {
+    "email": "glassfish-bot@eclipse.org",
+    "github.com": {
+      "email": "glassfish-bot@eclipse.org",
+      "username": "glassfish-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 26,
+    "oss.sonatype.org": {
+      "email": "glassfish-bot@eclipse.org",
+      "username": "glassfish-bot"
+    },
+    "projectId": "ee4j.glassfish",
+    "username": "genie.glassfish"
+  },
+  {
+    "email": "grizzly-bot@eclipse.org",
+    "github.com": {
+      "email": "grizzly-bot@eclipse.org",
+      "username": "eclipse-grizzly-bot"
+    },
+    "id": 27,
+    "oss.sonatype.org": {
+      "email": "grizzly-bot@eclipse.org",
+      "username": "grizzly-bot"
+    },
+    "projectId": "ee4j.grizzly",
+    "username": "genie.grizzly"
+  },
+  {
+    "email": "interceptors-bot@eclipse.org",
+    "github.com": {
+      "email": "interceptors-bot@eclipse.org",
+      "username": "interceptors-bot"
+    },
+    "id": 28,
+    "oss.sonatype.org": {
+      "email": "interceptors-bot@eclipse.org",
+      "username": "interceptors-bot"
+    },
+    "projectId": "ee4j.interceptors",
+    "username": "genie.interceptors"
+  },
+  {
+    "email": "jaf-bot@eclipse.org",
+    "github.com": {
+      "email": "jaf-bot@eclipse.org",
+      "username": "jaf-bot"
+    },
+    "id": 30,
+    "oss.sonatype.org": {
+      "email": "jaf-bot@eclipse.org",
+      "username": "jaf-bot"
+    },
+    "projectId": "ee4j.jaf",
+    "username": "genie.jaf"
+  },
+  {
+    "email": "jakartaee-platform-bot@eclipse.org",
+    "github.com": {
+      "email": "jakartaee-platform-bot@eclipse.org",
+      "username": "eclipse-jakartaee-platform-bot"
+    },
+    "id": 31,
+    "oss.sonatype.org": {
+      "email": "jakartaee-platform-bot@eclipse.org",
+      "username": "jakartaee-platform-bot"
+    },
+    "projectId": "ee4j.jakartaee-platform",
+    "username": "genie.jakartaee-platform"
+  },
+  {
+    "email": "jakartaee-stable-bot@eclipse.org",
+    "github.com": {
+      "email": "jakartaee-stable-bot@eclipse.org",
+      "username": "jakartaee-stable-bot"
+    },
+    "id": 32,
+    "oss.sonatype.org": {
+      "email": "jakartaee-stable-bot@eclipse.org",
+      "username": "jakartaee-stable-bot"
+    },
+    "projectId": "ee4j.jakartaee-stable",
+    "username": "genie.jakartaee-stable"
+  },
+  {
+    "email": "jakartaee-tck-bot@eclipse.org",
+    "github.com": {
+      "email": "jakartaee-tck-bot@eclipse.org",
+      "username": "eclipse-jakartaee-tck-bot"
+    },
+    "id": 33,
+    "oss.sonatype.org": {
+      "email": "jakartaee-tck-bot@eclipse.org",
+      "username": "jakartaee-tck-bot"
+    },
+    "projectId": "ee4j.jakartaee-tck",
+    "username": "genie.jakartaee-tck"
+  },
+  {
+    "email": "jaxb-bot@eclipse.org",
+    "github.com": {
+      "email": "jaxb-bot@eclipse.org",
+      "username": "jaxb-bot"
+    },
+    "id": 35,
+    "oss.sonatype.org": {
+      "email": "jaxb-bot@eclipse.org",
+      "username": "jaxb-bot"
+    },
+    "projectId": "ee4j.jaxb",
+    "username": "genie.jaxb"
+  },
+  {
+    "email": "jaxb-impl-bot@eclipse.org",
+    "github.com": {
+      "email": "jaxb-impl-bot@eclipse.org",
+      "username": "eclipse-jaxb-impl-bot"
+    },
+    "id": 36,
+    "oss.sonatype.org": {
+      "email": "jaxb-impl-bot@eclipse.org",
+      "username": "jaxb-impl-bot"
+    },
+    "projectId": "ee4j.jaxb-impl",
+    "username": "genie.jaxb-impl"
+  },
+  {
+    "email": "jaxws-bot@eclipse.org",
+    "github.com": {
+      "email": "jaxws-bot@eclipse.org",
+      "username": "jaxws-bot"
+    },
+    "id": 38,
+    "oss.sonatype.org": {
+      "email": "jaxws-bot@eclipse.org",
+      "username": "jaxws-bot"
+    },
+    "projectId": "ee4j.jaxws",
+    "username": "genie.jaxws"
+  },
+  {
+    "email": "jca-bot@eclipse.org",
+    "github.com": {
+      "email": "jca-bot@eclipse.org",
+      "username": "jca-bot"
+    },
+    "id": 39,
+    "oss.sonatype.org": {
+      "email": "jca-bot@eclipse.org",
+      "username": "jca-bot"
+    },
+    "projectId": "ee4j.jca",
+    "username": "genie.jca"
+  },
+  {
+    "email": "jersey-inbox@eclipse.org",
+    "github.com": {
+      "email": "jersey-bot@eclipse.org",
+      "username": "jersey-bot"
+    },
+    "id": 40,
+    "oss.sonatype.org": {
+      "email": "jersey-bot@eclipse.org",
+      "username": "jersey-bot"
+    },
+    "projectId": "ee4j.jersey",
+    "username": "genie.jersey"
+  },
+  {
+    "email": "jpa-inbox@eclipse.org",
+    "github.com": {
+      "email": "jpa-bot@eclipse.org",
+      "username": "jpa-bot"
+    },
+    "id": 42,
+    "oss.sonatype.org": {
+      "email": "jpa-bot@eclipse.org",
+      "username": "jpa-bot"
+    },
+    "projectId": "ee4j.jpa",
+    "username": "genie.jpa"
+  },
+  {
+    "email": "jsonb-inbox@eclipse.org",
+    "github.com": {
+      "email": "jsonb-bot@eclipse.org",
+      "username": "eclipse-jsonb-bot"
+    },
+    "id": 43,
+    "oss.sonatype.org": {
+      "email": "jsonb-bot@eclipse.org",
+      "username": "jsonb-bot"
+    },
+    "projectId": "ee4j.jsonb",
+    "username": "genie.jsonb"
+  },
+  {
+    "email": "jsonp-inbox@eclipse.org",
+    "github.com": {
+      "email": "jsonp-bot@eclipse.org",
+      "username": "jsonp-bot"
+    },
+    "id": 44,
+    "oss.sonatype.org": {
+      "email": "jsonp-dev@eclipse.org",
+      "username": "jsonp-dev"
+    },
+    "projectId": "ee4j.jsonp",
+    "username": "genie.jsonp"
+  },
+  {
+    "email": "jsp-bot@eclipse.org",
+    "github.com": {
+      "email": "jsp-bot@eclipse.org",
+      "username": "jsp-bot"
+    },
+    "id": 45,
+    "oss.sonatype.org": {
+      "email": "jsp-bot@eclipse.org",
+      "username": "jsp-bot"
+    },
+    "projectId": "ee4j.jsp",
+    "username": "genie.jsp"
+  },
+  {
+    "email": "jstl-inbox@eclipse.org",
+    "github.com": {
+      "email": "jstl-bot@eclipse.org",
+      "username": "jstl-bot"
+    },
+    "id": 46,
+    "oss.sonatype.org": {
+      "email": "jstl-bot@eclipse.org",
+      "username": "jstl-bot"
+    },
+    "projectId": "ee4j.jstl",
+    "username": "genie.jstl"
+  },
+  {
+    "email": "jta-inbox@eclipse.org",
+    "github.com": {
+      "email": "jta-bot@eclipse.org",
+      "username": "jta-bot"
+    },
+    "id": 47,
+    "oss.sonatype.org": {
+      "email": "jta-bot@eclipse.org",
+      "username": "jta-bot"
+    },
+    "projectId": "ee4j.jta",
+    "username": "genie.jta"
+  },
+  {
+    "email": "krazo-bot@eclipse.org",
+    "github.com": {
+      "email": "krazo-bot@eclipse.org",
+      "username": "eclipse-krazo-bot"
+    },
+    "id": 48,
+    "oss.sonatype.org": {
+      "email": "krazo-bot@eclipse.org",
+      "username": "krazo-bot"
+    },
+    "projectId": "ee4j.krazo",
+    "username": "genie.krazo"
+  },
+  {
+    "email": "javamail-inbox@eclipse.org",
+    "github.com": {
+      "email": "javamail-bot@eclipse.org",
+      "username": "javamail-bot"
+    },
+    "id": 49,
+    "oss.sonatype.org": {
+      "email": "javamail-bot@eclipse.org",
+      "username": "javamail-bot"
+    },
+    "projectId": "ee4j.mail",
+    "username": "genie.mail"
+  },
+  {
+    "email": "metro-bot@eclipse.org",
+    "github.com": {
+      "email": "metro-bot@eclipse.org",
+      "username": "eclipse-metro-bot"
+    },
+    "id": 50,
+    "oss.sonatype.org": {
+      "email": "metro-bot@eclipse.org",
+      "username": "metro-bot"
+    },
+    "projectId": "ee4j.metro",
+    "username": "genie.metro"
+  },
+  {
+    "email": "mojarra-inbox@eclipse.org",
+    "github.com": {
+      "email": "mojarra-bot@eclipse.org",
+      "username": "mojarra-bot"
+    },
+    "id": 51,
+    "oss.sonatype.org": {
+      "email": "mojarra-bot@eclipse.org",
+      "username": "mojarra-bot"
+    },
+    "projectId": "ee4j.mojarra",
+    "username": "genie.mojarra"
+  },
+  {
+    "email": "nosql-bot@eclipse.org",
+    "github.com": {
+      "email": "nosql-bot@eclipse.org",
+      "username": "eclipse-nosql-bot"
+    },
+    "id": 52,
+    "oss.sonatype.org": {
+      "email": "nosql-bot@eclipse.org",
+      "username": "nosql-bot"
+    },
+    "projectId": "ee4j.nosql",
+    "username": "genie.nosql"
+  },
+  {
+    "email": "openmq-inbox@eclipse.org",
+    "github.com": {
+      "email": "openmq-bot@eclipse.org",
+      "username": "openmq-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 53,
+    "oss.sonatype.org": {
+      "email": "openmq-bot@eclipse.org",
+      "username": "openmq-bot"
+    },
+    "projectId": "ee4j.openmq",
+    "username": "genie.openmq"
+  },
+  {
+    "email": "orb-bot@eclipse.org",
+    "github.com": {
+      "email": "orb-bot@eclipse.org",
+      "username": "eclipse-orb-bot"
+    },
+    "id": 54,
+    "oss.sonatype.org": {
+      "email": "orb-bot@eclipse.org",
+      "username": "orb-bot"
+    },
+    "projectId": "ee4j.orb",
+    "username": "genie.orb"
+  },
+  {
+    "email": "servlet-bot@eclipse.org",
+    "github.com": {
+      "email": "servlet-bot@eclipse.org",
+      "username": "servlet-bot"
+    },
+    "id": 55,
+    "oss.sonatype.org": {
+      "email": "servlet-bot@eclipse.org",
+      "username": "servlet-bot"
+    },
+    "projectId": "ee4j.servlet",
+    "username": "genie.servlet"
+  },
+  {
+    "email": "soteria-inbox@eclipse.org",
+    "github.com": {
+      "email": "soteria-bot@eclipse.org",
+      "username": "soteria-bot"
+    },
+    "id": 56,
+    "oss.sonatype.org": {
+      "email": "soteria-bot@eclipse.org",
+      "username": "soteria-bot"
+    },
+    "projectId": "ee4j.soteria",
+    "username": "genie.soteria"
+  },
+  {
+    "email": "tyrus-bot@eclipse.org",
+    "github.com": {
+      "email": "tyrus-bot@eclipse.org",
+      "username": "tyrus-bot"
+    },
+    "id": 57,
+    "oss.sonatype.org": {
+      "email": "tyrus-bot@eclipse.org",
+      "username": "tyrus-bot"
+    },
+    "projectId": "ee4j.tyrus",
+    "username": "genie.tyrus"
+  },
+  {
+    "email": "websocket-inbox@eclipse.org",
+    "github.com": {
+      "email": "websocket-bot@eclipse.org",
+      "username": "websocket-bot"
+    },
+    "id": 58,
+    "oss.sonatype.org": {
+      "email": "websocket-bot@eclipse.org",
+      "username": "websocket-bot"
+    },
+    "projectId": "ee4j.websocket",
+    "username": "genie.websocket"
+  },
+  {
+    "email": "yasson-inbox@eclipse.org",
+    "github.com": {
+      "email": "yasson-bot@eclipse.org",
+      "username": "yasson-bot"
+    },
+    "id": 59,
+    "oss.sonatype.org": {
+      "email": "yasson-dev@eclipse.org",
+      "username": "yasson-dev"
+    },
+    "projectId": "ee4j.yasson",
+    "username": "genie.yasson"
+  },
+  {
+    "docker.com": {
+      "email": "infra-bot@eclipse.org",
+      "username": "eclipseinfrabot"
+    },
+    "email": "infra-bot@eclipse.org",
+    "github.com": {
+      "email": "infra-bot@eclipse.org",
+      "username": "eclipse-infra-bot"
+    },
+    "gitlab.eclipse.org": {
+      "username": "infra-bot"
+    },
+    "id": 60,
+    "projectId": "foundation-internal.infra",
+    "username": "genie.infra"
+  },
+  {
+    "id": 61,
+    "projectId": "foundation-internal.jakartaee-spec",
+    "username": "genie.jakartaee-spec"
+  },
+  {
+    "docker.com": {
+      "email": "webdev-bot@eclipse.org",
+      "username": "webdevbot"
+    },
+    "email": "webdev-bot@eclipse.org",
+    "github.com": {
+      "email": "webdev-bot@eclipse.org",
+      "username": "webdev-bot"
+    },
+    "gitlab.eclipse.org": {
+      "email": "webdev-bot@eclipse.org",
+      "username": "webdev-bot"
+    },
+    "id": 62,
+    "projectId": "foundation-internal.webdev",
+    "username": "genie.webdev"
+  },
+  {
+    "email": "californium-bot@eclipse.org",
+    "github.com": {
+      "email": "californium-bot@eclipse.org",
+      "username": "eclipse-californium-bot"
+    },
+    "id": 63,
+    "oss.sonatype.org": {
+      "email": "cf-dev@eclipse.org",
+      "username": "cf-dev"
+    },
+    "projectId": "iot.californium",
+    "username": "genie.californium"
+  },
+  {
+    "email": "concierge-bot@eclipse.org",
+    "id": 64,
+    "oss.sonatype.org": {
+      "email": "concierge-bot@eclipse.org",
+      "username": "concierge-bot"
+    },
+    "projectId": "iot.concierge",
+    "username": "genie.concierge"
+  },
+  {
+    "email": "ditto-bot@eclipse.org",
+    "github.com": {
+      "email": "ditto-bot@eclipse.org",
+      "username": "eclipse-ditto-bot"
+    },
+    "id": 65,
+    "oss.sonatype.org": {
+      "email": "ditto-dev@eclipse.org",
+      "username": "ditto-dev"
+    },
+    "projectId": "iot.ditto",
+    "username": "genie.ditto"
+  },
+  {
+    "email": "hipp@eclipse.org",
+    "id": 66,
+    "oss.sonatype.org": {
+      "email": "scada-dev@eclipse.org",
+      "username": "scada-dev"
+    },
+    "projectId": "iot.eclipsescada",
+    "username": "genie.eclipsescada"
+  },
+  {
+    "email": "hawkbit-inbox@eclipse.org",
+    "github.com": {
+      "email": "hawkbit-bot@eclipse.org",
+      "username": "hawkbit-bot"
+    },
+    "id": 67,
+    "oss.sonatype.org": {
+      "email": "hawkbit-dev@eclipse.org",
+      "username": "hawkbit-dev"
+    },
+    "projectId": "iot.hawkbit",
+    "username": "genie.hawkbit"
+  },
+  {
+    "email": "hono-bot@eclipse.org",
+    "github.com": {
+      "email": "hono-bot@eclipse.org",
+      "username": "eclipse-hono-bot"
+    },
+    "id": 68,
+    "oss.sonatype.org": {
+      "email": "hono-dev@eclipse.org",
+      "username": "hono-dev"
+    },
+    "projectId": "iot.hono",
+    "username": "genie.hono"
+  },
+  {
+    "email": "kapua-inbox@eclipse.org",
+    "github.com": {
+      "email": "kapua-bot@eclipse.org",
+      "username": "eclipse-kapua-bot"
+    },
+    "gitlab.eclipse.org": {
+      "username": "kapua-bot"
+    },
+    "id": 69,
+    "oss.sonatype.org": {
+      "email": "kapua-dev@eclipse.org",
+      "username": "kapua-dev"
+    },
+    "projectId": "iot.kapua",
+    "username": "genie.kapua"
+  },
+  {
+    "email": "keti-inbox@eclipse.org",
+    "github.com": {
+      "email": "keti-bot@eclipse.org",
+      "username": "eclipse-keti-bot"
+    },
+    "id": 70,
+    "projectId": "iot.keti",
+    "username": "genie.keti"
+  },
+  {
+    "email": "keyple-bot@eclipse.org",
+    "github.com": {
+      "email": "keyple-bot@eclipse.org",
+      "username": "eclipse-keyple-bot"
+    },
+    "id": 71,
+    "oss.sonatype.org": {
+      "email": "keyple-bot@eclipse.org",
+      "username": "keyple-bot"
+    },
+    "projectId": "iot.keyple",
+    "username": "genie.keyple"
+  },
+  {
+    "email": "kura-bot@eclipse.org",
+    "github.com": {
+      "email": "kura-bot@eclipse.org",
+      "username": "eclipse-kura-bot"
+    },
+    "id": 73,
+    "oss.sonatype.org": {
+      "email": "kura-dev@eclipse.org",
+      "username": "kura-dev"
+    },
+    "projectId": "iot.kura",
+    "username": "genie.kura"
+  },
+  {
+    "email": "leshan-bot@eclipse.org",
+    "github.com": {
+      "email": "leshan-bot@eclipse.org",
+      "username": "eclipse-leshan-bot"
+    },
+    "id": 74,
+    "oss.sonatype.org": {
+      "email": "leshan-dev@eclipse.org",
+      "username": "leshan-dev"
+    },
+    "projectId": "iot.leshan",
+    "username": "genie.leshan"
+  },
+  {
+    "email": "milo-inbox@eclipse.org",
+    "github.com": {
+      "email": "milo-bot@eclipse.org",
+      "username": "eclipse-milo-bot"
+    },
+    "id": 75,
+    "oss.sonatype.org": {
+      "email": "milo-dev@eclipse.org",
+      "username": "milo-dev"
+    },
+    "projectId": "iot.milo",
+    "username": "genie.milo"
+  },
+  {
+    "email": "mita-inbox@eclipse.org",
+    "github.com": {
+      "email": "mita-bot@eclipse.org",
+      "username": "mita-bot"
+    },
+    "id": 76,
+    "projectId": "iot.mita",
+    "username": "genie.mita"
+  },
+  {
+    "email": "om2m-inbox@eclipse.org",
+    "id": 77,
+    "projectId": "iot.om2m",
+    "username": "genie.om2m"
+  },
+  {
+    "email": "packages-bot@eclipse.org",
+    "github.com": {
+      "email": "packages-bot@eclipse.org",
+      "username": "eclipse-packages-bot"
+    },
+    "id": 78,
+    "projectId": "iot.packages",
+    "username": "genie.packages"
+  },
+  {
+    "email": "paho-bot@eclipse.org",
+    "id": 79,
+    "oss.sonatype.org": {
+      "email": "paho-dev@eclipse.org",
+      "username": "paho-dev"
+    },
+    "projectId": "iot.paho",
+    "username": "genie.paho"
+  },
+  {
+    "email": "unide-inbox@eclipse.org",
+    "id": 80,
+    "oss.sonatype.org": {
+      "email": "unide-dev@eclipse.org",
+      "username": "unide-dev"
+    },
+    "projectId": "iot.unide",
+    "username": "genie.unide"
+  },
+  {
+    "email": "vorto-bot@eclipse.org",
+    "github.com": {
+      "email": "vorto-bot@eclipse.org",
+      "username": "eclipse-vorto-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 81,
+    "oss.sonatype.org": {
+      "email": "vorto-dev@eclipse.org",
+      "username": "vorto-dev"
+    },
+    "projectId": "iot.vorto",
+    "username": "genie.vorto"
+  },
+  {
+    "email": "geomesa-bot@eclipse.org",
+    "id": 82,
+    "projectId": "locationtech.geomesa",
+    "username": "genie.geomesa"
+  },
+  {
+    "email": "geowave-bot@eclipse.org",
+    "id": 83,
+    "projectId": "locationtech.geowave",
+    "username": "genie.geowave"
+  },
+  {
+    "email": "rasterframes-inbox@eclipse.org",
+    "id": 84,
+    "oss.sonatype.org": {
+      "email": "rasterframes-bot@eclipse.org",
+      "username": "rasterframes-bot"
+    },
+    "projectId": "locationtech.rasterframes",
+    "username": "genie.rasterframes"
+  },
+  {
+    "email": "udig-bot@eclipse.org",
+    "id": 85,
+    "projectId": "locationtech.udig",
+    "username": "genie.udig"
+  },
+  {
+    "email": "amalgam-bot@eclipse.org",
+    "github.com": {
+      "email": "amalgam-bot@eclipse.org",
+      "username": "eclipse-amalgam-bot"
+    },
+    "id": 86,
+    "projectId": "modeling.amalgam",
+    "username": "genie.amalgam"
+  },
+  {
+    "email": "capra-inbox@eclipse.org",
+    "id": 87,
+    "projectId": "modeling.capra",
+    "username": "genie.capra"
+  },
+  {
+    "email": "eef-bot@eclipse.org",
+    "id": 88,
+    "projectId": "modeling.eef",
+    "username": "genie.eef"
+  },
+  {
+    "email": "elk-bot@eclipse.org",
+    "github.com": {
+      "email": "elk-bot@eclipse.org",
+      "username": "eclipse-elk-bot"
+    },
+    "id": 89,
+    "oss.sonatype.org": {
+      "email": "elk-dev@eclipse.org",
+      "username": "elk-dev"
+    },
+    "projectId": "modeling.elk",
+    "username": "genie.elk"
+  },
+  {
+    "email": "emf-parsley-bot@eclipse.org",
+    "github.com": {
+      "email": "emf-parsley-bot@eclipse.org",
+      "username": "eclipse-emf-parsley-bot"
+    },
+    "id": 90,
+    "oss.sonatype.org": {
+      "email": "emfparsley-dev@eclipse.org",
+      "username": "emfparsley-dev"
+    },
+    "projectId": "modeling.emf-parsley",
+    "username": "genie.emf-parsley"
+  },
+  {
+    "email": "diffmerge-inbox@eclipse.org",
+    "github.com": {
+      "email": "diffmerge-bot@eclipse.org",
+      "username": "eclipse-diffmerge-bot"
+    },
+    "id": 91,
+    "projectId": "modeling.emf.diffmerge",
+    "username": "genie.diffmerge"
+  },
+  {
+    "email": "egf-bot@eclipse.org",
+    "github.com": {
+      "email": "egf-bot@eclipse.org",
+      "username": "eclipse-egf-bot"
+    },
+    "id": 92,
+    "projectId": "modeling.emf.egf",
+    "username": "genie.egf"
+  },
+  {
+    "email": "mwe-bot@eclipse.org",
+    "github.com": {
+      "email": "mwe-bot@eclipse.org",
+      "username": "eclipse-mwe-bot"
+    },
+    "id": 94,
+    "oss.sonatype.org": {
+      "email": "mwe-bot@eclipse.org",
+      "username": "mwe-bot"
+    },
+    "projectId": "modeling.emf.mwe",
+    "username": "genie.mwe"
+  },
+  {
+    "email": "emfservices-inbox@eclipse.org",
+    "id": 95,
+    "projectId": "modeling.emfservices",
+    "username": "genie.emfservices"
+  },
+  {
+    "email": "henshin-inbox@eclipse.org",
+    "id": 96,
+    "projectId": "modeling.emft.henshin",
+    "username": "genie.henshin"
+  },
+  {
+    "email": "epsilon-inbox@eclipse.org",
+    "id": 97,
+    "oss.sonatype.org": {
+      "email": "epsilon-dev@eclipse.org",
+      "username": "epsilon-dev"
+    },
+    "projectId": "modeling.epsilon",
+    "username": "genie.epsilon"
+  },
+  {
+    "email": "gemoc-inbox@eclipse.org",
+    "id": 98,
+    "oss.sonatype.org": {
+      "email": "gemoc-bot@eclipse.org",
+      "username": "gemoc-bot"
+    },
+    "projectId": "modeling.gemoc",
+    "username": "genie.gemoc"
+  },
+  {
+    "email": "gendoc-bot@eclipse.org",
+    "id": 99,
+    "projectId": "modeling.gendoc",
+    "username": "genie.gendoc"
+  },
+  {
+    "docker.com": {},
+    "email": "hawk-bot@eclipse.org",
+    "id": 100,
+    "oss.sonatype.org": {
+      "email": "hawk-bot@eclipse.org",
+      "username": "hawk-bot"
+    },
+    "projectId": "modeling.hawk",
+    "username": "genie.hawk"
+  },
+  {
+    "email": "mdht-inbox@eclipse.org",
+    "id": 101,
+    "projectId": "modeling.mdht",
+    "username": "genie.mdht"
+  },
+  {
+    "email": "bpmn2-bot@eclipse.org",
+    "id": 102,
+    "projectId": "modeling.mdt.bpmn2",
+    "username": "genie.bpmn2"
+  },
+  {
+    "email": "etrice-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "etrice-bot@eclipse.org",
+      "username": "etrice-bot"
+    },
+    "id": 103,
+    "projectId": "modeling.mdt.etrice",
+    "username": "genie.etrice"
+  },
+  {
+    "email": "modisco.web-inbox@eclipse.org",
+    "id": 104,
+    "projectId": "modeling.modisco",
+    "username": "genie.modisco"
+  },
+  {
+    "email": "rmf-bot@eclipse.org",
+    "id": 105,
+    "projectId": "modeling.mdt.rmf",
+    "username": "genie.rmf"
+  },
+  {
+    "email": "atl-bot@eclipse.org",
+    "id": 106,
+    "projectId": "modeling.mmt.atl",
+    "username": "genie.atl"
+  },
+  {
+    "email": "qvtd-inbox@eclipse.org",
+    "id": 107,
+    "projectId": "modeling.mmt.qvt-oml",
+    "username": "genie.qvt-oml"
+  },
+  {
+    "email": "qvtd-inbox@eclipse.org",
+    "id": 108,
+    "projectId": "modeling.mmt.qvtd",
+    "username": "genie.qvtd"
+  },
+  {
+    "email": "sirius-bot@eclipse.org",
+    "id": 109,
+    "oss.sonatype.org": {
+      "email": "sirius-bot@eclipse.org",
+      "username": "eclipse-sirius-bot"
+    },
+    "projectId": "modeling.sirius",
+    "username": "genie.sirius"
+  },
+  {
+    "email": "xtext-bot@eclipse.org",
+    "github.com": {
+      "email": "xtext-bot@eclipse.org",
+      "username": "genie-xtext"
+    },
+    "id": 110,
+    "oss.sonatype.org": {
+      "email": "xtext-dev@eclipse.org",
+      "username": "xtext-dev"
+    },
+    "projectId": "modeling.tmf.xtext",
+    "username": "genie.xtext"
+  },
+  {
+    "email": "xpect-inbox@eclipse.org",
+    "github.com": {
+      "email": "xpect-bot@eclipse.org",
+      "username": "eclipse-xpect-bot"
+    },
+    "id": 111,
+    "oss.sonatype.org": {
+      "email": "xpect-bot@eclipse.org",
+      "username": "xpect-bot"
+    },
+    "projectId": "modeling.xpect",
+    "username": "genie.xpect"
+  },
+  {
+    "email": "xsemantics-bot@eclipse.org",
+    "github.com": {
+      "email": "xsemantics-bot@eclipse.org",
+      "username": "xsemantics-bot"
+    },
+    "id": 112,
+    "oss.sonatype.org": {
+      "email": "xsemantics-bot@eclipse.org",
+      "username": "xsemantics-bot"
+    },
+    "projectId": "modeling.xsemantics",
+    "username": "genie.xsemantics"
+  },
+  {
+    "email": "docs-bot@eclipse.org",
+    "id": 113,
+    "oss.sonatype.org": {
+      "email": "docs-bot@eclipse.org",
+      "username": "mylyn-docs-dev"
+    },
+    "projectId": "mylyn.docs",
+    "username": "genie.docs"
+  },
+  {
+    "email": "3p-bot@eclipse.org",
+    "id": 114,
+    "projectId": "polarsys.3p",
+    "username": "genie.3p"
+  },
+  {
+    "email": "capella-bot@eclipse.org",
+    "github.com": {
+      "email": "capella-bot@eclipse.org",
+      "username": "eclipse-capella-bot"
+    },
+    "id": 115,
+    "projectId": "polarsys.capella",
+    "username": "genie.capella"
+  },
+  {
+    "email": "chess-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "chess-bot@eclipse.org",
+      "username": "chess-bot"
+    },
+    "id": 116,
+    "projectId": "polarsys.chess",
+    "username": "genie.chess"
+  },
+  {
+    "email": "esf-inbox@eclipse.org",
+    "id": 117,
+    "projectId": "polarsys.esf",
+    "username": "genie.esf"
+  },
+  {
+    "email": "time4sys-bot@eclipse.org",
+    "id": 118,
+    "projectId": "polarsys.time4sys",
+    "username": "genie.time4sys"
+  },
+  {
+    "email": "ebr-bot@eclipse.org",
+    "id": 119,
+    "projectId": "rt.ebr",
+    "username": "genie.ebr"
+  },
+  {
+    "email": "ecf-bot@eclipse.org",
+    "github.com": {
+      "email": "ecf-bot@eclipse.org",
+      "username": "eclipse-ecf-bot"
+    },
+    "id": 120,
+    "oss.sonatype.org": {
+      "email": "ecf-dev@eclipse.org",
+      "username": "ecf-dev"
+    },
+    "projectId": "rt.ecf",
+    "username": "genie.ecf"
+  },
+  {
+    "email": "gemini-bot@eclipse.org",
+    "id": 121,
+    "projectId": "rt.gemini",
+    "username": "genie.gemini"
+  },
+  {
+    "email": "jetty-bot@eclipse.org",
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 122,
+    "projectId": "rt.jetty",
+    "username": "genie.jetty"
+  },
+  {
+    "email": "virgo-bot@eclipse.org",
+    "id": 123,
+    "oss.sonatype.org": {
+      "email": "virgo-dev@eclipse.org",
+      "username": "virgo-dev"
+    },
+    "projectId": "rt.virgo",
+    "username": "genie.virgo"
+  },
+  {
+    "email": "chemclipse-inbox@eclipse.org",
+    "github.com": {
+      "email": "chemclipse-bot@eclipse.org",
+      "username": "eclipse-chemclipse-bot"
+    },
+    "id": 124,
+    "projectId": "science.chemclipse",
+    "username": "genie.chemclipse"
+  },
+  {
+    "email": "january-inbox@eclipse.org",
+    "id": 125,
+    "oss.sonatype.org": {
+      "email": "january-dev@eclipse.org",
+      "username": "january-dev"
+    },
+    "projectId": "science.january",
+    "username": "genie.january"
+  },
+  {
+    "email": "statet-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "statet-bot"
+    },
+    "id": 126,
+    "projectId": "science.statet",
+    "username": "genie.statet"
+  },
+  {
+    "email": "swtchart-bot@eclipse.org",
+    "id": 127,
+    "projectId": "science.swtchart",
+    "username": "genie.swtchart"
+  },
+  {
+    "email": "texlipse-inbox@eclipse.org",
+    "github.com": {
+      "email": "texlipse-bot@eclipse.org",
+      "username": "eclipse-texlipse-bot"
+    },
+    "id": 128,
+    "projectId": "science.texlipse",
+    "username": "genie.texlipse"
+  },
+  {
+    "email": "bpel-bot@eclipse.org",
+    "id": 129,
+    "projectId": "soa.bpel",
+    "username": "genie.bpel"
+  },
+  {
+    "email": "winery-bot@eclipse.org",
+    "github.com": {
+      "email": "winery-bot@eclipse.org",
+      "username": "eclipse-winery-bot"
+    },
+    "id": 130,
+    "projectId": "soa.winery",
+    "username": "genie.winery"
+  },
+  {
+    "email": "actf-bot@eclipse.org",
+    "id": 131,
+    "projectId": "technology.actf",
+    "username": "genie.actf"
+  },
+  {
+    "email": "apogy-inbox@eclipse.org",
+    "id": 132,
+    "projectId": "technology.apogy",
+    "username": "genie.apogy"
+  },
+  {
+    "docker.com": {
+      "email": "cbi-bot@eclipse.org",
+      "username": "cbibot"
+    },
+    "email": "cbi-bot@eclipse.org",
+    "github.com": {
+      "email": "cbi-bot@eclipse.org",
+      "username": "eclipse-cbi-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 135,
+    "oss.sonatype.org": {
+      "email": "cbi-dev@eclipse.org",
+      "username": "cbi-dev"
+    },
+    "projectId": "technology.cbi",
+    "username": "genie.cbi"
+  },
+  {
+    "email": "cognicrypt-bot@eclipse.org",
+    "github.com": {
+      "email": "cognicrypt-bot@eclipse.org",
+      "username": "eclipse-cognicrypt-bot"
+    },
+    "id": 136,
+    "projectId": "technology.cognicrypt",
+    "username": "genie.cognicrypt"
+  },
+  {
+    "email": "collections-bot@eclipse.org",
+    "github.com": {
+      "email": "collections-bot@eclipse.org",
+      "username": "eclipse-collections-bot"
+    },
+    "id": 137,
+    "oss.sonatype.org": {
+      "email": "collections-dev@eclipse.org",
+      "username": "collections-dev"
+    },
+    "projectId": "technology.collections",
+    "username": "genie.collections"
+  },
+  {
+    "email": "dash-bot@eclipse.org",
+    "github.com": {
+      "email": "dash-bot@eclipse.org",
+      "username": "eclipse-dash-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "gitlab.eclipse.org": {
+      "email": "dash-bot@eclipse.org",
+      "username": "dash-bot"
+    },
+    "id": 138,
+    "projectId": "technology.dash",
+    "username": "genie.dash"
+  },
+  {
+    "email": "dltk-bot@eclipse.org",
+    "id": 139,
+    "projectId": "technology.dltk",
+    "username": "genie.dltk"
+  },
+  {
+    "email": "ease-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "ease-bot"
+    },
+    "id": 140,
+    "oss.sonatype.org": {
+      "email": "ease-bot@eclipse.org",
+      "username": "ease-bot"
+    },
+    "projectId": "technology.ease",
+    "username": "genie.ease"
+  },
+  {
+    "email": "efxclipse-bot@eclipse.org",
+    "id": 141,
+    "projectId": "technology.efxclipse",
+    "username": "genie.efxclipse"
+  },
+  {
+    "email": "egerrit-inbox@eclipse.org",
+    "id": 142,
+    "projectId": "technology.egerrit",
+    "username": "genie.egerrit"
+  },
+  {
+    "email": "egit-bot@eclipse.org",
+    "id": 143,
+    "projectId": "technology.egit",
+    "username": "genie.egit"
+  },
+  {
+    "email": "epf-inbox@eclipse.org",
+    "id": 144,
+    "projectId": "technology.epf",
+    "username": "genie.epf"
+  },
+  {
+    "email": "golo-inbox@eclipse.org",
+    "id": 145,
+    "projectId": "technology.golo",
+    "username": "genie.golo"
+  },
+  {
+    "email": "imagen-bot@eclipse.org",
+    "id": 146,
+    "projectId": "technology.imagen",
+    "username": "genie.imagen"
+  },
+  {
+    "email": "iottestware-bot@eclipse.org",
+    "github.com": {
+      "email": "iottestware-bot@eclipse.org",
+      "username": "eclipse-iottestware-bot"
+    },
+    "id": 147,
+    "projectId": "technology.iottestware",
+    "username": "genie.iottestware"
+  },
+  {
+    "email": "jemo-bot@eclipse.org",
+    "github.com": {
+      "email": "jemo-bot@eclipse.org",
+      "username": "eclipse-jemo-bot"
+    },
+    "id": 148,
+    "projectId": "technology.jemo",
+    "username": "genie.jemo"
+  },
+  {
+    "email": "jgit-bot@eclipse.org",
+    "id": 149,
+    "oss.sonatype.org": {
+      "email": "jgit-dev@eclipse.org",
+      "username": "jgit-dev"
+    },
+    "projectId": "technology.jgit",
+    "username": "genie.jgit"
+  },
+  {
+    "email": "jnosql-inbox@eclipse.org",
+    "github.com": {
+      "email": "jnosql-bot@eclipse.org",
+      "username": "genie-jnosql"
+    },
+    "id": 150,
+    "oss.sonatype.org": {
+      "email": "jnosql-bot@eclipse.org",
+      "username": "jnosql-bot"
+    },
+    "projectId": "technology.jnosql",
+    "username": "genie.jnosql"
+  },
+  {
+    "email": "jubula-bot@eclipse.org",
+    "id": 151,
+    "projectId": "technology.jubula",
+    "username": "genie.jubula"
+  },
+  {
+    "email": "lsp4j-inbox@eclipse.org",
+    "github.com": {
+      "email": "lsp4j-bot@eclipse.org",
+      "username": "eclipse-lsp4j-bot"
+    },
+    "id": 152,
+    "oss.sonatype.org": {
+      "email": "lsp4j-bot@eclipse.org",
+      "username": "lsp4j-bot"
+    },
+    "projectId": "technology.lsp4j",
+    "username": "genie.lsp4j"
+  },
+  {
+    "email": "lyo-bot@eclipse.org",
+    "github.com": {
+      "email": "lyo-bot@eclipse.org",
+      "username": "eclipse-lyo-bot"
+    },
+    "id": 153,
+    "oss.sonatype.org": {
+      "email": "lyo-bot@eclipse.org",
+      "username": "lyo-bot"
+    },
+    "projectId": "technology.lyo",
+    "username": "genie.lyo"
+  },
+  {
+    "email": "m2e-bot@eclipse.org",
+    "github.com": {
+      "email": "m2e-bot@eclipse.org",
+      "username": "eclipse-m2e-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "gitlab.eclipse.org": {
+      "username": "m2e-bot"
+    },
+    "id": 154,
+    "projectId": "technology.m2e",
+    "username": "genie.m2e"
+  },
+  {
+    "email": "microprofile-bot@eclipse.org",
+    "github.com": {
+      "email": "microprofile-bot@eclipse.org",
+      "username": "eclipse-microprofile-bot"
+    },
+    "id": 155,
+    "oss.sonatype.org": {
+      "email": "microprofile-dev@eclipse.org",
+      "username": "microprofile-dev"
+    },
+    "projectId": "technology.microprofile",
+    "username": "genie.microprofile"
+  },
+  {
+    "email": "nebula-bot@eclipse.org",
+    "github.com": {
+      "email": "nebula-bot@eclipse.org",
+      "username": "eclipse-nebula-bot"
+    },
+    "id": 156,
+    "projectId": "technology.nebula",
+    "username": "genie.nebula"
+  },
+  {
+    "email": "omr-inbox@eclipse.org",
+    "github.com": {
+      "email": "omr-bot@eclipse.org",
+      "username": "eclipse-omr-bot"
+    },
+    "id": 157,
+    "projectId": "technology.omr",
+    "username": "genie.omr"
+  },
+  {
+    "docker.com": {
+      "username": "openj9bot"
+    },
+    "email": "openj9-bot@eclipse.org",
+    "github.com": {
+      "email": "openj9-bot@eclipse.org",
+      "username": "genie-openj9"
+    },
+    "id": 158,
+    "projectId": "technology.openj9",
+    "username": "genie.openj9"
+  },
+  {
+    "email": "openk-inbox@eclipse.org",
+    "id": 159,
+    "projectId": "technology.openk-platform",
+    "username": "genie.openk-platform"
+  },
+  {
+    "email": "openk-usermodules-bot@eclipse.org",
+    "id": 160,
+    "projectId": "technology.openk-usermodules",
+    "username": "genie.openk-usermodules"
+  },
+  {
+    "email": "osbp-inbox@eclipse.org",
+    "id": 161,
+    "projectId": "technology.osbp",
+    "username": "genie.osbp"
+  },
+  {
+    "email": "osee-bot@eclipse.org",
+    "id": 162,
+    "projectId": "technology.osee",
+    "username": "genie.osee"
+  },
+  {
+    "email": "package-drone-inbox@eclipse.org",
+    "id": 163,
+    "oss.sonatype.org": {
+      "email": "package-drone-dev@eclipse.org",
+      "username": "package-drone-dev"
+    },
+    "projectId": "technology.package-drone",
+    "username": "genie.package-drone"
+  },
+  {
+    "email": "packager-bot@eclipse.org",
+    "github.com": {
+      "email": "packager-bot@eclipse.org",
+      "username": "eclipse-packager-bot"
+    },
+    "id": 164,
+    "oss.sonatype.org": {
+      "email": "packager-bot@eclipse.org",
+      "username": "packager-bot"
+    },
+    "projectId": "technology.packager",
+    "username": "genie.packager"
+  },
+  {
+    "email": "passage-bot@eclipse.org",
+    "github.com": {
+      "email": "passage-bot@eclipse.org",
+      "username": "eclipse-passage-bot"
+    },
+    "id": 165,
+    "oss.sonatype.org": {
+      "email": "passage-bot@eclipse.org",
+      "username": "eclipse-passage-bot"
+    },
+    "projectId": "technology.passage",
+    "username": "genie.passage"
+  },
+  {
+    "email": "rcptt-bot@eclipse.org",
+    "github.com": {
+      "email": "rcptt-bot@eclipse.org",
+      "username": "eclipse-rcptt-bot"
+    },
+    "id": 166,
+    "projectId": "technology.rcptt",
+    "username": "genie.rcptt"
+  },
+  {
+    "email": "rdf4j-bot@eclipse.org",
+    "github.com": {
+      "email": "rdf4j-bot@eclipse.org",
+      "username": "rdf4j-bot"
+    },
+    "id": 167,
+    "oss.sonatype.org": {
+      "email": "rdf4j-dev@eclipse.org",
+      "username": "rdf4j-dev"
+    },
+    "projectId": "technology.rdf4j",
+    "username": "genie.rdf4j"
+  },
+  {
+    "id": 168,
+    "projectId": "technology.recommenders",
+    "username": "genie.recommenders"
+  },
+  {
+    "email": "reddeer-inbox@eclipse.org",
+    "github.com": {
+      "email": "reddeer-bot@eclipse.org",
+      "username": "eclipse-reddeer-bot"
+    },
+    "id": 169,
+    "projectId": "technology.reddeer",
+    "username": "genie.reddeer"
+  },
+  {
+    "email": "scava-bot@eclipse.org",
+    "id": 170,
+    "projectId": "technology.scava",
+    "username": "genie.scava"
+  },
+  {
+    "email": "scout-bot@eclipse.org",
+    "github.com": {
+      "email": "scout-bot@eclipse.org",
+      "username": "eclipse-scout-bot"
+    },
+    "id": 171,
+    "oss.sonatype.org": {
+      "email": "scout-dev@eclipse.org",
+      "username": "scout-dev"
+    },
+    "projectId": "technology.scout",
+    "username": "genie.scout"
+  },
+  {
+    "email": "sensinact-bot@eclipse.org",
+    "id": 172,
+    "projectId": "technology.sensinact",
+    "username": "genie.sensinact"
+  },
+  {
+    "email": "stem-bot@eclipse.org",
+    "id": 174,
+    "projectId": "technology.stem",
+    "username": "genie.stem"
+  },
+  {
+    "email": "sw360-bot@eclipse.org",
+    "github.com": {
+      "email": "sw360-bot@eclipse.org",
+      "username": "sw360-bot"
+    },
+    "id": 175,
+    "projectId": "technology.sw360",
+    "username": "genie.sw360"
+  },
+  {
+    "email": "antenna-bot@eclipse.org",
+    "github.com": {
+      "email": "antenna-bot@eclipse.org",
+      "username": "eclipse-antenna-bot"
+    },
+    "id": 176,
+    "projectId": "technology.sw360.antenna",
+    "username": "genie.antenna"
+  },
+  {
+    "email": "swtbot-bot@eclipse.org",
+    "id": 177,
+    "projectId": "technology.swtbot",
+    "username": "genie.swtbot"
+  },
+  {
+    "email": "tea-inbox@eclipse.org",
+    "id": 178,
+    "projectId": "technology.tea",
+    "username": "genie.tea"
+  },
+  {
+    "email": "tigerstripe-bot@eclipse.org",
+    "id": 179,
+    "projectId": "technology.tigerstripe",
+    "username": "genie.tigerstripe"
+  },
+  {
+    "email": "tm4e-inbox@eclipse.org",
+    "github.com": {
+      "email": "tm4e-bot@eclipse.org",
+      "username": "eclipse-tm4e-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 180,
+    "projectId": "technology.tm4e",
+    "username": "genie.tm4e"
+  },
+  {
+    "email": "uomo-bot@eclipse.org",
+    "id": 181,
+    "projectId": "technology.uomo",
+    "username": "genie.uomo"
+  },
+  {
+    "email": "xwt-bot@eclipse.org",
+    "id": 182,
+    "projectId": "technology.xwt",
+    "username": "genie.xwt"
+  },
+  {
+    "email": "acute-bot@eclipse.org",
+    "github.com": {
+      "email": "acute-bot@eclipse.org",
+      "username": "eclipse-acute-bot"
+    },
+    "id": 183,
+    "projectId": "tools.acute",
+    "username": "genie.acute"
+  },
+  {
+    "email": "ajdt-bot@eclipse.org",
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 184,
+    "projectId": "tools.ajdt",
+    "username": "genie.ajdt"
+  },
+  {
+    "email": "cdt-bot@eclipse.org",
+    "github.com": {
+      "email": "cdt-bot@eclipse.org",
+      "username": "eclipse-cdt-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 185,
+    "projectId": "tools.cdt",
+    "username": "genie.cdt"
+  },
+  {
+    "email": "dartboard-bot@eclipse.org",
+    "github.com": {
+      "email": "dartboard-bot@eclipse.org",
+      "username": "eclipse-dartboard-bot"
+    },
+    "id": 186,
+    "projectId": "tools.dartboard",
+    "username": "genie.dartboard"
+  },
+  {
+    "email": "ldt-bot@eclipse.org",
+    "id": 187,
+    "projectId": "tools.ldt",
+    "username": "genie.ldt"
+  },
+  {
+    "email": "linuxtools-bot@eclipse.org",
+    "github.com": {
+      "email": "linuxtools-bot@eclipse.org",
+      "username": "eclipse-linuxtools-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 188,
+    "projectId": "tools.linuxtools",
+    "username": "genie.linuxtools"
+  },
+  {
+    "email": "orbit-bot@eclipse.org",
+    "github.com": {
+      "email": "orbit-bot@eclipse.org",
+      "username": "eclipse-orbit-bot"
+    },
+    "id": 189,
+    "projectId": "tools.orbit",
+    "username": "genie.orbit"
+  },
+  {
+    "email": "ptp-bot@eclipse.org",
+    "id": 190,
+    "projectId": "tools.ptp",
+    "username": "genie.ptp"
+  },
+  {
+    "email": "shellwax-bot@eclipse.org",
+    "github.com": {
+      "email": "shellwax-bot@eclipse.org",
+      "username": "eclipse-shellwax-bot"
+    },
+    "id": 191,
+    "projectId": "tools.shellwax",
+    "username": "genie.shellwax"
+  },
+  {
+    "email": "thym-bot@eclipse.org",
+    "id": 192,
+    "projectId": "tools.thym",
+    "username": "genie.thym"
+  },
+  {
+    "email": "tracecompass-bot@eclipse.org",
+    "id": 193,
+    "projectId": "tools.tracecompass",
+    "username": "genie.tracecompass"
+  },
+  {
+    "email": "wildwebdeveloper-bot@eclipse.org",
+    "github.com": {
+      "email": "wildwebdeveloper-bot@eclipse.org",
+      "username": "wildwebdeveloper-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "gitlab.eclipse.org": {
+      "username": "wildwebdeveloper-bot"
+    },
+    "id": 194,
+    "projectId": "tools.wildwebdeveloper",
+    "username": "genie.wildwebdeveloper"
+  },
+  {
+    "email": "glassfish-tools-inbox@eclipse.org",
+    "id": 195,
+    "projectId": "webtools.glassfish-tools",
+    "username": "genie.glassfish-tools"
+  },
+  {
+    "email": "libra-inbox@eclipse.org",
+    "id": 196,
+    "projectId": "webtools.libra",
+    "username": "genie.libra"
+  },
+  {
+    "email": "jkube-bot@eclipse.org",
+    "github.com": {
+      "email": "jkube-bot@eclipse.org",
+      "username": "eclipse-jkube-bot"
+    },
+    "id": 197,
+    "oss.sonatype.org": {
+      "email": "jkube-bot@eclipse.org",
+      "username": "jkube-bot"
+    },
+    "projectId": "ecd.jkube",
+    "username": "genie.jkube"
+  },
+  {
+    "email": "hipp@eclipse.org",
+    "id": 198,
+    "projectId": "modeling.umlgen",
+    "username": "genie.umlgen"
+  },
+  {
+    "email": "xacc-bot@eclipse.org",
+    "id": 200,
+    "projectId": "science.xacc",
+    "username": "genie.xacc"
+  },
+  {
+    "email": "deeplearning4j-inbox@eclipse.org",
+    "github.com": {
+      "email": "deeplearning4j-bot@eclipse.org",
+      "username": "eclipse-deeplearning4j-bot"
+    },
+    "id": 201,
+    "oss.sonatype.org": {
+      "email": "deeplearning4j-bot@eclipse.org",
+      "username": "eclipse-deeplearning4j-bot"
+    },
+    "projectId": "technology.deeplearning4j",
+    "username": "genie.deeplearning4j"
+  },
+  {
+    "email": "iceoryx-bot@eclipse.org",
+    "github.com": {
+      "email": "iceoryx-bot@eclipse.org",
+      "username": "eclipse-iceoryx-bot"
+    },
+    "id": 202,
+    "projectId": "technology.iceoryx",
+    "username": "genie.iceoryx"
+  },
+  {
+    "email": "geogig-inbox@eclipse.org",
+    "id": 204,
+    "projectId": "locationtech.geogig",
+    "username": "genie.geogig"
+  },
+  {
+    "email": "proj4j-bot@eclipse.org",
+    "id": 205,
+    "projectId": "locationtech.proj4j",
+    "username": "genie.proj4j"
+  },
+  {
+    "email": "ecoretools-bot@eclipse.org",
+    "id": 206,
+    "projectId": "modeling.ecoretools",
+    "username": "genie.ecoretools"
+  },
+  {
+    "email": "emfstore-bot@eclipse.org",
+    "github.com": {
+      "email": "emfstore-bot@eclipse.org",
+      "username": "eclipse-emfstore-bot"
+    },
+    "id": 207,
+    "projectId": "modeling.emfstore",
+    "username": "genie.emfstore"
+  },
+  {
+    "email": "kitalpha-bot@eclipse.org",
+    "github.com": {
+      "email": "kitalpha-bot@eclipse.org",
+      "username": "eclipse-kitalpha-bot"
+    },
+    "id": 208,
+    "projectId": "polarsys.kitalpha",
+    "username": "genie.kitalpha"
+  },
+  {
+    "email": "opencert-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "opencert-bot"
+    },
+    "id": 209,
+    "projectId": "polarsys.opencert",
+    "username": "genie.opencert"
+  },
+  {
+    "email": "efbt-bot@eclipse.org",
+    "github.com": {
+      "email": "efbt-bot@eclipse.org",
+      "username": "eclipse-efbt-bot"
+    },
+    "id": 211,
+    "projectId": "technology.efbt",
+    "username": "genie.efbt"
+  },
+  {
+    "email": "mpc-bot@eclipse.org",
+    "id": 212,
+    "projectId": "technology.packaging.mpc",
+    "username": "genie.mpc"
+  },
+  {
+    "email": "skills-bot@eclipse.org",
+    "id": 213,
+    "projectId": "technology.skills",
+    "username": "genie.skills"
+  },
+  {
+    "email": "corrosion-bot@eclipse.org",
+    "github.com": {
+      "email": "corrosion-bot@eclipse.org",
+      "username": "corrosion-bot"
+    },
+    "id": 214,
+    "projectId": "tools.corrosion",
+    "username": "genie.corrosion"
+  },
+  {
+    "email": "datatools-bot@eclipse.org",
+    "github.com": {
+      "email": "datatools-bot@eclipse.org",
+      "username": "eclipse-datatools-bot"
+    },
+    "id": 215,
+    "projectId": "tools.datatools",
+    "username": "genie.datatools"
+  },
+  {
+    "email": "gef-bot@eclipse.org",
+    "id": 216,
+    "projectId": "tools.gef",
+    "username": "genie.gef"
+  },
+  {
+    "docker.com": {
+      "email": "theia-bot@eclipse.org",
+      "username": "eclipsetheiabot"
+    },
+    "email": "theia-bot@eclipse.org",
+    "github.com": {
+      "email": "theia-bot@eclipse.org",
+      "username": "eclipse-theia-bot"
+    },
+    "id": 217,
+    "projectId": "ecd.theia",
+    "username": "genie.theia"
+  },
+  {
+    "email": "mvc-bot@eclipse.org",
+    "github.com": {
+      "email": "mvc-bot@eclipse.org",
+      "username": "eclipse-mvc-bot"
+    },
+    "id": 218,
+    "oss.sonatype.org": {
+      "email": "mvc-bot@eclipse.org",
+      "username": "mvc-bot"
+    },
+    "projectId": "ee4j.mvc",
+    "username": "genie.mvc"
+  },
+  {
+    "docker.com": {
+      "email": "simrel-bot@eclipse.org",
+      "username": "simrelbot"
+    },
+    "email": "simrel-bot@eclipse.org",
+    "id": 219,
+    "projectId": "foundation-internal.simrel",
+    "username": "genie.simrel"
+  },
+  {
+    "email": "embed-cdt-bot@eclipse.org",
+    "github.com": {
+      "email": "embed-cdt-bot@eclipse.org",
+      "username": "eclipse-embed-cdt-bot"
+    },
+    "id": 220,
+    "projectId": "iot.embed-cdt",
+    "username": "genie.embed-cdt"
+  },
+  {
+    "email": "oneofour-bot@eclipse.org",
+    "github.com": {
+      "email": "oneofour-bot@eclipse.org",
+      "username": "eclipse-oneofour-bot"
+    },
+    "id": 221,
+    "oss.sonatype.org": {
+      "email": "oneofour-bot@eclipse.org",
+      "username": "oneofour-bot"
+    },
+    "projectId": "iot.oneofour",
+    "username": "genie.oneofour"
+  },
+  {
+    "docker.com": {
+      "email": "zenoh-bot@eclipse.org",
+      "username": "zenohbot"
+    },
+    "email": "zenoh-bot@eclipse.org",
+    "github.com": {
+      "email": "zenoh-bot@eclipse.org",
+      "username": "eclipse-zenoh-bot"
+    },
+    "id": 222,
+    "oss.sonatype.org": {
+      "email": "zenoh-bot@eclipse.org",
+      "username": "zenoh-bot"
+    },
+    "projectId": "iot.zenoh",
+    "username": "genie.zenoh"
+  },
+  {
+    "email": "eatop-bot@eclipse.org",
+    "id": 223,
+    "projectId": "modeling.eatop",
+    "username": "genie.eatop"
+  },
+  {
+    "email": "ecp-bot@eclipse.org",
+    "github.com": {
+      "email": "ecp-bot@eclipse.org",
+      "username": "eclipse-ecp-bot"
+    },
+    "id": 224,
+    "projectId": "modeling.ecp",
+    "username": "genie.ecp"
+  },
+  {
+    "email": "edapt-bot@eclipse.org",
+    "id": 225,
+    "projectId": "modeling.edapt",
+    "username": "genie.edapt"
+  },
+  {
+    "email": "ocl-bot@eclipse.org",
+    "id": 226,
+    "projectId": "modeling.mdt.ocl",
+    "username": "genie.ocl"
+  },
+  {
+    "email": "smartmdsd-bot@eclipse.org",
+    "id": 227,
+    "projectId": "modeling.smartmdsd",
+    "username": "genie.smartmdsd"
+  },
+  {
+    "email": "upr-bot@eclipse.org",
+    "id": 228,
+    "projectId": "modeling.upr",
+    "username": "genie.upr"
+  },
+  {
+    "email": "bpmn2-modeler-inbox@eclipse.org",
+    "id": 229,
+    "projectId": "soa.bpmn2-modeler",
+    "username": "genie.bpmn2-modeler"
+  },
+  {
+    "email": "ceylon-inbox@eclipse.org",
+    "id": 230,
+    "projectId": "technology.ceylon",
+    "username": "genie.ceylon"
+  },
+  {
+    "email": "handly-bot@eclipse.org",
+    "id": 231,
+    "projectId": "technology.handly",
+    "username": "genie.handly"
+  },
+  {
+    "email": "justj-bot@eclipse.org",
+    "id": 232,
+    "projectId": "technology.justj",
+    "username": "genie.justj"
+  },
+  {
+    "email": "lemminx-bot@eclipse.org",
+    "github.com": {
+      "email": "lemminx-bot@eclipse.org",
+      "username": "eclipse-lemminx-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "gitlab.eclipse.org": {
+      "username": "lemminx-bot"
+    },
+    "id": 233,
+    "projectId": "technology.lemminx",
+    "username": "genie.lemminx"
+  },
+  {
+    "email": "lsp4e-inbox@eclipse.org",
+    "github.com": {
+      "email": "lsp4e-bot@eclipse.org",
+      "username": "eclipse-lsp4e-bot"
+    },
+    "id": 234,
+    "projectId": "technology.lsp4e",
+    "username": "genie.lsp4e"
+  },
+  {
+    "email": "lsp4mp-bot@eclipse.org",
+    "github.com": {
+      "email": "lsp4mp-bot@eclipse.org",
+      "username": "eclipse-lsp4mp-bot"
+    },
+    "id": 235,
+    "projectId": "technology.lsp4mp",
+    "username": "genie.lsp4mp"
+  },
+  {
+    "email": "m2e-wtp-inbox@eclipse.org",
+    "id": 236,
+    "projectId": "technology.m2e.m2e-wtp",
+    "username": "genie.m2e-wtp"
+  },
+  {
+    "email": "n4js-bot@eclipse.org",
+    "github.com": {
+      "email": "n4js-bot@eclipse.org",
+      "username": "eclipse-n4js-bot"
+    },
+    "id": 238,
+    "projectId": "technology.n4js",
+    "username": "genie.n4js"
+  },
+  {
+    "email": "repairnator-bot@eclipse.org",
+    "github.com": {
+      "email": "repairnator-bot@eclipse.org",
+      "username": "eclipse-repairnator-bot"
+    },
+    "id": 239,
+    "projectId": "technology.repairnator",
+    "username": "genie.repairnator"
+  },
+  {
+    "email": "sisu-bot@eclipse.org",
+    "id": 240,
+    "projectId": "technology.sisu",
+    "username": "genie.sisu"
+  },
+  {
+    "email": "transformer-bot@eclipse.org",
+    "id": 242,
+    "oss.sonatype.org": {
+      "email": "transformer-bot@eclipse.org",
+      "username": "transformer-bot"
+    },
+    "projectId": "technology.transformer",
+    "username": "genie.transformer"
+  },
+  {
+    "email": "tycho-bot@eclipse.org",
+    "github.com": {
+      "email": "tycho-bot@eclipse.org",
+      "username": "eclipse-tycho-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "gitlab.eclipse.org": {
+      "username": "tycho-bot"
+    },
+    "id": 243,
+    "projectId": "technology.tycho",
+    "username": "genie.tycho"
+  },
+  {
+    "email": "secoblocks-bot@eclipse.org",
+    "id": 244,
+    "projectId": "tools.secoblocks",
+    "username": "genie.secoblocks"
+  },
+  {
+    "email": "authentication-bot@eclipse.org",
+    "github.com": {
+      "email": "authentication-bot@eclipse.org",
+      "username": "authentication-bot"
+    },
+    "id": 245,
+    "oss.sonatype.org": {
+      "email": "authentication-bot@eclipse.org",
+      "username": "authentication-bot"
+    },
+    "projectId": "ee4j.authentication",
+    "username": "genie.authentication"
+  },
+  {
+    "email": "4diac-inbox@eclipse.org",
+    "id": 247,
+    "projectId": "iot.4diac",
+    "username": "genie.4diac"
+  },
+  {
+    "email": "spatial4j-inbox@eclipse.org",
+    "github.com": {
+      "email": "spatial4j-bot@eclipse.org",
+      "username": "eclipse-spatial4j-bot"
+    },
+    "id": 248,
+    "projectId": "locationtech.spatial4j",
+    "username": "genie.spatial4j"
+  },
+  {
+    "email": "cdo-bot@eclipse.org",
+    "id": 249,
+    "projectId": "modeling.emf.cdo",
+    "username": "genie.cdo"
+  },
+  {
+    "email": "gmf-runtime-bot@eclipse.org",
+    "id": 250,
+    "projectId": "modeling.gmf-runtime",
+    "username": "genie.gmf-runtime"
+  },
+  {
+    "email": "rap-bot@eclipse.org",
+    "github.com": {
+      "email": "rap-bot@eclipse.org",
+      "username": "eclipse-rap-bot"
+    },
+    "id": 251,
+    "projectId": "rt.rap",
+    "username": "genie.rap"
+  },
+  {
+    "email": "escet-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "escet-bot@eclipse.org",
+      "username": "escet-bot"
+    },
+    "id": 252,
+    "projectId": "technology.escet",
+    "username": "genie.escet"
+  },
+  {
+    "email": "steady-bot@eclipse.org",
+    "github.com": {
+      "email": "steady-bot@eclipse.org",
+      "username": "eclipse-steady-bot"
+    },
+    "id": 253,
+    "oss.sonatype.org": {
+      "email": "steady-bot@eclipse.org",
+      "username": "steady-bot"
+    },
+    "projectId": "technology.steady",
+    "username": "genie.steady"
+  },
+  {
+    "email": "windowbuilder-inbox@eclipse.org",
+    "github.com": {
+      "email": "windowbuilder-bot@eclipse.org",
+      "username": "eclipse-windowbuilder-bot"
+    },
+    "id": 254,
+    "projectId": "tools.windowbuilder",
+    "username": "genie.windowbuilder"
+  },
+  {
+    "email": "openvsx-bot@eclipse.org",
+    "github.com": {
+      "email": "openvsx-bot@eclipse.org",
+      "username": "eclipse-openvsx-bot"
+    },
+    "id": 255,
+    "projectId": "ecd.openvsx",
+    "username": "genie.openvsx"
+  },
+  {
+    "email": "tinydtls-inbox@eclipse.org",
+    "id": 257,
+    "projectId": "iot.tinydtls",
+    "username": "genie.tinydtls"
+  },
+  {
+    "email": "papyrus-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "papyrus-bot"
+    },
+    "id": 258,
+    "projectId": "modeling.mdt.papyrus",
+    "username": "genie.papyrus"
+  },
+  {
+    "email": "ice-inbox@eclipse.org",
+    "id": 259,
+    "projectId": "science.ice",
+    "username": "genie.ice"
+  },
+  {
+    "email": "triquetrum-inbox@eclipse.org",
+    "id": 260,
+    "oss.sonatype.org": {
+      "email": "triquetrum-bot@eclipse.org",
+      "username": "triquetrum-bot"
+    },
+    "projectId": "science.triquetrum",
+    "username": "genie.triquetrum"
+  },
+  {
+    "email": "mat.core-inbox@eclipse.org",
+    "id": 261,
+    "projectId": "tools.mat",
+    "username": "genie.mat"
+  },
+  {
+    "email": "webtools-bot@eclipse.org",
+    "id": 262,
+    "projectId": "webtools",
+    "username": "genie.webtools"
+  },
+  {
+    "email": "eclipse.e4-inbox@eclipse.org",
+    "id": 263,
+    "projectId": "eclipse.e4",
+    "username": "genie.e4"
+  },
+  {
+    "email": "wasp-bot@eclipse.org",
+    "github.com": {
+      "email": "wasp-bot@eclipse.org",
+      "username": "eclipse-wasp-bot"
+    },
+    "id": 264,
+    "oss.sonatype.org": {
+      "email": "wasp-bot@eclipse.org",
+      "username": "wasp-bot"
+    },
+    "projectId": "ee4j.wasp",
+    "username": "genie.wasp"
+  },
+  {
+    "email": "emfcompare-bot@eclipse.org",
+    "github.com": {
+      "email": "emfcompare-bot@eclipse.org",
+      "username": "eclipse-emfcompare-bot"
+    },
+    "id": 265,
+    "projectId": "modeling.emfcompare",
+    "username": "genie.emfcompare"
+  },
+  {
+    "email": "emfatic-inbox@eclipse.org",
+    "id": 266,
+    "oss.sonatype.org": {
+      "email": "emfatic-bot@eclipse.org",
+      "username": "emfatic-bot"
+    },
+    "projectId": "modeling.emft.emfatic",
+    "username": "genie.emfatic"
+  },
+  {
+    "email": "corev-bot@eclipse.org",
+    "github.com": {
+      "email": "corev-bot@eclipse.org",
+      "username": "eclipse-corev-bot"
+    },
+    "id": 267,
+    "projectId": "openhw.corev",
+    "username": "genie.corev"
+  },
+  {
+    "email": "nattable-bot@eclipse.org",
+    "id": 268,
+    "oss.sonatype.org": {
+      "email": "nattable-bot@eclipse.org",
+      "username": "nattable-bot"
+    },
+    "projectId": "technology.nebula.nattable",
+    "username": "genie.nattable"
+  },
+  {
+    "email": "app4mc-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "app4mc-bot"
+    },
+    "id": 276,
+    "oss.sonatype.org": {
+      "email": "app4mc-bot@eclipse.org",
+      "username": "app4mc-bot"
+    },
+    "projectId": "automotive.app4mc",
+    "username": "genie.app4mc"
+  },
+  {
+    "email": "kuksa-bot@eclipse.org",
+    "github.com": {
+      "email": "kuksa-bot@eclipse.org",
+      "username": "eclipse-kuksa-bot"
+    },
+    "id": 277,
+    "projectId": "automotive.kuksa",
+    "username": "genie.kuksa"
+  },
+  {
+    "email": "mdmbl-inbox@eclipse.org",
+    "id": 278,
+    "projectId": "automotive.mdmbl",
+    "username": "genie.mdmbl"
+  },
+  {
+    "email": "mosaic-bot@eclipse.org",
+    "github.com": {
+      "email": "mosaic-bot@eclipse.org",
+      "username": "eclipse-mosaic-bot"
+    },
+    "id": 279,
+    "projectId": "automotive.mosaic",
+    "username": "genie.mosaic"
+  },
+  {
+    "email": "sumo-bot@eclipse.org",
+    "github.com": {
+      "email": "sumo-bot@eclipse.org",
+      "username": "eclipse-sumo-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 281,
+    "projectId": "automotive.sumo",
+    "username": "genie.sumo"
+  },
+  {
+    "email": "fog05-bot@eclipse.org",
+    "github.com": {
+      "email": "fog05-bot@eclipse.org",
+      "username": "eclipse-fog05-bot"
+    },
+    "id": 282,
+    "projectId": "iot.fog05",
+    "username": "genie.fog05"
+  },
+  {
+    "email": "geotrellis-bot@eclipse.org",
+    "id": 283,
+    "projectId": "locationtech.geotrellis",
+    "username": "genie.geotrellis"
+  },
+  {
+    "email": "jts-inbox@eclipse.org",
+    "id": 284,
+    "projectId": "locationtech.jts",
+    "username": "genie.jts"
+  },
+  {
+    "email": "acceleo-bot@eclipse.org",
+    "github.com": {
+      "email": "acceleo-bot@eclipse.org",
+      "username": "eclipse-acceleo-bot"
+    },
+    "id": 285,
+    "projectId": "modeling.acceleo",
+    "username": "genie.acceleo"
+  },
+  {
+    "email": "efm-inbox@eclipse.org",
+    "id": 286,
+    "projectId": "modeling.efm",
+    "username": "genie.efm"
+  },
+  {
+    "email": "uml2-bot@eclipse.org",
+    "id": 288,
+    "projectId": "modeling.mdt.uml2",
+    "username": "genie.uml2"
+  },
+  {
+    "email": "viatra-bot@eclipse.org",
+    "id": 289,
+    "projectId": "modeling.viatra",
+    "username": "genie.viatra"
+  },
+  {
+    "email": "birt-inbox@eclipse.org",
+    "github.com": {
+      "email": "birt-bot@eclipse.org",
+      "username": "eclipse-birt-bot"
+    },
+    "id": 290,
+    "oss.sonatype.org": {
+      "email": "birt-bot@eclipse.org",
+      "username": "eclipse-birt-bot"
+    },
+    "projectId": "technology.birt",
+    "username": "genie.birt"
+  },
+  {
+    "email": "eclemma-inbox@eclipse.org",
+    "id": 291,
+    "projectId": "technology.eclemma",
+    "username": "genie.eclemma"
+  },
+  {
+    "email": "packaging-bot@eclipse.org",
+    "github.com": {
+      "email": "packaging-bot@eclipse.org",
+      "username": "eclipse-packaging-bot"
+    },
+    "id": 292,
+    "projectId": "technology.packaging",
+    "username": "genie.packaging"
+  },
+  {
+    "email": "usssdk-inbox@eclipse.org",
+    "id": 293,
+    "projectId": "technology.usssdk",
+    "username": "genie.usssdk"
+  },
+  {
+    "email": "tcf-bot@eclipse.org",
+    "id": 294,
+    "projectId": "tools.cdt.tcf",
+    "username": "genie.tcf"
+  },
+  {
+    "email": "objectteams-bot@eclipse.org",
+    "id": 295,
+    "projectId": "tools.objectteams",
+    "username": "genie.objectteams"
+  },
+  {
+    "email": "pdt-bot@eclipse.org",
+    "github.com": {
+      "email": "pdt-bot@eclipse.org",
+      "username": "eclipse-pdt-bot"
+    },
+    "id": 296,
+    "projectId": "tools.pdt",
+    "username": "genie.pdt"
+  },
+  {
+    "email": "tm-bot@eclipse.org",
+    "id": 297,
+    "projectId": "tools.tm",
+    "username": "genie.tm"
+  },
+  {
+    "email": "comma-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "comma-bot@eclipse.org",
+      "username": "comma-bot"
+    },
+    "id": 298,
+    "projectId": "technology.comma",
+    "username": "genie.comma"
+  },
+  {
+    "email": "adoptium-bot@eclipse.org",
+    "github.com": {
+      "email": "adoptium-bot@eclipse.org",
+      "username": "adoptium-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 299,
+    "projectId": "adoptium",
+    "username": "genie.adoptium"
+  },
+  {
+    "email": "emf-bot@eclipse.org",
+    "id": 300,
+    "oss.sonatype.org": {
+      "email": "emf-bot@eclipse.org",
+      "username": "emf-bot"
+    },
+    "projectId": "modeling.emf",
+    "username": "genie.emf"
+  },
+  {
+    "email": "rap-bot@eclipse.org",
+    "id": 301,
+    "projectId": "tools.rap",
+    "username": "genie.rap"
+  },
+  {
+    "email": "aqavit-bot@eclipse.org",
+    "github.com": {
+      "email": "aqavit-bot@eclipse.org",
+      "username": "eclipse-aqavit-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 302,
+    "projectId": "adoptium.aqavit",
+    "username": "genie.aqavit"
+  },
+  {
+    "email": "temurin-bot@eclipse.org",
+    "github.com": {
+      "email": "temurin-bot@eclipse.org",
+      "username": "eclipse-temurin-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 303,
+    "projectId": "adoptium.temurin",
+    "username": "genie.temurin"
+  },
+  {
+    "github.com": {
+      "email": "adoptium-incubator-bot@eclipse.org",
+      "username": "adoptium-incubator-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 305,
+    "projectId": "adoptium.incubator",
+    "username": "genie.incubator"
+  },
+  {
+    "email": "temurin-compliance-bot@eclipse.org",
+    "github.com": {
+      "email": "temurin-compliance-bot@eclipse.org",
+      "username": "eclipse-temurin-compliance-bot"
+    },
+    "id": 306,
+    "projectId": "adoptium.temurin-compliance",
+    "username": "genie.temurin-compliance"
+  },
+  {
+    "email": "automotive-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "automotive-bot"
+    },
+    "id": 307,
+    "projectId": "automotive",
+    "username": "genie.automotive"
+  },
+  {
+    "email": "sphinx-bot@eclipse.org",
+    "id": 308,
+    "projectId": "automotive.sphinx",
+    "username": "genie.sphinx"
+  },
+  {
+    "email": "hipp@eclipse.org",
+    "id": 309,
+    "projectId": "iot.wakaama",
+    "username": "genie.wakaama"
+  },
+  {
+    "email": "babel-bot@eclipse.org",
+    "id": 310,
+    "projectId": "technology.babel",
+    "username": "genie.babel"
+  },
+  {
+    "email": "jms-inbox@eclipse.org",
+    "github.com": {
+      "email": "messaging-bot@eclipse.org",
+      "username": "eclipse-messaging-bot"
+    },
+    "id": 312,
+    "oss.sonatype.org": {
+      "email": "messaging-bot@eclipse.org",
+      "username": "jms-bot"
+    },
+    "projectId": "ee4j.messaging",
+    "username": "genie.messaging"
+  },
+  {
+    "email": "dataeggs-bot@eclipse.org",
+    "id": 313,
+    "projectId": "technology.dataeggs",
+    "username": "genie.dataeggs"
+  },
+  {
+    "id": 314,
+    "projectId": "tools.tracecompass.incubator",
+    "username": "genie.incubator"
+  },
+  {
+    "eclipse.org-eclipse-platform-releng": {
+      "email": "releng-bot@eclipse.org",
+      "username": "genie.releng"
+    },
+    "id": 315,
+    "projectId": "eclipse.platform.swt",
+    "username": "genie.swt"
+  },
+  {
+    "email": "parsson-bot@eclipse.org",
+    "github.com": {
+      "email": "parsson-bot@eclipse.org",
+      "username": "eclipse-parsson-bot"
+    },
+    "id": 317,
+    "oss.sonatype.org": {
+      "email": "parsson-bot@eclipse.org",
+      "username": "eclipse-parsson-bot"
+    },
+    "projectId": "ee4j.parsson",
+    "username": "genie.parsson"
+  },
+  {
+    "gitlab.eclipse.org": {
+      "username": "emo-bot"
+    },
+    "id": 318,
+    "projectId": "foundation-internal.emo",
+    "username": "genie.emo"
+  },
+  {
+    "email": "starter-bot@eclipse.org",
+    "github.com": {
+      "email": "starter-bot@eclipse.org",
+      "username": "eclipse-starter-bot"
+    },
+    "id": 319,
+    "oss.sonatype.org": {
+      "email": "starter-bot@eclipse.org",
+      "username": "eclipse-starter-bot"
+    },
+    "projectId": "ee4j.starter",
+    "username": "genie.starter"
+  },
+  {
+    "email": "exousia-bot@eclipse.org",
+    "github.com": {
+      "email": "exousia-bot@eclipse.org",
+      "username": "eclipse-exousia-bot"
+    },
+    "id": 320,
+    "oss.sonatype.org": {
+      "email": "exousia-bot@eclipse.org",
+      "username": "eclipse-exousia-bot"
+    },
+    "projectId": "ee4j.exousia",
+    "username": "genie.exousia"
+  },
+  {
+    "email": "graphiti-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "graphiti-bot"
+    },
+    "id": 321,
+    "projectId": "modeling.graphiti",
+    "username": "genie.graphiti"
+  },
+  {
+    "email": "teneo-bot@eclipse.org",
+    "id": 322,
+    "projectId": "modeling.emf.teneo",
+    "username": "genie.teneo"
+  },
+  {
+    "email": "angus-bot@eclipse.org",
+    "github.com": {
+      "email": "angus-bot@eclipse.org",
+      "username": "eclipse-angus-bot"
+    },
+    "id": 323,
+    "oss.sonatype.org": {
+      "email": "angus-bot@eclipse.org",
+      "username": "eclipse-angus-bot"
+    },
+    "projectId": "ee4j.angus",
+    "username": "genie.angus"
+  },
+  {
+    "email": "tahu-bot@eclipse.org",
+    "github.com": {
+      "email": "tahu-bot@eclipse.org",
+      "username": "eclipse-tahu-bot"
+    },
+    "id": 325,
+    "oss.sonatype.org": {
+      "email": "tahu-bot@eclipse.org",
+      "username": "eclipse-tahu-bot"
+    },
+    "projectId": "iot.tahu",
+    "username": "genie.tahu"
+  },
+  {
+    "email": "amlen-bot@eclipse.org",
+    "github.com": {
+      "email": "amlen-bot@eclipse.org",
+      "username": "eclipse-amlen-bot"
+    },
+    "id": 326,
+    "projectId": "iot.amlen",
+    "username": "genie.amlen"
+  },
+  {
+    "email": "kiso-testing-bot@eclipse.org",
+    "github.com": {
+      "email": "kiso-testing-bot@eclipse.org",
+      "username": "eclipse-kiso-testing-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 327,
+    "projectId": "iot.kiso-testing",
+    "username": "genie.kiso-testing"
+  },
+  {
+    "email": "buildship-inbox@eclipse.org",
+    "github.com": {
+      "email": "buildship-bot@eclipse.org",
+      "username": "eclipse-buildship-bot"
+    },
+    "id": 328,
+    "projectId": "tools.buildship",
+    "username": "genie.buildship"
+  },
+  {
+    "email": "authorization-bot@eclipse.org",
+    "github.com": {
+      "email": "authorization-bot@eclipse.org",
+      "username": "eclipse-authorization-bot"
+    },
+    "id": 329,
+    "oss.sonatype.org": {
+      "email": "authorization-bot@eclipse.org",
+      "username": "jacc-bot"
+    },
+    "projectId": "ee4j.authorization",
+    "username": "genie.authorization"
+  },
+  {
+    "email": "expressly-bot@eclipse.org",
+    "github.com": {
+      "email": "expressly-bot@eclipse.org",
+      "username": "eclipse-expressly-bot"
+    },
+    "id": 330,
+    "oss.sonatype.org": {
+      "email": "expressly-bot@eclipse.org",
+      "username": "eclipse-expressly-bot"
+    },
+    "projectId": "ee4j.expressly",
+    "username": "genie.expressly"
+  },
+  {
+    "email": "subversive-bot@eclipse.org",
+    "id": 332,
+    "projectId": "technology.subversive",
+    "username": "genie.subversive"
+  },
+  {
+    "email": "aspectj-inbox@eclipse.org",
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 333,
+    "projectId": "tools.aspectj",
+    "username": "genie.aspectj"
+  },
+  {
+    "email": "asciidoc-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "asciidoc-bot"
+    },
+    "id": 335,
+    "projectId": "technology.asciidoc",
+    "username": "genie.asciidoc"
+  },
+  {
+    "email": "lsat-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "lsat-bot"
+    },
+    "id": 336,
+    "projectId": "technology.lsat",
+    "username": "genie.lsat"
+  },
+  {
+    "email": "trace4cps-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "trace4cps-bot"
+    },
+    "id": 337,
+    "projectId": "technology.trace4cps",
+    "username": "genie.trace4cps"
+  },
+  {
+    "email": "jakartaconfig-bot@eclipse.org",
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 338,
+    "projectId": "ee4j.jakartaconfig",
+    "username": "genie.jakartaconfig"
+  },
+  {
+    "email": "basyx-bot@eclipse.org",
+    "github.com": {
+      "email": "basyx-bot@eclipse.org",
+      "username": "eclipse-basyx-bot"
+    },
+    "id": 339,
+    "oss.sonatype.org": {
+      "email": "basyx-bot@eclipse.org",
+      "username": "basyx-bot"
+    },
+    "projectId": "dt.basyx",
+    "username": "genie.basyx"
+  },
+  {
+    "email": "cdt-cloud-bot@eclipse.org",
+    "github.com": {
+      "email": "cdt-cloud-bot@eclipse.org",
+      "username": "eclipse-cdt-cloud-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 340,
+    "projectId": "ecd.cdt-cloud",
+    "username": "genie.cdt-cloud"
+  },
+  {
+    "email": "jaxrs-inbox@eclipse.org",
+    "github.com": {
+      "email": "rest-bot@eclipse.org",
+      "username": "eclipse-rest-bot"
+    },
+    "id": 341,
+    "oss.sonatype.org": {
+      "email": "rest-bot@eclipse.org",
+      "username": "jaxrs-bot"
+    },
+    "projectId": "ee4j.rest",
+    "username": "genie.rest"
+  },
+  {
+    "email": "pass-bot@eclipse.org",
+    "github.com": {
+      "email": "pass-bot@eclipse.org",
+      "username": "eclipse-pass-bot"
+    },
+    "id": 342,
+    "oss.sonatype.org": {
+      "email": "pass-bot@eclipse.org",
+      "username": "eclipse-pass-bot"
+    },
+    "projectId": "technology.pass",
+    "username": "genie.pass"
+  },
+  {
+    "email": "set-bot@eclipse.org",
+    "github.com": {
+      "email": "set-bot@eclipse.org",
+      "username": "eclipse-set-bot"
+    },
+    "gitlab.eclipse.org": {
+      "username": "set-bot"
+    },
+    "id": 343,
+    "projectId": "technology.set",
+    "username": "genie.set"
+  },
+  {
+    "email": "mc-bot@eclipse.org",
+    "github.com": {
+      "email": "mc-bot@eclipse.org",
+      "username": "eclipse-mc-bot"
+    },
+    "id": 344,
+    "projectId": "adoptium.mc",
+    "username": "genie.mc"
+  },
+  {
+    "docker.com": {
+      "email": "oniro-core-bot@eclipse.org",
+      "username": "onirocore"
+    },
+    "email": "oniro-core-bot@eclipse.org",
+    "github.com": {
+      "email": "oniro-core-bot@eclipse.org",
+      "username": "eclipse-oniro-core-bot"
+    },
+    "gitlab.eclipse.org": {
+      "username": "oniro-core-bot"
+    },
+    "id": 345,
+    "projectId": "oniro.oniro-core",
+    "username": "genie.oniro-core"
+  },
+  {
+    "docker.com": {
+      "email": "tractusx-bot@eclipse.org",
+      "username": "tractusx"
+    },
+    "email": "tractusx-bot@eclipse.org",
+    "github.com": {
+      "email": "tractusx-bot@eclipse.org",
+      "username": "eclipse-tractusx-bot"
+    },
+    "github.com-workflow-bot": {
+      "email": "41898282+github-actions[bot]@users.noreply.github.com",
+      "username": "github-actions[bot]"
+    },
+    "id": 346,
+    "oss.sonatype.org": {
+      "email": "tractusx-bot@eclipse.org",
+      "username": "eclipse-tractusx-bot"
+    },
+    "projectId": "automotive.tractusx",
+    "username": "genie.tractusx"
+  },
+  {
+    "email": "ecal-bot@eclipse.org",
+    "github.com": {
+      "email": "ecal-bot@eclipse.org",
+      "username": "eclipse-ecal-bot"
+    },
+    "id": 347,
+    "projectId": "automotive.ecal",
+    "username": "genie.ecal"
+  },
+  {
+    "email": "volttron-bot@eclipse.org",
+    "github.com": {
+      "email": "volttron-bot@eclipse.org",
+      "username": "eclipse-volttron-bot"
+    },
+    "id": 348,
+    "projectId": "iot.volttron",
+    "username": "genie.volttron"
+  },
+  {
+    "email": "data-bot@eclipse.org",
+    "github.com": {
+      "email": "data-bot@eclipse.org",
+      "username": "eclipse-data-bot"
+    },
+    "id": 349,
+    "oss.sonatype.org": {
+      "email": "data-bot@eclipse.org",
+      "username": "eclipse-data-bot"
+    },
+    "projectId": "ee4j.data",
+    "username": "genie.data"
+  },
+  {
+    "email": "plato-bot@eclipse.org",
+    "id": 350,
+    "projectId": "technology.plato",
+    "username": "genie.plato"
+  },
+  {
+    "email": "oomph-bot@eclipse.org",
+    "github.com": {
+      "email": "oomph-bot@eclipse.org",
+      "username": "eclipse-oomph-bot"
+    },
+    "gitlab.eclipse.org": {
+      "username": "oomph-bot"
+    },
+    "id": 351,
+    "projectId": "tools.oomph",
+    "username": "genie.oomph"
+  },
+  {
+    "email": "lsp4jakarta-bot@eclipse.org",
+    "github.com": {
+      "email": "lsp4jakarta-bot@eclipse.org",
+      "username": "eclipse-lsp4jakarta-bot"
+    },
+    "id": 352,
+    "projectId": "technology.lsp4jakarta",
+    "username": "genie.lsp4jakarta"
+  },
+  {
+    "docker.com": {
+      "email": "oniro-compliancetoolchain-bot@eclipse.org",
+      "username": "onirocompliancetoolchain"
+    },
+    "email": "oniro-compliancetoolchain-bot@eclipse.org",
+    "github.com": {
+      "email": "oniro-compliancetoolchain-bot@eclipse.org",
+      "username": "eclipse-oniro-compliancetoolchain-bot"
+    },
+    "gitlab.eclipse.org": {
+      "username": "oniro-compliancetoolchain-bot"
+    },
+    "id": 353,
+    "projectId": "oniro.oniro-compliancetoolchain",
+    "username": "genie.oniro-compliancetoolchain"
+  },
+  {
+    "email": "sparkplug-bot@eclipse.org",
+    "github.com": {
+      "email": "sparkplug-bot@eclipse.org",
+      "username": "eclipse-sparkplug-bot"
+    },
+    "id": 354,
+    "oss.sonatype.org": {
+      "email": "sparkplug-bot@eclipse.org",
+      "username": "eclipse-sparkplug-bot"
+    },
+    "projectId": "iot.sparkplug",
+    "username": "genie.sparkplug"
+  },
+  {
+    "email": "mylyn-bot@eclipse.org",
+    "github.com": {
+      "email": "mylyn-bot@eclipse.org",
+      "username": "eclipse-mylyn-bot"
+    },
+    "gitlab.eclipse.org": {
+      "username": "mylyn-bot"
+    },
+    "id": 355,
+    "projectId": "tools.mylyn",
+    "username": "genie.mylyn"
+  },
+  {
+    "email": "edc-bot@eclipse.org",
+    "github.com": {
+      "email": "edc-bot@eclipse.org",
+      "username": "eclipse-edc-bot"
+    },
+    "github.com-dependabot": {
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "username": "dependabot[bot]"
+    },
+    "id": 356,
+    "oss.sonatype.org": {
+      "email": "edc-bot@eclipse.org",
+      "username": "eclipse-dataspaceconnector-bot"
+    },
+    "projectId": "technology.edc",
+    "username": "genie.edc"
+  },
+  {
+    "email": "aas4j-bot@eclipse.org",
+    "github.com": {
+      "email": "aas4j-bot@eclipse.org",
+      "username": "eclipse-aas4j-bot"
+    },
+    "id": 357,
+    "oss.sonatype.org": {
+      "email": "aas4j-bot@eclipse.org",
+      "username": "eclipse-aas4j-bot"
+    },
+    "projectId": "dt.aas4j",
+    "username": "genie.aas4j"
+  },
+  {
+    "email": "emt4j-bot@eclipse.org",
+    "github.com": {
+      "email": "emt4j-bot@eclipse.org",
+      "username": "eclipse-emt4j-bot"
+    },
+    "id": 358,
+    "oss.sonatype.org": {
+      "email": "emt4j-bot@eclipse.org",
+      "username": "eclipse-emt4j-bot"
+    },
+    "projectId": "adoptium.emt4j",
+    "username": "genie.emt4j"
+  },
+  {
+    "email": "opensmartclide-bot@eclipse.org",
+    "github.com": {
+      "email": "opensmartclide-bot@eclipse.org",
+      "username": "eclipse-opensmartclide-bot"
+    },
+    "id": 359,
+    "projectId": "ecd.opensmartclide",
+    "username": "genie.opensmartclide"
+  },
+  {
+    "email": "openpass-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "openpass-bot@eclipse.org",
+      "username": "openpass-bot"
+    },
+    "id": 360,
+    "projectId": "automotive.openpass",
+    "username": "genie.openpass"
+  },
+  {
+    "email": "scm-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "scm-bot"
+    },
+    "id": 361,
+    "projectId": "automotive.scm",
+    "username": "genie.scm"
+  },
+  {
+    "email": "esmf-bot@eclipse.org",
+    "id": 362,
+    "oss.sonatype.org": {
+      "email": "esmf-bot@eclipse.org",
+      "username": "eclipse-esmf-bot"
+    },
+    "projectId": "dt.esmf",
+    "username": "genie.esmf"
+  },
+  {
+    "email": "security-inbox@eclipse.org",
+    "github.com": {
+      "email": "security-bot@eclipse.org",
+      "username": "eclipse-security-bot"
+    },
+    "id": 363,
+    "oss.sonatype.org": {
+      "email": "security-bot@eclipse.org",
+      "username": "es-bot"
+    },
+    "projectId": "ee4j.security",
+    "username": "genie.security"
+  },
+  {
+    "email": "xpanse-bot@eclipse.org",
+    "github.com": {
+      "email": "xpanse-bot@eclipse.org",
+      "username": "eclipse-xpanse-bot"
+    },
+    "id": 364,
+    "oss.sonatype.org": {
+      "email": "xpanse-bot@eclipse.org",
+      "username": "eclipse-xpanse-bot"
+    },
+    "projectId": "technology.xpanse",
+    "username": "genie.xpanse"
+  },
+  {
+    "email": "velocitas-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "velocitas-bot"
+    },
+    "id": 365,
+    "projectId": "automotive.velocitas",
+    "username": "genie.velocitas"
+  }
+]

@@ -14,11 +14,16 @@ set -o pipefail
 
 SCRIPT_FOLDER="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 
+OLD_JSON="bots.db.old.json"
+NEW_JSON="bots.db.json"
+
 pushd "${SCRIPT_FOLDER}"
-kubectl exec -n foundation-internal-webdev-apps "$(kubectl get -n foundation-internal-webdev-apps pod -l "app=projects-bots-api,environment=production" -o json | jq -r ".items[0]|.metadata.name")" -- cat /deployments/bots.db.json | jq -S 'sort_by(.id)' > bots.db.old.json
-./gen_bot_db.sh bots.db.old.json > bots.db.new.jsonnet
-jsonnet src/main/jsonnet/extensions.jsonnet | jq -S 'sort_by(.id)' > bots.db.json
+kubectl exec -n foundation-internal-webdev-apps "$(kubectl get -n foundation-internal-webdev-apps pod -l "app=projects-bots-api,environment=production" -o json | jq -r ".items[0]|.metadata.name")" -- cat /deployments/bots.db.json | jq -S 'sort_by(.id)' > "${OLD_JSON}"
+./gen_bot_db.sh "${OLD_JSON}" > bots.db.new.jsonnet
+jsonnet src/main/jsonnet/extensions.jsonnet | jq -S 'sort_by(.id)' > "${NEW_JSON}"
 rm -f bots.db.new.jsonnet
 
-printf "\nRun 'diff bots.db.old.json bots.db.json' before deploying first!!\n"
+diff "${OLD_JSON}" "${NEW_JSON}" || true
+
+printf "\nRun 'diff %s %s' before deploying first!!\n" "${OLD_JSON}" "${NEW_JSON}"
 popd

@@ -20,6 +20,52 @@ pipeline {
   }
 
   stages {
+    stage('Run clean build') {
+      //agent {
+      //  label 'docker-build'
+      //}
+      steps {
+        // check for errors and run a clean build
+        sh '''
+          jq . bots.db.json > /dev/null
+          mvn clean package -DskipTests
+        '''
+      }
+    }
+
+    stage('Build docker image') {
+      agent {
+        label 'docker-build'
+      }
+      steps {
+        readTrusted 'Dockerfile'
+        withCredentials([file(credentialsId: 'auth.json', variable: 'AUTH_JSON')]) {
+            sh '''
+              DOCKER_BUILDKIT=1 docker build --secret id=composer_auth,src="${AUTH_JSON}" -f Dockerfile --no-cache -t ${IMAGE_NAME}:${TAG_NAME} -t ${IMAGE_NAME}:latest . 2> docker_build.log
+            '''
+        }
+        archiveArtifacts artifacts: 'docker_build.log'
+      }
+    }
+
+    stage('Push docker image') {
+      agent {
+        label 'docker-build'
+      }
+      when {
+        environment name: 'ENVIRONMENT', value: 'production'
+      }
+      steps {
+        withDockerRegistry([credentialsId: 'webdev-docker-bot', url: 'https://index.docker.io/v1/']) {
+          sh '''
+            docker tag "${IMAGE_NAME}:${env.TAG_NAME}" "${IMAGE_NAME}:latest"
+            docker push ${IMAGE_NAME}:${TAG_NAME}
+            docker push ${IMAGE_NAME}:latest
+          '''
+        }
+      }
+    }
+
     stage('Deploy to cluster') {
       agent {
         kubernetes {
