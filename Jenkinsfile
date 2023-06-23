@@ -21,9 +21,9 @@ pipeline {
 
   stages {
     stage('Run clean build') {
-      //agent {
-      //  label 'docker-build'
-      //}
+      agent {
+        label 'basic'
+      }
       steps {
         // check for errors and run a clean build
         sh '''
