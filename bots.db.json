@@ -2826,6 +2826,9 @@
     "username": "genie.comma"
   },
   {
+    "docker.com": {
+      "username": "adoptopenjdkuser"
+    },
     "email": "adoptium-bot@eclipse.org",
     "github.com": {
       "email": "adoptium-bot@eclipse.org",
@@ -2841,6 +2844,10 @@
   },
   {
     "email": "emf-bot@eclipse.org",
+    "github.com": {
+      "email": "emf-bot@eclipse.org",
+      "username": "eclipse-emf-bot"
+    },
     "id": 300,
     "oss.sonatype.org": {
       "email": "emf-bot@eclipse.org",
@@ -3521,5 +3528,33 @@
     "id": 365,
     "projectId": "automotive.velocitas",
     "username": "genie.velocitas"
+  },
+  {
+    "email": "serializer-bot@eclipse.org",
+    "github.com": {
+      "email": "serializer-bot@eclipse.org",
+      "username": "eclipse-serializer-bot"
+    },
+    "id": 366,
+    "oss.sonatype.org": {
+      "email": "serializer-bot@eclipse.org",
+      "username": "eclipse-serializer-bot"
+    },
+    "projectId": "technology.serializer",
+    "username": "genie.serializer"
+  },
+  {
+    "email": "store-bot@eclipse.org",
+    "github.com": {
+      "email": "store-bot@eclipse.org",
+      "username": "eclipse-store-bot"
+    },
+    "id": 367,
+    "oss.sonatype.org": {
+      "email": "store-bot@eclipse.org",
+      "username": "eclipse-store-bot"
+    },
+    "projectId": "technology.store",
+    "username": "genie.store"
   }
 ]

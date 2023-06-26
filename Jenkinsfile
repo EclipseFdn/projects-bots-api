@@ -41,9 +41,9 @@ pipeline {
       steps {
         readTrusted 'src/main/docker/Dockerfile'
         withCredentials([file(credentialsId: 'auth.json', variable: 'AUTH_JSON')]) {
-            sh '''
-              DOCKER_BUILDKIT=1 docker build --secret id=composer_auth,src="${AUTH_JSON}" -f src/main/docker/Dockerfile --no-cache -t ${IMAGE_NAME}:${TAG_NAME} -t ${IMAGE_NAME}:latest . 2> docker_build.log
-            '''
+          sh '''
+            DOCKER_BUILDKIT=1 docker build --secret id=composer_auth,src="${AUTH_JSON}" -f src/main/docker/Dockerfile --no-cache -t ${IMAGE_NAME}:${TAG_NAME} -t ${IMAGE_NAME}:latest .
+          '''
         }
         archiveArtifacts artifacts: 'docker_build.log'
       }
