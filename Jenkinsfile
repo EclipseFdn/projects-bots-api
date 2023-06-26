@@ -10,8 +10,17 @@ pipeline {
     IMAGE_NAME = 'eclipsefdn/projects-bots-api'
     CONTAINER_NAME = 'app'
     ENVIRONMENT = 'production'
-    //TODO: use GIT_COMMIT
-    TAG_NAME = 'latest'
+    TAG_NAME = sh(
+      script: """
+        GIT_COMMIT_SHORT=\$(git rev-parse --short ${env.GIT_COMMIT})
+        if [ "${env.ENVIRONMENT}" = "" ]; then
+          printf \${GIT_COMMIT_SHORT}-${env.BUILD_NUMBER}
+        else
+          printf ${env.ENVIRONMENT}-\${GIT_COMMIT_SHORT}-${env.BUILD_NUMBER}
+        fi
+      """,
+      returnStdout: true
+    )
   }
 
   tools {
