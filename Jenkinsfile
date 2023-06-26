@@ -24,17 +24,7 @@ pipeline {
   }
 
   stages {
-    stage('Run clean build') {
-      steps {
-        // check for errors and run a clean build
-        sh '''
-          jq . bots.db.json > /dev/null
-          mvn clean package -DskipTests
-        '''
-      }
-    }
-
-    stage('Build docker image') {
+    stage('Run clean build and build docker image') {
       agent {
         label 'docker-build'
       }
@@ -42,6 +32,8 @@ pipeline {
         readTrusted 'src/main/docker/Dockerfile'
         withCredentials([file(credentialsId: 'auth.json', variable: 'AUTH_JSON')]) {
           sh '''
+            jq . bots.db.json > /dev/null
+            mvn clean package -DskipTests
             DOCKER_BUILDKIT=1 docker build --secret id=composer_auth,src="${AUTH_JSON}" -f src/main/docker/Dockerfile --no-cache -t ${IMAGE_NAME}:${TAG_NAME} -t ${IMAGE_NAME}:latest .
           '''
         }
