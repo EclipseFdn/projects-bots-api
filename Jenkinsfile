@@ -61,7 +61,7 @@ pipeline {
       steps {
         withDockerRegistry([credentialsId: 'webdev-docker-bot', url: 'https://index.docker.io/v1/']) {
           sh '''
-            docker tag "${IMAGE_NAME}:${env.TAG_NAME}" "${IMAGE_NAME}:latest"
+            docker tag "${IMAGE_NAME}:${TAG_NAME}" "${IMAGE_NAME}:latest"
             docker push ${IMAGE_NAME}:${TAG_NAME}
             docker push ${IMAGE_NAME}:latest
           '''
