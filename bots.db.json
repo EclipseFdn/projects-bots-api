@@ -2481,6 +2481,10 @@
   },
   {
     "email": "cdo-bot@eclipse.org",
+    "github.com": {
+      "email": "cdo-bot@eclipse.org",
+      "username": "eclipse-cdo-bot"
+    },
     "id": 249,
     "projectId": "modeling.emf.cdo",
     "username": "genie.cdo"
