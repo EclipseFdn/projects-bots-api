@@ -1252,6 +1252,10 @@
   },
   {
     "email": "sirius-bot@eclipse.org",
+    "github.com": {
+      "email": "sirius-bot@eclipse.org",
+      "username": "eclipse-sirius-bot"
+    },
     "id": 109,
     "oss.sonatype.org": {
       "email": "sirius-bot@eclipse.org",
