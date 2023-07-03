@@ -31,7 +31,7 @@ rm -f bots.db.new.jsonnet
 diff "${OLD_JSON}" "${NEW_JSON}" || true
 
 #Show error if files are equal
-if diff "${OLD_JSON}" "${NEW_JSON}"; then
+if diff "${OLD_JSON}" "${NEW_JSON}" > /dev/null; then
   printf "\n\n"
   echo "ERROR: diff found no difference. Please double check if something is missing!"
   exit 1
