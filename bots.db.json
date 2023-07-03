@@ -1997,6 +1997,9 @@
       "email": "orbit-bot@eclipse.org",
       "username": "eclipse-orbit-bot"
     },
+    "gitlab.eclipse.org": {
+      "username": "orbit-bot"
+    },
     "id": 189,
     "projectId": "tools.orbit",
     "username": "genie.orbit"
