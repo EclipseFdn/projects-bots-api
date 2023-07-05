@@ -14,11 +14,21 @@
 # docker run -i --rm -p 8080:8080 quarkus/getting-started-jvm
 #
 ###
-FROM fabric8/java-alpine-openjdk8-jre
+FROM eclipse-temurin:17-jre-alpine
 ENV JAVA_OPTIONS="-Dquarkus.http.host=0.0.0.0 -Djava.util.logging.manager=org.jboss.logmanager.LogManager"
-ENV AB_ENABLED=jmx_exporter
-COPY target/lib/* /deployments/lib/
-COPY target/*-runner.jar /deployments/app.jar
+
+# set up deployments directory
+# references: https://github.com/fabric8io-images/run-java-sh
+RUN mkdir -p /deployments
+ENV JAVA_APP_JAR=quarkus-run.jar \
+    JAVA_APP_DIR=/deployments \
+    JAVA_MAJOR_VERSION=17 \
+    JAVA_OPTIONS=-Dfile.encoding=utf-8 \
+    LOG4J_FORMAT_MSG_NO_LOOKUPS=true
+COPY src/main/docker/run-java.sh /deployments/
+RUN chmod 755 /deployments/run-java.sh
+
+COPY target/quarkus-app/ /deployments/
 COPY bots.db.json /deployments/bots.db.json
 EXPOSE 8080
 
