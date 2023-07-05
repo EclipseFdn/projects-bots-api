@@ -26,11 +26,11 @@ import org.eclipsefoundation.projectsbots.model.Bot;
 @Produces(MediaType.APPLICATION_JSON)
 public class BotsResource {
 
-	@Inject 
+	@Inject
 	BotsDB db;
-	
+
 	@Inject Moshi moshi;
-		
+
 	@GET
 	public String search(@QueryParam("q") String q) {
 		if (q == null || q.isEmpty())

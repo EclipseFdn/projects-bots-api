@@ -24,10 +24,10 @@ public class BotDBReader {
 	@ConfigProperty(name="bots.db.path", defaultValue = "/deployments/bots.db.json")
 	@Inject
 	Path dbpath;
-	
+
 	@Inject
 	Moshi moshi;
-	
+
 	public List<Bot> readDB() throws IOException {
 		try (BufferedSource bufferedSource = Okio.buffer(Okio.source(dbpath))) {
 			Type type = Types.newParameterizedType(List.class, Bot.class);

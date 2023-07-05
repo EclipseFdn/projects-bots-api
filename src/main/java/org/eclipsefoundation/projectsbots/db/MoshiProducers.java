@@ -10,7 +10,7 @@ import org.eclipsefoundation.projectsbots.model.BotAdapterFactory;
 @ApplicationScoped
 public class MoshiProducers {
 
-	@Produces
+  @Produces
   public Moshi moshi() {
       return new Moshi.Builder()
         .add(BotAdapterFactory.create())
