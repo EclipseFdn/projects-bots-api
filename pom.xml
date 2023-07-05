@@ -18,7 +18,7 @@
 		<quarkus.platform.artifact-id>quarkus-universe-bom</quarkus.platform.artifact-id>
 		<quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
 		<quarkus.platform.version>3.2.0.Final</quarkus.platform.version>
-		<surefire-plugin.version>2.22.1</surefire-plugin.version>
+		<surefire-plugin.version>3.1.2</surefire-plugin.version>
 		<auto-value.version>1.10.2</auto-value.version>
 		<auto-value-moshi.version>1.0.0</auto-value-moshi.version>
 	</properties>
