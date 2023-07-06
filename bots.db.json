@@ -3571,5 +3571,15 @@
     },
     "projectId": "technology.store",
     "username": "genie.store"
+  },
+  {
+    "email": "hipp@eclipse.org",
+    "github.com": {
+      "email": "vertx-bot@eclipse.org",
+      "username": "eclipse-vertx-bot"
+    },
+    "id": 368,
+    "projectId": "rt.vertx",
+    "username": "genie.vertx"
   }
 ]
