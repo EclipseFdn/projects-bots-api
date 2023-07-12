@@ -116,6 +116,9 @@ pipeline {
       }
       steps {
         container('kubectl') {
+          sh '''
+            echo "newImageRef: ${IMAGE_NAME}:${TAG_NAME}"
+          '''
           updateContainerImage([
             namespace: "${env.NAMESPACE}",
             selector: "app=${env.APP_NAME},environment=${env.ENVIRONMENT}",
