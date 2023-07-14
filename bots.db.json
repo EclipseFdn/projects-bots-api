@@ -3581,5 +3581,15 @@
     "id": 368,
     "projectId": "rt.vertx",
     "username": "genie.vertx"
+  },
+  {
+    "email": "chariott-bot@eclipse.org",
+    "github.com": {
+      "email": "chariott-bot@eclipse.org",
+      "username": "eclipse-chariott-bot"
+    },
+    "id": 369,
+    "projectId": "automotive.chariott",
+    "username": "genie.chariott"
   }
 ]
