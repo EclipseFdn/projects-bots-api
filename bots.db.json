@@ -2810,6 +2810,9 @@
       "email": "objectteams-bot@eclipse.org",
       "username": "eclipse-objectteams-bot"
     },
+    "gitlab.eclipse.org": {
+      "username": "objectteams-bot"
+    },
     "id": 295,
     "projectId": "tools.objectteams",
     "username": "genie.objectteams"
