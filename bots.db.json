@@ -2806,6 +2806,10 @@
   },
   {
     "email": "objectteams-bot@eclipse.org",
+    "github.com": {
+      "email": "objectteams-bot@eclipse.org",
+      "username": "eclipse-objectteams-bot"
+    },
     "id": 295,
     "projectId": "tools.objectteams",
     "username": "genie.objectteams"
