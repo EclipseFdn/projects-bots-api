@@ -1991,6 +1991,9 @@
       "email": "49699333+dependabot[bot]@users.noreply.github.com",
       "username": "dependabot[bot]"
     },
+    "gitlab.eclipse.org": {
+      "username": "linuxtools-bot"
+    },
     "id": 188,
     "projectId": "tools.linuxtools",
     "username": "genie.linuxtools"
@@ -3598,5 +3601,35 @@
     "id": 369,
     "projectId": "automotive.chariott",
     "username": "genie.chariott"
+  },
+  {
+    "email": "ibeji-bot@eclipse.org",
+    "github.com": {
+      "email": "ibeji-bot@eclipse.org",
+      "username": "eclipse-ibeji-bot"
+    },
+    "id": 370,
+    "projectId": "automotive.ibeji",
+    "username": "genie.ibeji"
+  },
+  {
+    "email": "leda-bot@eclipse.org",
+    "github.com": {
+      "email": "leda-bot@eclipse.org",
+      "username": "eclipse-leda-bot"
+    },
+    "id": 371,
+    "projectId": "automotive.leda",
+    "username": "genie.leda"
+  },
+  {
+    "email": "thingweb-inbox@eclipse.org",
+    "github.com": {
+      "email": "thingweb-bot@eclipse.org",
+      "username": "eclipse-thingweb-bot"
+    },
+    "id": 372,
+    "projectId": "iot.thingweb",
+    "username": "genie.thingweb"
   }
 ]
