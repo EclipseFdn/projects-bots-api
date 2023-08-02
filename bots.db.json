@@ -2353,6 +2353,10 @@
   },
   {
     "email": "justj-bot@eclipse.org",
+    "github.com": {
+      "email": "justj-bot@eclipse.org",
+      "username": "eclipse-justj-bot"
+    },
     "id": 232,
     "projectId": "technology.justj",
     "username": "genie.justj"
@@ -2957,6 +2961,10 @@
   },
   {
     "email": "babel-bot@eclipse.org",
+    "github.com": {
+      "email": "babel-bot@eclipse.org",
+      "username": "eclipse-babel-bot"
+    },
     "id": 310,
     "projectId": "technology.babel",
     "username": "genie.babel"
@@ -3505,6 +3513,10 @@
   },
   {
     "email": "esmf-bot@eclipse.org",
+    "github.com": {
+      "email": "esmf-bot@eclipse.org",
+      "username": "eclipse-esmf-bot"
+    },
     "id": 362,
     "oss.sonatype.org": {
       "email": "esmf-bot@eclipse.org",
@@ -3631,5 +3643,25 @@
     "id": 372,
     "projectId": "iot.thingweb",
     "username": "genie.thingweb"
+  },
+  {
+    "email": "keypop-bot@eclipse.org",
+    "github.com": {
+      "email": "keypop-bot@eclipse.org",
+      "username": "eclipse-keypop-bot"
+    },
+    "id": 373,
+    "projectId": "iot.keypop",
+    "username": "genie.keypop"
+  },
+  {
+    "email": "osgi-technology-bot@eclipse.org",
+    "github.com": {
+      "email": "osgi-technology-bot@eclipse.org",
+      "username": "eclipse-osgi-technology-bot"
+    },
+    "id": 374,
+    "projectId": "technology.osgi-technology",
+    "username": "genie.osgi-technology"
   }
 ]
