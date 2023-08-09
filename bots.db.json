@@ -1487,6 +1487,9 @@
       "email": "49699333+dependabot[bot]@users.noreply.github.com",
       "username": "dependabot[bot]"
     },
+    "gitlab.eclipse.org": {
+      "username": "cbi-bot"
+    },
     "id": 135,
     "oss.sonatype.org": {
       "email": "cbi-dev@eclipse.org",
