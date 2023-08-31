@@ -3664,7 +3664,31 @@
       "username": "eclipse-osgi-technology-bot"
     },
     "id": 374,
+    "oss.sonatype.org": {
+      "email": "osgi-technology-bot@eclipse.org",
+      "username": "eclipse-osgi-technology-bot"
+    },
     "projectId": "technology.osgi-technology",
     "username": "genie.osgi-technology"
+  },
+  {
+    "email": "uprotocol-bot@eclipse.org",
+    "github.com": {
+      "email": "uprotocol-bot@eclipse.org",
+      "username": "eclipse-uprotocol-bot"
+    },
+    "id": 375,
+    "projectId": "automotive.uprotocol",
+    "username": "genie.uprotocol"
+  },
+  {
+    "email": "kanto-bot@eclipse.org",
+    "github.com": {
+      "email": "kanto-bot@eclipse.org",
+      "username": "eclipse-kanto-bot"
+    },
+    "id": 376,
+    "projectId": "iot.kanto",
+    "username": "genie.kanto"
   }
 ]
