@@ -2314,6 +2314,10 @@
   },
   {
     "email": "edapt-bot@eclipse.org",
+    "github.com": {
+      "email": "edapt-bot@eclipse.org",
+      "username": "eclipse-edapt-bot"
+    },
     "id": 225,
     "projectId": "modeling.edapt",
     "username": "genie.edapt"
@@ -3654,6 +3658,10 @@
       "username": "eclipse-keypop-bot"
     },
     "id": 373,
+    "oss.sonatype.org": {
+      "email": "keypop-bot@eclipse.org",
+      "username": "eclipse-keypop-bot"
+    },
     "projectId": "iot.keypop",
     "username": "genie.keypop"
   },
@@ -3690,5 +3698,12 @@
     "id": 376,
     "projectId": "iot.kanto",
     "username": "genie.kanto"
+  },
+  {
+    "email": "edapt-bot@eclipse.org",
+    "github.com": {},
+    "id": 377,
+    "projectId": "modeling..edapt",
+    "username": "genie.edapt"
   }
 ]
