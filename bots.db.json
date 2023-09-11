@@ -3705,5 +3705,15 @@
     "id": 377,
     "projectId": "modeling..edapt",
     "username": "genie.edapt"
+  },
+  {
+    "email": "webservices-inbox@eclipse.org",
+    "github.com": {
+      "email": "webservices-bot@eclipse.org",
+      "username": "eclipse-webservices-bot"
+    },
+    "id": 378,
+    "projectId": "webtools.webservices",
+    "username": "genie.webservices"
   }
 ]
