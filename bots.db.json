@@ -2665,6 +2665,10 @@
   },
   {
     "email": "nattable-bot@eclipse.org",
+    "github.com": {
+      "email": "nattable-bot@eclipse.org",
+      "username": "eclipse-nattable-bot"
+    },
     "id": 268,
     "oss.sonatype.org": {
       "email": "nattable-bot@eclipse.org",
