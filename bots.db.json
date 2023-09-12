@@ -2649,6 +2649,10 @@
   },
   {
     "email": "emfatic-inbox@eclipse.org",
+    "github.com": {
+      "email": "emfatic-bot@eclipse.org",
+      "username": "eclipse-emfatic-bot"
+    },
     "id": 266,
     "oss.sonatype.org": {
       "email": "emfatic-bot@eclipse.org",
