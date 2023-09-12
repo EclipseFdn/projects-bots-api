@@ -1924,6 +1924,10 @@
   },
   {
     "email": "uomo-bot@eclipse.org",
+    "github.com": {
+      "email": "uomo-bot@eclipse.org",
+      "username": "eclipse-uomo-bot"
+    },
     "id": 181,
     "projectId": "technology.uomo",
     "username": "genie.uomo"
