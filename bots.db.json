@@ -2825,15 +2825,6 @@
     "username": "genie.usssdk"
   },
   {
-    "email": "tcf-bot@eclipse.org",
-    "gitlab.eclipse.org": {
-      "username": "tcf-bot"
-    },
-    "id": 294,
-    "projectId": "tools.cdt.tcf",
-    "username": "genie.tcf"
-  },
-  {
     "email": "objectteams-bot@eclipse.org",
     "github.com": {
       "email": "objectteams-bot@eclipse.org",
@@ -3730,5 +3721,14 @@
     "id": 378,
     "projectId": "webtools.webservices",
     "username": "genie.webservices"
+  },
+  {
+    "email": "tcf-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "tcf-bot"
+    },
+    "id": 379,
+    "projectId": "tools.tcf",
+    "username": "genie.tcf"
   }
 ]
