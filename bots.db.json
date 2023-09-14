@@ -2778,6 +2778,10 @@
   },
   {
     "email": "uml2-bot@eclipse.org",
+    "github.com": {
+      "email": "uml2-bot@eclipse.org",
+      "username": "eclipse-uml2-bot"
+    },
     "id": 288,
     "projectId": "modeling.mdt.uml2",
     "username": "genie.uml2"
@@ -3706,13 +3710,6 @@
     "username": "genie.kanto"
   },
   {
-    "email": "edapt-bot@eclipse.org",
-    "github.com": {},
-    "id": 377,
-    "projectId": "modeling..edapt",
-    "username": "genie.edapt"
-  },
-  {
     "email": "webservices-inbox@eclipse.org",
     "github.com": {
       "email": "webservices-bot@eclipse.org",
@@ -3730,5 +3727,15 @@
     "id": 379,
     "projectId": "tools.tcf",
     "username": "genie.tcf"
+  },
+  {
+    "email": "epicyro-bot@eclipse.org",
+    "github.com": {
+      "email": "epicyro-bot@eclipse.org",
+      "username": "epicyro-bot"
+    },
+    "id": 380,
+    "projectId": "ee4j.epicyro",
+    "username": "genie.epicyro"
   }
 ]
