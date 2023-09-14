@@ -2826,6 +2826,9 @@
   },
   {
     "email": "tcf-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "tcf-bot"
+    },
     "id": 294,
     "projectId": "tools.cdt.tcf",
     "username": "genie.tcf"
