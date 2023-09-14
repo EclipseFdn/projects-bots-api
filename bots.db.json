@@ -1376,6 +1376,10 @@
   },
   {
     "email": "gemini-bot@eclipse.org",
+    "github.com": {
+      "email": "gemini-bot@eclipse.org",
+      "username": "eclipse-gemini-bot"
+    },
     "id": 121,
     "projectId": "rt.gemini",
     "username": "genie.gemini"
@@ -3737,5 +3741,12 @@
     "id": 380,
     "projectId": "ee4j.epicyro",
     "username": "genie.epicyro"
+  },
+  {
+    "email": "edapt-bot@eclipse.org",
+    "github.com": {},
+    "id": 381,
+    "projectId": "modeling..edapt",
+    "username": "genie.edapt"
   }
 ]
