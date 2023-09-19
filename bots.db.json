@@ -1376,10 +1376,6 @@
   },
   {
     "email": "gemini-bot@eclipse.org",
-    "github.com": {
-      "email": "gemini-bot@eclipse.org",
-      "username": "eclipse-gemini-bot"
-    },
     "id": 121,
     "projectId": "rt.gemini",
     "username": "genie.gemini"
@@ -3739,14 +3735,21 @@
       "username": "epicyro-bot"
     },
     "id": 380,
+    "oss.sonatype.org": {
+      "email": "epicyro-bot@eclipse.org",
+      "username": "epicyro-bot"
+    },
     "projectId": "ee4j.epicyro",
     "username": "genie.epicyro"
   },
   {
-    "email": "edapt-bot@eclipse.org",
-    "github.com": {},
-    "id": 381,
-    "projectId": "modeling..edapt",
-    "username": "genie.edapt"
+    "email": "oniro-oh-bot@eclipse.org",
+    "github.com": {
+      "email": "oniro-oh-bot@eclipse.org",
+      "username": "eclipse-oniro-oh-bot"
+    },
+    "id": 382,
+    "projectId": "oniro.oniro-oh",
+    "username": "genie.oniro-oh"
   }
 ]
