@@ -2254,6 +2254,10 @@
       "username": "simrelbot"
     },
     "email": "simrel-bot@eclipse.org",
+    "github.com": {
+      "email": "simrel-bot@eclipse.org",
+      "username": "eclipse-simrel-bot"
+    },
     "id": 219,
     "projectId": "foundation-internal.simrel",
     "username": "genie.simrel"
