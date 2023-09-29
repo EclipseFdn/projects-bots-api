@@ -235,20 +235,6 @@
     "username": "genie.ee4j"
   },
   {
-    "email": "bean-validation-bot@eclipse.org",
-    "github.com": {
-      "email": "bean-validation-bot@eclipse.org",
-      "username": "eclipse-bean-validation-bot"
-    },
-    "id": 17,
-    "oss.sonatype.org": {
-      "email": "bean-validation-bot@eclipse.org",
-      "username": "bean-validation-bot"
-    },
-    "projectId": "ee4j.bean-validation",
-    "username": "genie.bean-validation"
-  },
-  {
     "email": "ca-inbox@eclipse.org",
     "github.com": {
       "email": "ca-bot@eclipse.org",
@@ -1376,6 +1362,10 @@
   },
   {
     "email": "gemini-bot@eclipse.org",
+    "github.com": {
+      "email": "gemini-bot@eclipse.org",
+      "username": "eclipse-gemini-bot"
+    },
     "id": 121,
     "projectId": "rt.gemini",
     "username": "genie.gemini"
@@ -3700,6 +3690,10 @@
       "username": "eclipse-uprotocol-bot"
     },
     "id": 375,
+    "oss.sonatype.org": {
+      "email": "uprotocol-bot@eclipse.org",
+      "username": "eclipse-uprotocol-bot"
+    },
     "projectId": "automotive.uprotocol",
     "username": "genie.uprotocol"
   },
@@ -3755,5 +3749,18 @@
     "id": 382,
     "projectId": "oniro.oniro-oh",
     "username": "genie.oniro-oh"
+  },
+  {
+    "github.com": {
+      "email": "validation-bot@eclipse.org",
+      "username": "eclipse-validation-bot"
+    },
+    "id": 383,
+    "oss.sonatype.org": {
+      "email": "bean-validation-bot@eclipse.org",
+      "username": "bean-validation-bot"
+    },
+    "projectId": "ee4j.validation",
+    "username": "genie.validation"
   }
 ]
