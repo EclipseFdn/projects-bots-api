@@ -1372,6 +1372,10 @@
   },
   {
     "email": "jetty-bot@eclipse.org",
+    "github.com": {
+      "email": "jetty-bot@eclipse.org",
+      "username": "eclipse-jetty-bot"
+    },
     "github.com-dependabot": {
       "email": "49699333+dependabot[bot]@users.noreply.github.com",
       "username": "dependabot[bot]"
@@ -2585,6 +2589,10 @@
   },
   {
     "email": "ice-inbox@eclipse.org",
+    "github.com": {
+      "email": "ice-bot@eclipse.org",
+      "username": "eclipse-ice-bot"
+    },
     "id": 259,
     "projectId": "science.ice",
     "username": "genie.ice"
@@ -3757,10 +3765,29 @@
     },
     "id": 383,
     "oss.sonatype.org": {
-      "email": "bean-validation-bot@eclipse.org",
+      "email": "validation-bot@eclipse.org",
       "username": "bean-validation-bot"
     },
     "projectId": "ee4j.validation",
     "username": "genie.validation"
+  },
+  {
+    "github.com": {
+      "email": "oniro4openharmony-bot@eclipse.org",
+      "username": "eclipse-oniro4openharmony-bot"
+    },
+    "id": 384,
+    "projectId": "oniro.oniro4openharmony",
+    "username": "genie.oniro4openharmony"
+  },
+  {
+    "docker.com": {
+      "email": "jifa-bot@eclipse.org",
+      "username": "eclipsejifa"
+    },
+    "email": "jifa-bot@eclipse.org",
+    "id": 385,
+    "projectId": "technology.jifa",
+    "username": "genie.jifa"
   }
 ]
