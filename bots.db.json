@@ -2593,6 +2593,9 @@
       "email": "ice-bot@eclipse.org",
       "username": "eclipse-ice-bot"
     },
+    "gitlab.eclipse.org": {
+      "username": "ice-bot"
+    },
     "id": 259,
     "projectId": "science.ice",
     "username": "genie.ice"
