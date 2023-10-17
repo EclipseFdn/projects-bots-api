@@ -1386,10 +1386,6 @@
   },
   {
     "email": "virgo-bot@eclipse.org",
-    "github.com": {
-      "email": "virgo-bot@eclipse.org",
-      "username": "eclipse-virgo-bot"
-    },
     "id": 123,
     "oss.sonatype.org": {
       "email": "virgo-dev@eclipse.org",
@@ -1571,6 +1567,10 @@
   },
   {
     "email": "egit-bot@eclipse.org",
+    "github.com": {
+      "email": "egit-bot@eclipse.org",
+      "username": "eclipse-egit-bot"
+    },
     "id": 143,
     "projectId": "technology.egit",
     "username": "genie.egit"
@@ -1615,6 +1615,10 @@
   },
   {
     "email": "jgit-bot@eclipse.org",
+    "github.com": {
+      "email": "jgit-bot@eclipse.org",
+      "username": "eclipse-jgit-bot"
+    },
     "id": 149,
     "oss.sonatype.org": {
       "email": "jgit-dev@eclipse.org",
@@ -3796,5 +3800,12 @@
     "id": 385,
     "projectId": "technology.jifa",
     "username": "genie.jifa"
+  },
+  {
+    "email": "edapt-bot@eclipse.org",
+    "github.com": {},
+    "id": 386,
+    "projectId": "modeling..edapt",
+    "username": "genie.edapt"
   }
 ]
