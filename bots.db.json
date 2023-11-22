@@ -2216,6 +2216,10 @@
   },
   {
     "email": "gef-bot@eclipse.org",
+    "github.com": {
+      "email": "gef-bot@eclipse.org",
+      "username": "eclipse-gef-bot"
+    },
     "id": 216,
     "projectId": "tools.gef",
     "username": "genie.gef"
@@ -2603,6 +2607,10 @@
       "username": "ice-bot"
     },
     "id": 259,
+    "oss.sonatype.org": {
+      "email": "ice-bot@eclipse.org",
+      "username": "eclipse-ice-bot"
+    },
     "projectId": "science.ice",
     "username": "genie.ice"
   },
@@ -3240,6 +3248,10 @@
       "username": "dependabot[bot]"
     },
     "id": 338,
+    "oss.sonatype.org": {
+      "email": "jakartaconfig-bot@eclipse.org",
+      "username": "eclipse-jakartaconfig-bot"
+    },
     "projectId": "ee4j.jakartaconfig",
     "username": "genie.jakartaconfig"
   },
@@ -3525,6 +3537,10 @@
     "username": "genie.opensmartclide"
   },
   {
+    "docker.com": {
+      "email": "openpass-bot@eclipse.org",
+      "username": "eclipseopenpass"
+    },
     "email": "openpass-bot@eclipse.org",
     "gitlab.eclipse.org": {
       "email": "openpass-bot@eclipse.org",
@@ -3822,5 +3838,25 @@
     "id": 388,
     "projectId": "automotive.bluechi",
     "username": "genie.bluechi"
+  },
+  {
+    "email": "opendut-bot@eclipse.org",
+    "github.com": {
+      "email": "opendut-bot@eclipse.org",
+      "username": "eclipse-opendut-bot"
+    },
+    "id": 389,
+    "projectId": "automotive.opendut",
+    "username": "genie.opendut"
+  },
+  {
+    "email": "langium-bot@eclipse.org",
+    "github.com": {
+      "email": "langium-bot@eclipse.org",
+      "username": "eclipse-langium-bot"
+    },
+    "id": 390,
+    "projectId": "ecd.langium",
+    "username": "genie.langium"
   }
 ]
