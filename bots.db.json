@@ -150,6 +150,9 @@
       "email": "ls-bot@eclipse.org",
       "username": "eclipse-ls-bot"
     },
+    "gitlab.eclipse.org": {
+      "username": "ls-bot"
+    },
     "id": 12,
     "projectId": "eclipse.jdt.ls",
     "username": "genie.ls"
@@ -1137,6 +1140,10 @@
   },
   {
     "email": "emfservices-inbox@eclipse.org",
+    "github.com": {
+      "email": "emfservices-bot@eclipse.org",
+      "username": "eclipse-emfservices-bot"
+    },
     "id": 95,
     "projectId": "modeling.emfservices",
     "username": "genie.emfservices"
@@ -2524,6 +2531,10 @@
   },
   {
     "email": "gmf-runtime-bot@eclipse.org",
+    "github.com": {
+      "email": "gmf-runtime-bot@eclipse.org",
+      "username": "eclipse-gmf-runtime-bot"
+    },
     "id": 250,
     "projectId": "modeling.gmf-runtime",
     "username": "genie.gmf-runtime"
@@ -2724,6 +2735,10 @@
       "username": "eclipse-kuksa-bot"
     },
     "id": 277,
+    "oss.sonatype.org": {
+      "email": "kuksa-bot@eclipse.org",
+      "username": "eclipse-kuksa-bot"
+    },
     "projectId": "automotive.kuksa",
     "username": "genie.kuksa"
   },
@@ -3858,5 +3873,35 @@
     "id": 390,
     "projectId": "ecd.langium",
     "username": "genie.langium"
+  },
+  {
+    "email": "muto-bot@eclipse.org",
+    "github.com": {
+      "email": "muto-bot@eclipse.org",
+      "username": "eclipse-muto-bot"
+    },
+    "id": 391,
+    "projectId": "automotive.muto",
+    "username": "genie.muto"
+  },
+  {
+    "email": "sdv-blueprints-bot@eclipse.org",
+    "github.com": {
+      "email": "sdv-blueprints-bot@eclipse.org",
+      "username": "eclipse-sdv-blueprints-bot"
+    },
+    "id": 392,
+    "projectId": "automotive.sdv-blueprints",
+    "username": "genie.sdv-blueprints"
+  },
+  {
+    "email": "aaspe-bot@eclipse.org",
+    "github.com": {
+      "email": "aaspe-bot@eclipse.org",
+      "username": "eclipse-aaspe-bot"
+    },
+    "id": 393,
+    "projectId": "dt.aaspe",
+    "username": "genie.aaspe"
   }
 ]
