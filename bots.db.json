@@ -175,6 +175,9 @@
       "email": "releng-bot@eclipse.org",
       "username": "eclipse-releng-bot"
     },
+    "gitlab.eclipse.org": {
+      "username": "pde-bot"
+    },
     "id": 13,
     "oss.sonatype.org": {
       "email": "pde-dev@eclipse.org",
@@ -921,6 +924,10 @@
     "username": "genie.keyple"
   },
   {
+    "docker.com": {
+      "email": "kura-bot@eclipse.org",
+      "username": "eclipsekura"
+    },
     "email": "kura-bot@eclipse.org",
     "github.com": {
       "email": "kura-bot@eclipse.org",
@@ -3903,5 +3910,22 @@
     "id": 393,
     "projectId": "dt.aaspe",
     "username": "genie.aaspe"
+  },
+  {
+    "email": "edapt-bot@eclipse.org",
+    "github.com": {},
+    "id": 394,
+    "projectId": "modeling..edapt",
+    "username": "genie.edapt"
+  },
+  {
+    "email": "syson-bot@eclipse.org",
+    "github.com": {
+      "email": "syson-bot@eclipse.org",
+      "username": "eclipse-syson-bot"
+    },
+    "id": 395,
+    "projectId": "modeling.syson",
+    "username": "genie.syson"
   }
 ]
