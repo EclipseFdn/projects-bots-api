@@ -175,9 +175,6 @@
       "email": "releng-bot@eclipse.org",
       "username": "eclipse-releng-bot"
     },
-    "gitlab.eclipse.org": {
-      "username": "pde-bot"
-    },
     "id": 13,
     "oss.sonatype.org": {
       "email": "pde-dev@eclipse.org",
@@ -924,10 +921,6 @@
     "username": "genie.keyple"
   },
   {
-    "docker.com": {
-      "email": "kura-bot@eclipse.org",
-      "username": "eclipsekura"
-    },
     "email": "kura-bot@eclipse.org",
     "github.com": {
       "email": "kura-bot@eclipse.org",
@@ -2586,6 +2579,9 @@
       "email": "windowbuilder-bot@eclipse.org",
       "username": "eclipse-windowbuilder-bot"
     },
+    "gitlab.eclipse.org": {
+      "username": "windowbuilder-bot"
+    },
     "id": 254,
     "projectId": "tools.windowbuilder",
     "username": "genie.windowbuilder"
@@ -3910,13 +3906,6 @@
     "id": 393,
     "projectId": "dt.aaspe",
     "username": "genie.aaspe"
-  },
-  {
-    "email": "edapt-bot@eclipse.org",
-    "github.com": {},
-    "id": 394,
-    "projectId": "modeling..edapt",
-    "username": "genie.edapt"
   },
   {
     "email": "syson-bot@eclipse.org",
