@@ -28,20 +28,6 @@
     "username": "genie.che4z"
   },
   {
-    "docker.com": {
-      "email": "codewind-bot@eclipse.org",
-      "username": "codewindbot"
-    },
-    "email": "codewind-bot@eclipse.org",
-    "github.com": {
-      "email": "codewind-bot@eclipse.org",
-      "username": "eclipse-codewind-bot"
-    },
-    "id": 3,
-    "projectId": "ecd.codewind",
-    "username": "genie.codewind"
-  },
-  {
     "email": "dirigible-inbox@eclipse.org",
     "id": 4,
     "projectId": "ecd.dirigible",
@@ -174,6 +160,9 @@
     "github.com-releng": {
       "email": "releng-bot@eclipse.org",
       "username": "eclipse-releng-bot"
+    },
+    "gitlab.eclipse.org": {
+      "username": "pde-bot"
     },
     "id": 13,
     "oss.sonatype.org": {
@@ -921,6 +910,10 @@
     "username": "genie.keyple"
   },
   {
+    "docker.com": {
+      "email": "kura-bot@eclipse.org",
+      "username": "eclipsekura"
+    },
     "email": "kura-bot@eclipse.org",
     "github.com": {
       "email": "kura-bot@eclipse.org",
@@ -1615,16 +1608,6 @@
     "username": "genie.iottestware"
   },
   {
-    "email": "jemo-bot@eclipse.org",
-    "github.com": {
-      "email": "jemo-bot@eclipse.org",
-      "username": "eclipse-jemo-bot"
-    },
-    "id": 148,
-    "projectId": "technology.jemo",
-    "username": "genie.jemo"
-  },
-  {
     "email": "jgit-bot@eclipse.org",
     "github.com": {
       "email": "jgit-bot@eclipse.org",
@@ -1892,16 +1875,6 @@
     "id": 175,
     "projectId": "technology.sw360",
     "username": "genie.sw360"
-  },
-  {
-    "email": "antenna-bot@eclipse.org",
-    "github.com": {
-      "email": "antenna-bot@eclipse.org",
-      "username": "eclipse-antenna-bot"
-    },
-    "id": 176,
-    "projectId": "technology.sw360.antenna",
-    "username": "genie.antenna"
   },
   {
     "email": "swtbot-bot@eclipse.org",
@@ -3214,6 +3187,9 @@
   },
   {
     "email": "subversive-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "subversive-bot"
+    },
     "id": 332,
     "projectId": "technology.subversive",
     "username": "genie.subversive"
@@ -3916,5 +3892,12 @@
     "id": 395,
     "projectId": "modeling.syson",
     "username": "genie.syson"
+  },
+  {
+    "email": "edapt-bot@eclipse.org",
+    "github.com": {},
+    "id": 396,
+    "projectId": "modeling..edapt",
+    "username": "genie.edapt"
   }
 ]
