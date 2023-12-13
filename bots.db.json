@@ -2818,6 +2818,10 @@
   },
   {
     "email": "eclemma-inbox@eclipse.org",
+    "github.com": {
+      "email": "eclemma-bot@eclipse.org",
+      "username": "eclipse-eclemma-bot"
+    },
     "id": 291,
     "projectId": "technology.eclemma",
     "username": "genie.eclemma"
@@ -3892,12 +3896,5 @@
     "id": 395,
     "projectId": "modeling.syson",
     "username": "genie.syson"
-  },
-  {
-    "email": "edapt-bot@eclipse.org",
-    "github.com": {},
-    "id": 396,
-    "projectId": "modeling..edapt",
-    "username": "genie.edapt"
   }
 ]
