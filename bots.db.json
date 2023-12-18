@@ -1884,6 +1884,10 @@
   },
   {
     "email": "tea-inbox@eclipse.org",
+    "github.com": {
+      "email": "tea-bot@eclipse.org",
+      "username": "eclipse-tea-bot"
+    },
     "id": 178,
     "projectId": "technology.tea",
     "username": "genie.tea"
@@ -2818,10 +2822,6 @@
   },
   {
     "email": "eclemma-inbox@eclipse.org",
-    "github.com": {
-      "email": "eclemma-bot@eclipse.org",
-      "username": "eclipse-eclemma-bot"
-    },
     "id": 291,
     "projectId": "technology.eclemma",
     "username": "genie.eclemma"
@@ -3191,9 +3191,6 @@
   },
   {
     "email": "subversive-bot@eclipse.org",
-    "gitlab.eclipse.org": {
-      "username": "subversive-bot"
-    },
     "id": 332,
     "projectId": "technology.subversive",
     "username": "genie.subversive"
