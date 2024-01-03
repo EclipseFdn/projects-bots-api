@@ -3888,6 +3888,15 @@
     "username": "genie.syson"
   },
   {
+    "email": "xfsc-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "xfsc-bot"
+    },
+    "id": 397,
+    "projectId": "technology.xfsc",
+    "username": "genie.xfsc"
+  },
+  {
     "docker.com": {
       "email": "simrel-bot@eclipse.org",
       "username": "simrelbot"
@@ -3897,17 +3906,25 @@
       "email": "simrel-bot@eclipse.org",
       "username": "eclipse-simrel-bot"
     },
-    "id": 396,
-    "projectId": "technology.simrel",
+    "id": 398,
+    "projectId": "foundation-internal.simrel",
     "username": "genie.simrel"
   },
   {
-    "email": "xfsc-bot@eclipse.org",
-    "gitlab.eclipse.org": {
-      "username": "xfsc-bot"
+    "email": "symphony-bot@eclipse.org",
+    "github.com": {
+      "email": "symphony-bot@eclipse.org",
+      "username": "eclipse-symphony-bot"
     },
-    "id": 397,
-    "projectId": "technology.xfsc",
-    "username": "genie.xfsc"
+    "id": 399,
+    "projectId": "iot.symphony",
+    "username": "genie.symphony"
+  },
+  {
+    "email": "edapt-bot@eclipse.org",
+    "github.com": {},
+    "id": 400,
+    "projectId": "modeling..edapt",
+    "username": "genie.edapt"
   }
 ]
