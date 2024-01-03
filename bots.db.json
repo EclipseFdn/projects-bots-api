@@ -2237,20 +2237,6 @@
     "username": "genie.mvc"
   },
   {
-    "docker.com": {
-      "email": "simrel-bot@eclipse.org",
-      "username": "simrelbot"
-    },
-    "email": "simrel-bot@eclipse.org",
-    "github.com": {
-      "email": "simrel-bot@eclipse.org",
-      "username": "eclipse-simrel-bot"
-    },
-    "id": 219,
-    "projectId": "foundation-internal.simrel",
-    "username": "genie.simrel"
-  },
-  {
     "email": "embed-cdt-bot@eclipse.org",
     "github.com": {
       "email": "embed-cdt-bot@eclipse.org",
@@ -2822,6 +2808,10 @@
   },
   {
     "email": "eclemma-inbox@eclipse.org",
+    "github.com": {
+      "email": "eclemma-bot@eclipse.org",
+      "username": "eclipse-eclemma-bot"
+    },
     "id": 291,
     "projectId": "technology.eclemma",
     "username": "genie.eclemma"
@@ -3191,6 +3181,9 @@
   },
   {
     "email": "subversive-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "subversive-bot"
+    },
     "id": 332,
     "projectId": "technology.subversive",
     "username": "genie.subversive"
@@ -3893,5 +3886,28 @@
     "id": 395,
     "projectId": "modeling.syson",
     "username": "genie.syson"
+  },
+  {
+    "docker.com": {
+      "email": "simrel-bot@eclipse.org",
+      "username": "simrelbot"
+    },
+    "email": "simrel-bot@eclipse.org",
+    "github.com": {
+      "email": "simrel-bot@eclipse.org",
+      "username": "eclipse-simrel-bot"
+    },
+    "id": 396,
+    "projectId": "technology.simrel",
+    "username": "genie.simrel"
+  },
+  {
+    "email": "xfsc-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "xfsc-bot"
+    },
+    "id": 397,
+    "projectId": "technology.xfsc",
+    "username": "genie.xfsc"
   }
 ]
