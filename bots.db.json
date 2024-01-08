@@ -3190,6 +3190,10 @@
   },
   {
     "email": "aspectj-inbox@eclipse.org",
+    "github.com": {
+      "email": "aspectj-bot@eclipse.org",
+      "username": "eclipse-aspectj-bot"
+    },
     "github.com-dependabot": {
       "email": "49699333+dependabot[bot]@users.noreply.github.com",
       "username": "dependabot[bot]"
@@ -3906,25 +3910,8 @@
       "email": "simrel-bot@eclipse.org",
       "username": "eclipse-simrel-bot"
     },
-    "id": 398,
-    "projectId": "foundation-internal.simrel",
+    "id": 401,
+    "projectId": "technology.simrel",
     "username": "genie.simrel"
-  },
-  {
-    "email": "symphony-bot@eclipse.org",
-    "github.com": {
-      "email": "symphony-bot@eclipse.org",
-      "username": "eclipse-symphony-bot"
-    },
-    "id": 399,
-    "projectId": "iot.symphony",
-    "username": "genie.symphony"
-  },
-  {
-    "email": "edapt-bot@eclipse.org",
-    "github.com": {},
-    "id": 400,
-    "projectId": "modeling..edapt",
-    "username": "genie.edapt"
   }
 ]
