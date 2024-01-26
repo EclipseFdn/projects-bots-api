@@ -2032,6 +2032,10 @@
   },
   {
     "email": "tracecompass-bot@eclipse.org",
+    "github.com": {
+      "email": "tracecompass-bot@eclipse.org",
+      "username": "eclipse-tracecompass-bot"
+    },
     "id": 193,
     "projectId": "tools.tracecompass",
     "username": "genie.tracecompass"
@@ -3913,5 +3917,56 @@
     "id": 401,
     "projectId": "technology.simrel",
     "username": "genie.simrel"
+  },
+  {
+    "email": "symphony-bot@eclipse.org",
+    "github.com": {
+      "email": "symphony-bot@eclipse.org",
+      "username": "eclipse-symphony-bot"
+    },
+    "id": 402,
+    "projectId": "iot.symphony",
+    "username": "genie.symphony"
+  },
+  {
+    "email": "edapt-bot@eclipse.org",
+    "github.com": {},
+    "id": 403,
+    "projectId": "modeling..edapt",
+    "username": "genie.edapt"
+  },
+  {
+    "email": "corinthian-bot@eclipse.org",
+    "github.com": {
+      "email": "corinthian-bot@eclipse.org",
+      "username": "eclipse-corinthian-bot"
+    },
+    "id": 404,
+    "projectId": "technology.corinthian",
+    "username": "genie.corinthian"
+  },
+  {
+    "email": "csi-bot@eclipse.org",
+    "github.com": {
+      "email": "csi-bot@eclipse.org",
+      "username": "eclipse-csi-bot"
+    },
+    "id": 405,
+    "projectId": "technology.csi",
+    "username": "genie.csi"
+  },
+  {
+    "email": "daanse-bot@eclipse.org",
+    "github.com": {
+      "email": "daanse-bot@eclipse.org",
+      "username": "eclipse-daanse-bot"
+    },
+    "id": 406,
+    "oss.sonatype.org": {
+      "email": "daanse-bot@eclipse.org",
+      "username": "eclipse-daanse-bot"
+    },
+    "projectId": "technology.daanse",
+    "username": "genie.daanse"
   }
 ]
