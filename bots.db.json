@@ -3929,13 +3929,6 @@
     "username": "genie.symphony"
   },
   {
-    "email": "edapt-bot@eclipse.org",
-    "github.com": {},
-    "id": 403,
-    "projectId": "modeling..edapt",
-    "username": "genie.edapt"
-  },
-  {
     "email": "corinthian-bot@eclipse.org",
     "github.com": {
       "email": "corinthian-bot@eclipse.org",
@@ -3960,6 +3953,9 @@
     "github.com": {
       "email": "daanse-bot@eclipse.org",
       "username": "eclipse-daanse-bot"
+    },
+    "gitlab.eclipse.org": {
+      "username": "daanse-bot"
     },
     "id": 406,
     "oss.sonatype.org": {
