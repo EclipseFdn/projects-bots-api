@@ -2472,6 +2472,10 @@
   },
   {
     "email": "4diac-inbox@eclipse.org",
+    "github.com": {
+      "email": "4diac-bot@eclipse.org",
+      "username": "eclipse-4diac-bot"
+    },
     "id": 247,
     "projectId": "iot.4diac",
     "username": "genie.4diac"
@@ -3015,6 +3019,10 @@
     "username": "genie.dataeggs"
   },
   {
+    "github.com": {
+      "email": "incubator-bot@eclipse.org",
+      "username": "eclipse-tracecompass-incubator-bot"
+    },
     "id": 314,
     "projectId": "tools.tracecompass.incubator",
     "username": "genie.incubator"
@@ -3964,5 +3972,72 @@
     },
     "projectId": "technology.daanse",
     "username": "genie.daanse"
+  },
+  {
+    "email": "slm-bot@eclipse.org",
+    "github.com": {
+      "email": "slm-bot@eclipse.org",
+      "username": "eclipse-slm-bot"
+    },
+    "id": 407,
+    "projectId": "dt.slm",
+    "username": "genie.slm"
+  },
+  {
+    "email": "cyclonedds-inbox@eclipse.org",
+    "github.com": {
+      "email": "cyclonedds-bot@eclipse.org",
+      "username": "eclipse-cyclonedds-bot"
+    },
+    "id": 408,
+    "projectId": "iot.cyclonedds",
+    "username": "genie.cyclonedds"
+  },
+  {
+    "email": "threadx-bot@eclipse.org",
+    "github.com": {
+      "email": "threadx-bot@eclipse.org",
+      "username": "eclipse-threadx-bot"
+    },
+    "id": 409,
+    "projectId": "iot.threadx",
+    "username": "genie.threadx"
+  },
+  {
+    "email": "edapt-bot@eclipse.org",
+    "github.com": {},
+    "id": 410,
+    "projectId": "modeling..edapt",
+    "username": "genie.edapt"
+  },
+  {
+    "email": "apoapsis-bot@eclipse.org",
+    "github.com": {
+      "email": "apoapsis-bot@eclipse.org",
+      "username": "eclipse-apoapsis-bot"
+    },
+    "id": 411,
+    "projectId": "technology.apoapsis",
+    "username": "genie.apoapsis"
+  },
+  {
+    "email": "wattadvisor-bot@eclipse.org",
+    "github.com": {
+      "email": "wattadvisor-bot@eclipse.org",
+      "username": "eclipse-wattadvisor-bot"
+    },
+    "id": 412,
+    "projectId": "technology.wattadvisor",
+    "username": "genie.wattadvisor"
+  },
+  {
+    "email": "dali-inbox@eclipse.org",
+    "github.com": {
+      "email": "dali-bot@eclipse.org",
+      "username": "eclipse-dali-bot"
+    },
+    "id": 413,
+    "projectId": "webtools.dali",
+    "username": "genie.dali"
   }
 ]
