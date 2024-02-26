@@ -1439,6 +1439,9 @@
       "email": "texlipse-bot@eclipse.org",
       "username": "eclipse-texlipse-bot"
     },
+    "gitlab.eclipse.org": {
+      "username": "texlipse-bot"
+    },
     "id": 128,
     "projectId": "science.texlipse",
     "username": "genie.texlipse"
@@ -2037,6 +2040,10 @@
       "username": "eclipse-tracecompass-bot"
     },
     "id": 193,
+    "oss.sonatype.org": {
+      "email": "tracecompass-bot@eclipse.org",
+      "username": "eclipse-tracecompass-bot"
+    },
     "projectId": "tools.tracecompass",
     "username": "genie.tracecompass"
   },
@@ -4002,13 +4009,6 @@
     "id": 409,
     "projectId": "iot.threadx",
     "username": "genie.threadx"
-  },
-  {
-    "email": "edapt-bot@eclipse.org",
-    "github.com": {},
-    "id": 410,
-    "projectId": "modeling..edapt",
-    "username": "genie.edapt"
   },
   {
     "email": "apoapsis-bot@eclipse.org",
