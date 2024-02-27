@@ -2725,6 +2725,9 @@
   },
   {
     "email": "mdmbl-inbox@eclipse.org",
+    "gitlab.eclipse.org": {
+      "username": "mdmbl-bot"
+    },
     "id": 278,
     "projectId": "automotive.mdmbl",
     "username": "genie.mdmbl"
