@@ -455,7 +455,6 @@
     "username": "genie.jaxb-impl"
   },
   {
-    "email": "jaxws-bot@eclipse.org",
     "github.com": {
       "email": "jaxws-bot@eclipse.org",
       "username": "jaxws-bot"
@@ -3361,6 +3360,9 @@
     "github.com-workflow-bot": {
       "email": "41898282+github-actions[bot]@users.noreply.github.com",
       "username": "github-actions[bot]"
+    },
+    "gitlab.eclipse.org": {
+      "username": "tractusx-bot"
     },
     "id": 346,
     "oss.sonatype.org": {
