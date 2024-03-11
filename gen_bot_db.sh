@@ -65,11 +65,11 @@ query_email_by_user_id() {
     if curl -sLf --request GET \
       --retry 8 \
       --output "${user_profile}" \
-      --url "https://api.eclipse.org/account/profile/${user_id}.json" \
+      --url "https://api.eclipse.org/account/profile/${user_id}" \
       --header "Authorization: Bearer ${ACCESS_TOKEN}" >&2 ; then
       jq -r '.mail' <"${user_profile}"
     else
-      >&2 echo "DEBUG: unable to retrieve user profile from 'https://api.eclipse.org/account/profile/${user_id}.json'"
+      >&2 echo "DEBUG: unable to retrieve user profile from 'https://api.eclipse.org/account/profile/${user_id}'"
     fi
     rm -f "${user_profile}"
 }
