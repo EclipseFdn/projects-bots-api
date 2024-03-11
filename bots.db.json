@@ -455,6 +455,7 @@
     "username": "genie.jaxb-impl"
   },
   {
+    "email": "jaxws-bot@eclipse.org",
     "github.com": {
       "email": "jaxws-bot@eclipse.org",
       "username": "jaxws-bot"
@@ -1918,7 +1919,6 @@
     "username": "genie.uomo"
   },
   {
-    "email": "xwt-bot@eclipse.org",
     "id": 182,
     "projectId": "technology.xwt",
     "username": "genie.xwt"
@@ -2693,6 +2693,9 @@
     "github.com": {
       "email": "kuksa-bot@eclipse.org",
       "username": "eclipse-kuksa-bot"
+    },
+    "gitlab.eclipse.org": {
+      "username": "kuksa-bot"
     },
     "id": 277,
     "oss.sonatype.org": {
