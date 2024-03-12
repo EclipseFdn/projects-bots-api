@@ -2562,6 +2562,10 @@
   },
   {
     "email": "papyrus-bot@eclipse.org",
+    "github.com": {
+      "email": "papyrus-bot@eclipse.org",
+      "username": "eclipse-papyrus-bot"
+    },
     "gitlab.eclipse.org": {
       "username": "papyrus-bot"
     },
