@@ -1449,16 +1449,6 @@
     "username": "genie.bpel"
   },
   {
-    "email": "winery-bot@eclipse.org",
-    "github.com": {
-      "email": "winery-bot@eclipse.org",
-      "username": "eclipse-winery-bot"
-    },
-    "id": 130,
-    "projectId": "soa.winery",
-    "username": "genie.winery"
-  },
-  {
     "email": "actf-bot@eclipse.org",
     "id": 131,
     "projectId": "technology.actf",
@@ -4050,5 +4040,15 @@
     "id": 415,
     "projectId": "technology.bpm2-modeler",
     "username": "genie.bpm2-modeler"
+  },
+  {
+    "email": "winery-bot@eclipse.org",
+    "github.com": {
+      "email": "winery-bot@eclipse.org",
+      "username": "eclipse-winery-bot"
+    },
+    "id": 416,
+    "projectId": "automotive.winery",
+    "username": "genie.winery"
   }
 ]
