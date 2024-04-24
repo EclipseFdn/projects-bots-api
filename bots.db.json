@@ -137,6 +137,7 @@
       "username": "eclipse-ls-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "ls-bot@eclipse.org",
       "username": "ls-bot"
     },
     "id": 12,
@@ -162,6 +163,7 @@
       "username": "eclipse-releng-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "pde-bot@eclipse.org",
       "username": "pde-bot"
     },
     "id": 13,
@@ -763,6 +765,7 @@
       "username": "eclipse-infra-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "infra-bot@eclipse.org",
       "username": "infra-bot"
     },
     "id": 60,
@@ -874,6 +877,7 @@
       "username": "eclipse-kapua-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "kapua-bot@eclipse.org",
       "username": "kapua-bot"
     },
     "id": 69,
@@ -1418,6 +1422,7 @@
   {
     "email": "statet-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "statet-bot@eclipse.org",
       "username": "statet-bot"
     },
     "id": 126,
@@ -1437,6 +1442,7 @@
       "username": "eclipse-texlipse-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "texlipse-bot@eclipse.org",
       "username": "texlipse-bot"
     },
     "id": 128,
@@ -1475,6 +1481,7 @@
       "username": "dependabot[bot]"
     },
     "gitlab.eclipse.org": {
+      "email": "cbi-bot@eclipse.org",
       "username": "cbi-bot"
     },
     "id": 135,
@@ -1536,6 +1543,7 @@
   {
     "email": "ease-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "ease-bot@eclipse.org",
       "username": "ease-bot"
     },
     "id": 140,
@@ -1667,6 +1675,7 @@
       "username": "dependabot[bot]"
     },
     "gitlab.eclipse.org": {
+      "email": "m2e-bot@eclipse.org",
       "username": "m2e-bot"
     },
     "id": 154,
@@ -1739,6 +1748,10 @@
   },
   {
     "email": "osee-bot@eclipse.org",
+    "github.com": {
+      "email": "osee-bot@eclipse.org",
+      "username": "eclipse-osee-bot"
+    },
     "id": 162,
     "projectId": "technology.osee",
     "username": "genie.osee"
@@ -1864,6 +1877,10 @@
   },
   {
     "email": "swtbot-bot@eclipse.org",
+    "github.com": {
+      "email": "swtbot-bot@eclipse.org",
+      "username": "eclipse-swtbot-bot"
+    },
     "id": 177,
     "projectId": "technology.swtbot",
     "username": "genie.swtbot"
@@ -1975,6 +1992,7 @@
       "username": "dependabot[bot]"
     },
     "gitlab.eclipse.org": {
+      "email": "linuxtools-bot@eclipse.org",
       "username": "linuxtools-bot"
     },
     "id": 188,
@@ -1988,6 +2006,7 @@
       "username": "eclipse-orbit-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "orbit-bot@eclipse.org",
       "username": "orbit-bot"
     },
     "id": 189,
@@ -2040,6 +2059,7 @@
       "username": "dependabot[bot]"
     },
     "gitlab.eclipse.org": {
+      "email": "wildwebdeveloper-bot@eclipse.org",
       "username": "wildwebdeveloper-bot"
     },
     "id": 194,
@@ -2147,6 +2167,7 @@
   {
     "email": "opencert-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "opencert-bot@eclipse.org",
       "username": "opencert-bot"
     },
     "id": 209,
@@ -2344,6 +2365,7 @@
       "username": "dependabot[bot]"
     },
     "gitlab.eclipse.org": {
+      "email": "lemminx-bot@eclipse.org",
       "username": "lemminx-bot"
     },
     "id": 233,
@@ -2422,6 +2444,7 @@
       "username": "dependabot[bot]"
     },
     "gitlab.eclipse.org": {
+      "email": "tycho-bot@eclipse.org",
       "username": "tycho-bot"
     },
     "id": 243,
@@ -2528,6 +2551,7 @@
       "username": "eclipse-windowbuilder-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "windowbuilder-bot@eclipse.org",
       "username": "windowbuilder-bot"
     },
     "id": 254,
@@ -2557,6 +2581,7 @@
       "username": "eclipse-papyrus-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "papyrus-bot@eclipse.org",
       "username": "papyrus-bot"
     },
     "id": 258,
@@ -2570,6 +2595,7 @@
       "username": "eclipse-ice-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "ice-bot@eclipse.org",
       "username": "ice-bot"
     },
     "id": 259,
@@ -2673,6 +2699,7 @@
   {
     "email": "app4mc-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "app4mc-bot@eclipse.org",
       "username": "app4mc-bot"
     },
     "id": 276,
@@ -2690,6 +2717,7 @@
       "username": "eclipse-kuksa-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "kuksa-bot@eclipse.org",
       "username": "kuksa-bot"
     },
     "id": 277,
@@ -2703,6 +2731,7 @@
   {
     "email": "mdmbl-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "mdmbl-bot@eclipse.org",
       "username": "mdmbl-bot"
     },
     "id": 278,
@@ -2838,6 +2867,7 @@
       "username": "eclipse-objectteams-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "objectteams-bot@eclipse.org",
       "username": "objectteams-bot"
     },
     "id": 295,
@@ -2961,6 +2991,7 @@
   {
     "email": "automotive-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "automotive-bot@eclipse.org",
       "username": "automotive-bot"
     },
     "id": 307,
@@ -2975,6 +3006,10 @@
   },
   {
     "email": "hipp@eclipse.org",
+    "github.com": {
+      "email": "wakaama-bot@eclipse.org",
+      "username": "eclipse-wakaama-bot"
+    },
     "id": 309,
     "projectId": "iot.wakaama",
     "username": "genie.wakaama"
@@ -3042,6 +3077,7 @@
   },
   {
     "gitlab.eclipse.org": {
+      "email": "emo-bot@eclipse.org",
       "username": "emo-bot"
     },
     "id": 318,
@@ -3079,6 +3115,7 @@
   {
     "email": "graphiti-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "graphiti-bot@eclipse.org",
       "username": "graphiti-bot"
     },
     "id": 321,
@@ -3184,6 +3221,7 @@
   {
     "email": "subversive-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "subversive-bot@eclipse.org",
       "username": "subversive-bot"
     },
     "id": 332,
@@ -3207,6 +3245,7 @@
   {
     "email": "asciidoc-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "asciidoc-bot@eclipse.org",
       "username": "asciidoc-bot"
     },
     "id": 335,
@@ -3216,6 +3255,7 @@
   {
     "email": "lsat-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "lsat-bot@eclipse.org",
       "username": "lsat-bot"
     },
     "id": 336,
@@ -3225,6 +3265,7 @@
   {
     "email": "trace4cps-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "trace4cps-bot@eclipse.org",
       "username": "trace4cps-bot"
     },
     "id": 337,
@@ -3312,6 +3353,7 @@
       "username": "eclipse-set-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "set-bot@eclipse.org",
       "username": "set-bot"
     },
     "id": 343,
@@ -3339,6 +3381,7 @@
       "username": "eclipse-oniro-core-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "oniro-core-bot@eclipse.org",
       "username": "oniro-core-bot"
     },
     "id": 345,
@@ -3360,6 +3403,7 @@
       "username": "github-actions[bot]"
     },
     "gitlab.eclipse.org": {
+      "email": "tractusx-bot@eclipse.org",
       "username": "tractusx-bot"
     },
     "id": 346,
@@ -3417,6 +3461,7 @@
       "username": "eclipse-oomph-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "oomph-bot@eclipse.org",
       "username": "oomph-bot"
     },
     "id": 351,
@@ -3444,6 +3489,7 @@
       "username": "eclipse-oniro-compliancetoolchain-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "oniro-compliancetoolchain-bot@eclipse.org",
       "username": "oniro-compliancetoolchain-bot"
     },
     "id": 353,
@@ -3471,6 +3517,7 @@
       "username": "eclipse-mylyn-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "mylyn-bot@eclipse.org",
       "username": "mylyn-bot"
     },
     "id": 355,
@@ -3550,6 +3597,7 @@
   {
     "email": "scm-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "scm-bot@eclipse.org",
       "username": "scm-bot"
     },
     "id": 361,
@@ -3605,6 +3653,7 @@
       "username": "eclipse-velocitas-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "velocitas-bot@eclipse.org",
       "username": "velocitas-bot"
     },
     "id": 365,
@@ -3754,6 +3803,7 @@
   {
     "email": "tcf-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "tcf-bot@eclipse.org",
       "username": "tcf-bot"
     },
     "id": 379,
@@ -3899,6 +3949,7 @@
   {
     "email": "xfsc-bot@eclipse.org",
     "gitlab.eclipse.org": {
+      "email": "xfsc-bot@eclipse.org",
       "username": "xfsc-bot"
     },
     "id": 397,
@@ -3956,6 +4007,7 @@
       "username": "eclipse-daanse-bot"
     },
     "gitlab.eclipse.org": {
+      "email": "daanse-bot@eclipse.org",
       "username": "daanse-bot"
     },
     "id": 406,
@@ -4050,5 +4102,21 @@
     "id": 416,
     "projectId": "automotive.winery",
     "username": "genie.winery"
+  },
+  {
+    "email": "asciidoc-lang-bot@eclipse.org",
+    "id": 417,
+    "projectId": "asciidoc.asciidoc-lang",
+    "username": "genie.asciidoc-lang"
+  },
+  {
+    "email": "zenoh-flow-bot@eclipse.org",
+    "github.com": {
+      "email": "zenoh-flow-bot@eclipse.org",
+      "username": "eclipse-zenoh-flow-bot"
+    },
+    "id": 418,
+    "projectId": "iot.zenoh.zenoh-flow",
+    "username": "genie.zenoh-flow"
   }
 ]
