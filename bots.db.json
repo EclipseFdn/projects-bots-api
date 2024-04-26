@@ -4109,6 +4109,10 @@
   },
   {
     "email": "asciidoc-lang-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "asciidoc-lang-bot@eclipse.org",
+      "username": "asciidoc-lang-bot"
+    },
     "id": 417,
     "projectId": "asciidoc.asciidoc-lang",
     "username": "genie.asciidoc-lang"
