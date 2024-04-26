@@ -1172,6 +1172,10 @@
   },
   {
     "email": "gendoc-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "gendoc-bot@eclipse.org",
+      "username": "gendoc-bot"
+    },
     "id": 99,
     "projectId": "modeling.gendoc",
     "username": "genie.gendoc"
