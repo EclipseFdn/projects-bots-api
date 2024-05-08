@@ -2622,6 +2622,10 @@
   },
   {
     "email": "mat-bot@eclipse.org",
+    "github.com": {
+      "email": "mat-bot@eclipse.org",
+      "username": "eclipse-mat-bot"
+    },
     "id": 261,
     "projectId": "tools.mat",
     "username": "genie.mat"
@@ -4126,5 +4130,42 @@
     "id": 418,
     "projectId": "iot.zenoh.zenoh-flow",
     "username": "genie.zenoh-flow"
+  },
+  {
+    "gitlab.eclipse.org": {
+      "email": "datamite-bot@eclipse.org",
+      "username": "datamite-bot"
+    },
+    "id": 419,
+    "projectId": "research.datamite",
+    "username": "genie.datamite"
+  },
+  {
+    "gitlab.eclipse.org": {
+      "email": "nemo-bot@eclipse.org",
+      "username": "nemo-bot"
+    },
+    "id": 420,
+    "projectId": "research.nemo",
+    "username": "genie.nemo"
+  },
+  {
+    "gitlab.eclipse.org": {
+      "email": "nephele-bot@eclipse.org",
+      "username": "nephele-bot"
+    },
+    "id": 421,
+    "projectId": "research.nephele",
+    "username": "genie.nephele"
+  },
+  {
+    "docker.com": {
+      "email": "aidge-bot@eclipse.org",
+      "username": "eclipseaidge"
+    },
+    "email": "aidge-bot@eclipse.org",
+    "id": 422,
+    "projectId": "technology.aidge",
+    "username": "genie.aidge"
   }
 ]
