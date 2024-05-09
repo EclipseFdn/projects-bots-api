@@ -3008,6 +3008,10 @@
   },
   {
     "email": "sphinx-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "sphinx-bot@eclipse.org",
+      "username": "sphinx-bot"
+    },
     "id": 308,
     "projectId": "automotive.sphinx",
     "username": "genie.sphinx"
