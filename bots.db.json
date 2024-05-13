@@ -1227,6 +1227,10 @@
   },
   {
     "email": "atl-bot@eclipse.org",
+    "github.com": {
+      "email": "atl-bot@eclipse.org",
+      "username": "eclipse-atl-bot"
+    },
     "id": 106,
     "projectId": "modeling.mmt.atl",
     "username": "genie.atl"
