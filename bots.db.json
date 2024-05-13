@@ -4172,6 +4172,10 @@
       "username": "eclipseaidge"
     },
     "email": "aidge-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "aidge-bot@eclipse.org",
+      "username": "aidge-bot"
+    },
     "id": 422,
     "projectId": "technology.aidge",
     "username": "genie.aidge"
