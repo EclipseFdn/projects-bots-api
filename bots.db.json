@@ -4179,5 +4179,23 @@
     "id": 422,
     "projectId": "technology.aidge",
     "username": "genie.aidge"
+  },
+  {
+    "docker.com": {
+      "email": "dataspacetck-bot@eclipse.org",
+      "username": "eclipsedataspacetck"
+    },
+    "email": "dataspacetck-bot@eclipse.org",
+    "github.com": {
+      "email": "dataspacetck-bot@eclipse.org",
+      "username": "eclipse-dataspacetck-bot"
+    },
+    "id": 423,
+    "oss.sonatype.org": {
+      "email": "dataspacetck-bot@eclipse.org",
+      "username": "eclipse-dataspacetck-bot"
+    },
+    "projectId": "technology.dataspacetck",
+    "username": "genie.dataspacetck"
   }
 ]
