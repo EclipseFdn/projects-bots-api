@@ -313,7 +313,6 @@
     "username": "genie.el"
   },
   {
-    "email": "faces-bot@eclipse.org",
     "github.com": {
       "email": "faces-bot@eclipse.org",
       "username": "eclipse-faces-bot"
@@ -327,7 +326,6 @@
     "username": "genie.faces"
   },
   {
-    "email": "glassfish-bot@eclipse.org",
     "github.com": {
       "email": "glassfish-bot@eclipse.org",
       "username": "glassfish-bot"
@@ -1935,6 +1933,10 @@
   },
   {
     "email": "xwt-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "xwt-bot@eclipse.org",
+      "username": "xwt-bot"
+    },
     "id": 182,
     "projectId": "technology.xwt",
     "username": "genie.xwt"
