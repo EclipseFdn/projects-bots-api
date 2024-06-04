@@ -1440,6 +1440,10 @@
   {
     "email": "swtchart-bot@eclipse.org",
     "id": 127,
+    "oss.sonatype.org": {
+      "email": "swtchart-bot@eclipse.org",
+      "username": "eclipse-swtchart-bot"
+    },
     "projectId": "science.swtchart",
     "username": "genie.swtchart"
   },
@@ -1795,10 +1799,6 @@
       "username": "eclipse-passage-bot"
     },
     "id": 165,
-    "oss.sonatype.org": {
-      "email": "passage-bot@eclipse.org",
-      "username": "eclipse-passage-bot"
-    },
     "projectId": "technology.passage",
     "username": "genie.passage"
   },
@@ -3527,10 +3527,6 @@
       "username": "eclipse-sparkplug-bot"
     },
     "id": 354,
-    "oss.sonatype.org": {
-      "email": "sparkplug-bot@eclipse.org",
-      "username": "eclipse-sparkplug-bot"
-    },
     "projectId": "iot.sparkplug",
     "username": "genie.sparkplug"
   },
@@ -4215,5 +4211,15 @@
     "id": 424,
     "projectId": "technology.dataspace-protocol-base",
     "username": "genie.dataspace-protocol-base"
+  },
+  {
+    "email": "dataspace-dcp-bot@eclipse.org",
+    "github.com": {
+      "email": "dataspace-dcp-bot@eclipse.org",
+      "username": "eclipse-dataspace-dcp-bot"
+    },
+    "id": 425,
+    "projectId": "technology.dataspace-dcp",
+    "username": "genie.dataspace-dcp"
   }
 ]
