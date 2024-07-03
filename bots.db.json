@@ -3597,6 +3597,10 @@
       "username": "eclipse-opensmartclide-bot"
     },
     "id": 359,
+    "oss.sonatype.org": {
+      "email": "opensmartclide-bot@eclipse.org",
+      "username": "eclipse-opensmartclide-bot"
+    },
     "projectId": "ecd.opensmartclide",
     "username": "genie.opensmartclide"
   },
@@ -4221,5 +4225,25 @@
     "id": 425,
     "projectId": "technology.dataspace-dcp",
     "username": "genie.dataspace-dcp"
+  },
+  {
+    "email": "autowrx-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "autowrx-bot@eclipse.org",
+      "username": "autowrx-bot"
+    },
+    "id": 426,
+    "projectId": "automotive.autowrx",
+    "username": "genie.autowrx"
+  },
+  {
+    "email": "dataspace-cap-bot@eclipse.org",
+    "github.com": {
+      "email": "dataspace-cap-bot@eclipse.org",
+      "username": "eclipse-dataspace-cap-bot"
+    },
+    "id": 427,
+    "projectId": "technology.dataspace-cap",
+    "username": "genie.dataspace-cap"
   }
 ]
