@@ -1062,6 +1062,10 @@
   },
   {
     "email": "capra-bot@eclipse.org",
+    "github.com": {
+      "email": "capra-bot@eclipse.org",
+      "username": "eclipse-capra-bot"
+    },
     "id": 87,
     "projectId": "modeling.capra",
     "username": "genie.capra"
@@ -3961,6 +3965,10 @@
     "username": "genie.aaspe"
   },
   {
+    "docker.com": {
+      "email": "syson-bot@eclipse.org",
+      "username": "eclipsesyson"
+    },
     "email": "syson-bot@eclipse.org",
     "github.com": {
       "email": "syson-bot@eclipse.org",
