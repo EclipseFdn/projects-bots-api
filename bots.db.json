@@ -1977,6 +1977,10 @@
       "email": "49699333+dependabot[bot]@users.noreply.github.com",
       "username": "dependabot[bot]"
     },
+    "gitlab.eclipse.org": {
+      "email": "cdt-bot@eclipse.org",
+      "username": "cdt-bot"
+    },
     "id": 185,
     "projectId": "tools.cdt",
     "username": "genie.cdt"
@@ -4253,5 +4257,15 @@
     "id": 427,
     "projectId": "technology.dataspace-cap",
     "username": "genie.dataspace-cap"
+  },
+  {
+    "email": "fa3st-bot@eclipse.org",
+    "github.com": {
+      "email": "fa3st-bot@eclipse.org",
+      "username": "eclipse-fa3st-bot"
+    },
+    "id": 428,
+    "projectId": "dt.fa3st",
+    "username": "genie.fa3st"
   }
 ]
