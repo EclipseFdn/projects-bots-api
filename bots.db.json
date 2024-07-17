@@ -1072,6 +1072,10 @@
   },
   {
     "email": "eef-bot@eclipse.org",
+    "github.com": {
+      "email": "eef-bot@eclipse.org",
+      "username": "eclipse-eef-bot"
+    },
     "id": 88,
     "projectId": "modeling.eef",
     "username": "genie.eef"
@@ -1225,6 +1229,10 @@
   },
   {
     "email": "rmf-bot@eclipse.org",
+    "github.com": {
+      "email": "rmf-bot@eclipse.org",
+      "username": "eclipse-rmf-bot"
+    },
     "id": 105,
     "projectId": "modeling.mdt.rmf",
     "username": "genie.rmf"
@@ -1586,6 +1594,10 @@
   },
   {
     "email": "egerrit-inbox@eclipse.org",
+    "github.com": {
+      "email": "egerrit-bot@eclipse.org",
+      "username": "eclipse-egerrit-bot"
+    },
     "id": 142,
     "projectId": "technology.egerrit",
     "username": "genie.egerrit"
@@ -2172,6 +2184,10 @@
   },
   {
     "email": "ecoretools-bot@eclipse.org",
+    "github.com": {
+      "email": "ecoretools-bot@eclipse.org",
+      "username": "eclipse-ecoretools-bot"
+    },
     "id": 206,
     "projectId": "modeling.ecoretools",
     "username": "genie.ecoretools"
@@ -4309,5 +4325,11 @@
     "id": 431,
     "projectId": "iot.iofog",
     "username": "genie.iofog"
+  },
+  {
+    "github.com": {},
+    "id": 432,
+    "projectId": "modeling.eff",
+    "username": "genie.eff"
   }
 ]
