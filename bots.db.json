@@ -1552,6 +1552,10 @@
   },
   {
     "email": "dltk-bot@eclipse.org",
+    "github.com": {
+      "email": "dltk-bot@eclipse.org",
+      "username": "eclipse-dltk-bot"
+    },
     "id": 139,
     "projectId": "technology.dltk",
     "username": "genie.dltk"
@@ -1572,6 +1576,10 @@
   },
   {
     "email": "efxclipse-bot@eclipse.org",
+    "github.com": {
+      "email": "efxclipse-bot@eclipse.org",
+      "username": "eclipse-efxclipse-bot"
+    },
     "id": 141,
     "projectId": "technology.efxclipse",
     "username": "genie.efxclipse"
@@ -1847,6 +1855,10 @@
   },
   {
     "email": "scava-bot@eclipse.org",
+    "github.com": {
+      "email": "scava-bot@eclipse.org",
+      "username": "eclipse-scava-bot"
+    },
     "id": 170,
     "projectId": "technology.scava",
     "username": "genie.scava"
@@ -4267,5 +4279,35 @@
     "id": 428,
     "projectId": "dt.fa3st",
     "username": "genie.fa3st"
+  },
+  {
+    "email": "agail-inbox@eclipse.org",
+    "github.com": {
+      "email": "agail-bot@eclipse.org",
+      "username": "eclipse-agail-bot"
+    },
+    "id": 429,
+    "projectId": "iot.agail",
+    "username": "genie.agail"
+  },
+  {
+    "email": "arrowhead-bot@eclipse.org",
+    "github.com": {
+      "email": "arrowhead-bot@eclipse.org",
+      "username": "eclipse-arrowhead-bot"
+    },
+    "id": 430,
+    "projectId": "iot.arrowhead",
+    "username": "genie.arrowhead"
+  },
+  {
+    "email": "iofog-inbox@eclipse.org",
+    "github.com": {
+      "email": "iofog-bot@eclipse.org",
+      "username": "eclipse-iofog-bot"
+    },
+    "id": 431,
+    "projectId": "iot.iofog",
+    "username": "genie.iofog"
   }
 ]
