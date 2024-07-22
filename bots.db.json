@@ -4331,5 +4331,14 @@
     "id": 432,
     "projectId": "modeling.eff",
     "username": "genie.eff"
+  },
+  {
+    "gitlab.eclipse.org": {
+      "email": "spade-bot@eclipse.org",
+      "username": "spade-bot"
+    },
+    "id": 433,
+    "projectId": "research.spade",
+    "username": "genie.spade"
   }
 ]
