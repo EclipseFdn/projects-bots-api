@@ -1896,12 +1896,6 @@
     "username": "genie.sensinact"
   },
   {
-    "email": "stem-bot@eclipse.org",
-    "id": 174,
-    "projectId": "technology.stem",
-    "username": "genie.stem"
-  },
-  {
     "email": "sw360-bot@eclipse.org",
     "github.com": {
       "email": "sw360-bot@eclipse.org",
@@ -4340,5 +4334,20 @@
     "id": 433,
     "projectId": "research.spade",
     "username": "genie.spade"
+  },
+  {
+    "github.com": {
+      "email": "eclipseide-bot@eclipse.org",
+      "username": "eclipse-eclipseide-bot"
+    },
+    "id": 434,
+    "projectId": "foundation-internal.eclipseide",
+    "username": "genie.eclipseide"
+  },
+  {
+    "email": "jakartaee-spec-committee-bot@eclipse.org",
+    "id": 435,
+    "projectId": "foundation-internal.jakartaee-spec-committee",
+    "username": "genie.jakartaee-spec-committee"
   }
 ]
