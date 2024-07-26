@@ -4349,5 +4349,15 @@
     "id": 435,
     "projectId": "foundation-internal.jakartaee-spec-committee",
     "username": "genie.jakartaee-spec-committee"
+  },
+  {
+    "email": "swtimagej-bot@eclipse.org",
+    "github.com": {
+      "email": "swtimagej-bot@eclipse.org",
+      "username": "eclipse-swtimagej-bot"
+    },
+    "id": 436,
+    "projectId": "technology.swtimagej",
+    "username": "genie.swtimagej"
   }
 ]
