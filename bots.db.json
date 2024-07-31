@@ -4492,5 +4492,15 @@
     "id": 448,
     "projectId": "webtools.common",
     "username": "genie.common"
+  },
+  {
+    "email": "openbsw-bot@eclipse.org",
+    "github.com": {
+      "email": "openbsw-bot@eclipse.org",
+      "username": "eclipse-openbsw-bot"
+    },
+    "id": 449,
+    "projectId": "automotive.openbsw",
+    "username": "genie.openbsw"
   }
 ]
