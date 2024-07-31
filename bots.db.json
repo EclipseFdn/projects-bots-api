@@ -1154,6 +1154,10 @@
   },
   {
     "email": "henshin-inbox@eclipse.org",
+    "github.com": {
+      "email": "henshin-bot@eclipse.org",
+      "username": "eclipse-henshin-bot"
+    },
     "id": 96,
     "projectId": "modeling.emft.henshin",
     "username": "genie.henshin"
@@ -2858,6 +2862,10 @@
   },
   {
     "email": "efm-bot@eclipse.org",
+    "github.com": {
+      "email": "efm-bot@eclipse.org",
+      "username": "eclipse-efm-bot"
+    },
     "id": 286,
     "projectId": "modeling.efm",
     "username": "genie.efm"
@@ -4475,5 +4483,14 @@
     "id": 447,
     "projectId": "webtools.sourceediting",
     "username": "genie.sourceediting"
+  },
+  {
+    "github.com": {
+      "email": "common-bot@eclipse.org",
+      "username": "eclipse-common-bot"
+    },
+    "id": 448,
+    "projectId": "webtools.common",
+    "username": "genie.common"
   }
 ]
