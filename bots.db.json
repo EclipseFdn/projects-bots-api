@@ -4359,5 +4359,15 @@
     "id": 436,
     "projectId": "technology.swtimagej",
     "username": "genie.swtimagej"
+  },
+  {
+    "email": "pullpiri-bot@eclipse.org",
+    "github.com": {
+      "email": "pullpiri-bot@eclipse.org",
+      "username": "eclipse-pullpiri-bot"
+    },
+    "id": 437,
+    "projectId": "automotive.pullpiri",
+    "username": "genie.pullpiri"
   }
 ]
