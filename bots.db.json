@@ -1480,6 +1480,10 @@
   },
   {
     "email": "actf-bot@eclipse.org",
+    "github.com": {
+      "email": "actf-bot@eclipse.org",
+      "username": "eclipse-actf-bot"
+    },
     "id": 131,
     "projectId": "technology.actf",
     "username": "genie.actf"
@@ -2228,6 +2232,10 @@
   },
   {
     "email": "mpc-bot@eclipse.org",
+    "github.com": {
+      "email": "mpc-bot@eclipse.org",
+      "username": "eclipse-mpc-bot"
+    },
     "id": 212,
     "projectId": "technology.packaging.mpc",
     "username": "genie.mpc"
@@ -2360,6 +2368,10 @@
   },
   {
     "email": "ocl-bot@eclipse.org",
+    "github.com": {
+      "email": "ocl-bot@eclipse.org",
+      "username": "eclipse-ocl-bot"
+    },
     "id": 226,
     "projectId": "modeling.mdt.ocl",
     "username": "genie.ocl"
@@ -4321,12 +4333,6 @@
     "username": "genie.iofog"
   },
   {
-    "github.com": {},
-    "id": 432,
-    "projectId": "modeling.eff",
-    "username": "genie.eff"
-  },
-  {
     "gitlab.eclipse.org": {
       "email": "spade-bot@eclipse.org",
       "username": "spade-bot"
@@ -4369,5 +4375,105 @@
     "id": 437,
     "projectId": "automotive.pullpiri",
     "username": "genie.pullpiri"
+  },
+  {
+    "email": "heimlig-bot@eclipse.org",
+    "github.com": {
+      "email": "heimlig-bot@eclipse.org",
+      "username": "eclipse-heimlig-bot"
+    },
+    "id": 438,
+    "projectId": "automotive.heimlig",
+    "username": "genie.heimlig"
+  },
+  {
+    "email": "openxilenv-bot@eclipse.org",
+    "github.com": {
+      "email": "openxilenv-bot@eclipse.org",
+      "username": "eclipse-openxilenv-bot"
+    },
+    "id": 439,
+    "projectId": "automotive.openxilenv",
+    "username": "genie.openxilenv"
+  },
+  {
+    "email": "aaswc-bot@eclipse.org",
+    "github.com": {
+      "email": "aaswc-bot@eclipse.org",
+      "username": "eclipse-aaswc-bot"
+    },
+    "id": 440,
+    "projectId": "dt.aaswc",
+    "username": "genie.aaswc"
+  },
+  {
+    "email": "tocandira-bot@eclipse.org",
+    "github.com": {
+      "email": "tocandira-bot@eclipse.org",
+      "username": "eclipse-tocandira-bot"
+    },
+    "id": 441,
+    "projectId": "iot.tocandira",
+    "username": "genie.tocandira"
+  },
+  {
+    "email": "qrisp-bot@eclipse.org",
+    "github.com": {
+      "email": "qrisp-bot@eclipse.org",
+      "username": "eclipse-qrisp-bot"
+    },
+    "id": 442,
+    "projectId": "technology.qrisp",
+    "username": "genie.qrisp"
+  },
+  {
+    "email": "jeetools-inbox@eclipse.org",
+    "github.com": {
+      "email": "jeetools-bot@eclipse.org",
+      "username": "eclipse-jeetools-bot"
+    },
+    "id": 443,
+    "projectId": "webtools.jeetools",
+    "username": "genie.jeetools"
+  },
+  {
+    "email": "jsdt-inbox@eclipse.org",
+    "github.com": {
+      "email": "jsdt-bot@eclipse.org",
+      "username": "eclipse-jsdt-bot"
+    },
+    "id": 444,
+    "projectId": "webtools.jsdt",
+    "username": "genie.jsdt"
+  },
+  {
+    "email": "jsf-inbox@eclipse.org",
+    "github.com": {
+      "email": "jsf-bot@eclipse.org",
+      "username": "eclipse-jsf-bot"
+    },
+    "id": 445,
+    "projectId": "webtools.jsf",
+    "username": "genie.jsf"
+  },
+  {
+    "email": "servertools-inbox@eclipse.org",
+    "github.com": {
+      "email": "servertools-bot@eclipse.org",
+      "username": "eclipse-servertools-bot"
+    },
+    "id": 446,
+    "projectId": "webtools.servertools",
+    "username": "genie.servertools"
+  },
+  {
+    "email": "sourceediting-inbox@eclipse.org",
+    "github.com": {
+      "email": "sourceediting-bot@eclipse.org",
+      "username": "eclipse-sourceediting-bot"
+    },
+    "id": 447,
+    "projectId": "webtools.sourceediting",
+    "username": "genie.sourceediting"
   }
 ]
