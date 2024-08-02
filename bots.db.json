@@ -4502,5 +4502,15 @@
     "id": 449,
     "projectId": "automotive.openbsw",
     "username": "genie.openbsw"
+  },
+  {
+    "email": "mdt-inbox@eclipse.org",
+    "github.com": {
+      "email": "mdt-bot@eclipse.org",
+      "username": "eclipse-mdt-bot"
+    },
+    "id": 450,
+    "projectId": "modeling.mdt",
+    "username": "genie.mdt"
   }
 ]
