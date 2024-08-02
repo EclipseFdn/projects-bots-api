@@ -4512,5 +4512,15 @@
     "id": 450,
     "projectId": "modeling.mdt",
     "username": "genie.mdt"
+  },
+  {
+    "email": "mmt-inbox@eclipse.org",
+    "github.com": {
+      "email": "mmt-bot@eclipse.org",
+      "username": "eclipse-mmt-bot"
+    },
+    "id": 451,
+    "projectId": "modeling.mmt",
+    "username": "genie.mmt"
   }
 ]
