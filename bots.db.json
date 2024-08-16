@@ -3119,7 +3119,7 @@
   },
   {
     "github.com": {
-      "email": "incubator-bot@eclipse.org",
+      "email": "tracecompass-incubator-bot@eclipse.org",
       "username": "eclipse-tracecompass-incubator-bot"
     },
     "id": 314,
@@ -4522,5 +4522,14 @@
     "id": 451,
     "projectId": "modeling.mmt",
     "username": "genie.mmt"
+  },
+  {
+    "github.com": {
+      "email": "rap-incubator-bot@eclipse.org",
+      "username": "eclipse-rap-incubator-bot"
+    },
+    "id": 452,
+    "projectId": "rt.rap.incubator",
+    "username": "genie.incubator"
   }
 ]
