@@ -206,6 +206,10 @@
       "email": "releng-bot@eclipse.org",
       "username": "eclipse-releng-bot"
     },
+    "gitlab.eclipse.org": {
+      "email": "releng-bot@eclipse.org",
+      "username": "releng-bot"
+    },
     "id": 15,
     "oss.sonatype.org": {
       "email": "platform-releng-dev@eclipse.org",
@@ -1253,6 +1257,10 @@
   },
   {
     "email": "qvtd-inbox@eclipse.org",
+    "github.com": {
+      "email": "qvt-oml-bot@eclipse.org",
+      "username": "eclipse-qvt-oml-bot"
+    },
     "id": 107,
     "projectId": "modeling.mmt.qvt-oml",
     "username": "genie.qvt-oml"
@@ -3669,6 +3677,10 @@
     "username": "genie.openpass"
   },
   {
+    "docker.com": {
+      "email": "scm-bot@eclipse.org",
+      "username": "eclipsescm"
+    },
     "email": "scm-bot@eclipse.org",
     "gitlab.eclipse.org": {
       "email": "scm-bot@eclipse.org",
@@ -4531,5 +4543,41 @@
     "id": 452,
     "projectId": "rt.rap.incubator",
     "username": "genie.incubator"
+  },
+  {
+    "email": "ecsp-bot@eclipse.org",
+    "github.com": {
+      "email": "ecsp-bot@eclipse.org",
+      "username": "eclipse-ecsp-bot"
+    },
+    "id": 453,
+    "projectId": "automotive.ecsp",
+    "username": "genie.ecsp"
+  },
+  {
+    "email": "canought-bot@eclipse.org",
+    "github.com": {
+      "email": "canought-bot@eclipse.org",
+      "username": "eclipse-canought-bot"
+    },
+    "id": 454,
+    "projectId": "iot.kanto.canought",
+    "username": "genie.canought"
+  },
+  {
+    "github.com": {},
+    "id": 455,
+    "projectId": "modeling.eff",
+    "username": "genie.eff"
+  },
+  {
+    "email": "dataspace-drp-bot@eclipse.org",
+    "github.com": {
+      "email": "dataspace-drp-bot@eclipse.org",
+      "username": "eclipse-dataspace-drp-bot"
+    },
+    "id": 456,
+    "projectId": "technology.dataspace-drp",
+    "username": "genie.dataspace-drp"
   }
 ]
