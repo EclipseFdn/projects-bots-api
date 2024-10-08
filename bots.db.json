@@ -917,10 +917,6 @@
     "username": "genie.keyple"
   },
   {
-    "docker.com": {
-      "email": "kura-bot@eclipse.org",
-      "username": "eclipsekura"
-    },
     "email": "kura-bot@eclipse.org",
     "github.com": {
       "email": "kura-bot@eclipse.org",
@@ -1178,6 +1174,10 @@
   },
   {
     "email": "gemoc-bot@eclipse.org",
+    "github.com": {
+      "email": "gemoc-bot@eclipse.org",
+      "username": "eclipse-gemoc-bot"
+    },
     "id": 98,
     "oss.sonatype.org": {
       "email": "gemoc-bot@eclipse.org",
@@ -1220,6 +1220,10 @@
     "username": "genie.bpmn2"
   },
   {
+    "docker.com": {
+      "email": "etrice-bot@eclipse.org",
+      "username": "eclipseetrice"
+    },
     "email": "etrice-bot@eclipse.org",
     "gitlab.eclipse.org": {
       "email": "etrice-bot@eclipse.org",
@@ -1443,6 +1447,10 @@
   },
   {
     "email": "january-bot@eclipse.org",
+    "github.com": {
+      "email": "january-bot@eclipse.org",
+      "username": "eclipse-january-bot"
+    },
     "id": 125,
     "oss.sonatype.org": {
       "email": "january-dev@eclipse.org",
@@ -1907,6 +1915,10 @@
   },
   {
     "email": "sensinact-bot@eclipse.org",
+    "github.com": {
+      "email": "sensinact-bot@eclipse.org",
+      "username": "eclipse-sensinact-bot"
+    },
     "id": 172,
     "projectId": "technology.sensinact",
     "username": "genie.sensinact"
@@ -4145,6 +4157,10 @@
       "username": "eclipse-apoapsis-bot"
     },
     "id": 411,
+    "oss.sonatype.org": {
+      "email": "apoapsis-bot@eclipse.org",
+      "username": "eclipse-apoapsis-bot"
+    },
     "projectId": "technology.apoapsis",
     "username": "genie.apoapsis"
   },
