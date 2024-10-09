@@ -3170,6 +3170,10 @@
     "username": "genie.parsson"
   },
   {
+    "github.com": {
+      "email": "emo-bot@eclipse.org",
+      "username": "eclipse-emo-bot"
+    },
     "gitlab.eclipse.org": {
       "email": "emo-bot@eclipse.org",
       "username": "emo-bot"
