@@ -2418,6 +2418,10 @@
   },
   {
     "email": "handly-bot@eclipse.org",
+    "github.com": {
+      "email": "handly-bot@eclipse.org",
+      "username": "eclipse-handly-bot"
+    },
     "id": 231,
     "projectId": "technology.handly",
     "username": "genie.handly"
@@ -3170,6 +3174,10 @@
     "username": "genie.parsson"
   },
   {
+    "docker.com": {
+      "email": "emo-bot@eclipse.org",
+      "username": "eclipseemo"
+    },
     "github.com": {
       "email": "emo-bot@eclipse.org",
       "username": "eclipse-emo-bot"
@@ -3627,6 +3635,10 @@
     "github.com-dependabot": {
       "email": "49699333+dependabot[bot]@users.noreply.github.com",
       "username": "dependabot[bot]"
+    },
+    "gitlab.eclipse.org": {
+      "email": "edc-bot@eclipse.org",
+      "username": "edc-bot"
     },
     "id": 356,
     "oss.sonatype.org": {
@@ -4107,6 +4119,10 @@
     "username": "genie.csi"
   },
   {
+    "docker.com": {
+      "email": "daanse-bot@eclipse.org",
+      "username": "eclipsedaanse"
+    },
     "email": "daanse-bot@eclipse.org",
     "github.com": {
       "email": "daanse-bot@eclipse.org",
