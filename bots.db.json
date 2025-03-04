@@ -2422,7 +2422,6 @@
     "username": "genie.ocl"
   },
   {
-    "email": "smartmdsd-bot@eclipse.org",
     "id": 227,
     "projectId": "modeling.smartmdsd",
     "username": "genie.smartmdsd"
@@ -4634,12 +4633,24 @@
     "username": "genie.incubator"
   },
   {
+    "docker.com": {
+      "email": "ecsp-bot@eclipse.org",
+      "username": "eclipseecsp"
+    },
     "email": "ecsp-bot@eclipse.org",
     "github.com": {
       "email": "ecsp-bot@eclipse.org",
       "username": "eclipse-ecsp-bot"
     },
+    "gitlab.eclipse.org": {
+      "email": "ecsp-bot@eclipse.org",
+      "username": "ecsp-bot"
+    },
     "id": 453,
+    "oss.sonatype.org": {
+      "email": "ecsp-bot@eclipse.org",
+      "username": "eclipse-ecsp-bot"
+    },
     "projectId": "automotive.ecsp",
     "username": "genie.ecsp"
   },
@@ -4708,6 +4719,10 @@
     "github.com": {
       "email": "score-bot@eclipse.org",
       "username": "eclipse-score-bot"
+    },
+    "gitlab.eclipse.org": {
+      "email": "score-bot@eclipse.org",
+      "username": "score-bot"
     },
     "id": 461,
     "projectId": "automotive.score",
@@ -4913,5 +4928,24 @@
     "id": 480,
     "projectId": "technology.tradista",
     "username": "genie.tradista"
+  },
+  {
+    "email": "xsm-bot@eclipse.org",
+    "github.com": {
+      "email": "xsm-bot@eclipse.org",
+      "username": "eclipse-xsm-bot"
+    },
+    "id": 481,
+    "projectId": "modeling.xsm",
+    "username": "genie.xsm"
+  },
+  {
+    "github.com": {
+      "email": "researchlabs-bot@eclipse.org",
+      "username": "eclipse-researchlabs-bot"
+    },
+    "id": 482,
+    "projectId": "research.researchlabs",
+    "username": "genie.researchlabs"
   }
 ]
