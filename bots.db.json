@@ -223,6 +223,10 @@
     "username": "genie.releng"
   },
   {
+    "docker.com": {
+      "email": "ee4j-bot@eclipse.org",
+      "username": "eclipseee4j"
+    },
     "email": "ee4j-inbox@eclipse.org",
     "github.com": {
       "email": "ee4j-bot@eclipse.org",
@@ -661,6 +665,10 @@
     "username": "genie.nosql"
   },
   {
+    "docker.com": {
+      "email": "openmq-bot@eclipse.org",
+      "username": "eclipseopenmq"
+    },
     "email": "openmq-inbox@eclipse.org",
     "github.com": {
       "email": "openmq-bot@eclipse.org",
@@ -4382,6 +4390,10 @@
   },
   {
     "email": "autowrx-bot@eclipse.org",
+    "github.com": {
+      "email": "autowrx-bot@eclipse.org",
+      "username": "eclipse-autowrx-bot"
+    },
     "gitlab.eclipse.org": {
       "email": "autowrx-bot@eclipse.org",
       "username": "autowrx-bot"
@@ -4947,5 +4959,87 @@
     "id": 482,
     "projectId": "research.researchlabs",
     "username": "genie.researchlabs"
+  },
+  {
+    "email": "sdv-lvl-bot@eclipse.org",
+    "github.com": {
+      "email": "sdv-lvl-bot@eclipse.org",
+      "username": "eclipse-sdv-lvl-bot"
+    },
+    "id": 483,
+    "projectId": "automotive.sdv-lvl",
+    "username": "genie.sdv-lvl"
+  },
+  {
+    "email": "upm-bot@eclipse.org",
+    "github.com": {
+      "email": "upm-bot@eclipse.org",
+      "username": "eclipse-upm-bot"
+    },
+    "id": 484,
+    "projectId": "iot.upm",
+    "username": "genie.upm"
+  },
+  {
+    "github.com": {
+      "email": "occtet-bot@eclipse.org",
+      "username": "eclipse-occtet-bot"
+    },
+    "gitlab.eclipse.org": {
+      "email": "occtet-bot@eclipse.org",
+      "username": "occtet-bot"
+    },
+    "id": 485,
+    "projectId": "oss.occtet",
+    "username": "genie.occtet"
+  },
+  {
+    "email": "richbeans-inbox@eclipse.org",
+    "github.com": {
+      "email": "richbeans-bot@eclipse.org",
+      "username": "eclipse-richbeans-bot"
+    },
+    "id": 486,
+    "projectId": "science.richbeans",
+    "username": "genie.richbeans"
+  },
+  {
+    "email": "scanning-inbox@eclipse.org",
+    "github.com": {
+      "email": "scanning-bot@eclipse.org",
+      "username": "eclipse-scanning-bot"
+    },
+    "id": 487,
+    "projectId": "science.scanning",
+    "username": "genie.scanning"
+  },
+  {
+    "email": "crp-bot@eclipse.org",
+    "github.com": {
+      "email": "crp-bot@eclipse.org",
+      "username": "eclipse-crp-bot"
+    },
+    "id": 488,
+    "projectId": "technology.crp",
+    "username": "genie.crp"
+  },
+  {
+    "email": "sealman-bot@eclipse.org",
+    "github.com": {
+      "email": "sealman-bot@eclipse.org",
+      "username": "eclipse-sealman-bot"
+    },
+    "id": 489,
+    "projectId": "technology.sealman",
+    "username": "genie.sealman"
+  },
+  {
+    "github.com": {
+      "email": "orcwg-bot@eclipse.org",
+      "username": "eclipse-orcwg-bot"
+    },
+    "id": 490,
+    "projectId": "wg.orcwg",
+    "username": "genie.orcwg"
   }
 ]
