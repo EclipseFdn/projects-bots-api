@@ -357,20 +357,6 @@
     "username": "genie.glassfish"
   },
   {
-    "email": "grizzly-bot@eclipse.org",
-    "github.com": {
-      "email": "grizzly-bot@eclipse.org",
-      "username": "eclipse-grizzly-bot"
-    },
-    "id": 27,
-    "oss.sonatype.org": {
-      "email": "grizzly-bot@eclipse.org",
-      "username": "grizzly-bot"
-    },
-    "projectId": "ee4j.grizzly",
-    "username": "genie.grizzly"
-  },
-  {
     "email": "interceptors-bot@eclipse.org",
     "github.com": {
       "email": "interceptors-bot@eclipse.org",
@@ -1298,6 +1284,9 @@
     "username": "genie.qvtd"
   },
   {
+    "docker.com": {
+      "username": "sbegaudeau"
+    },
     "email": "sirius-bot@eclipse.org",
     "github.com": {
       "email": "sirius-bot@eclipse.org",
@@ -2539,6 +2528,10 @@
   },
   {
     "email": "transformer-bot@eclipse.org",
+    "github.com": {
+      "email": "transformer-bot@eclipse.org",
+      "username": "eclipse-transformer-bot"
+    },
     "id": 242,
     "oss.sonatype.org": {
       "email": "transformer-bot@eclipse.org",
@@ -3541,7 +3534,7 @@
   {
     "docker.com": {
       "email": "tractusx-bot@eclipse.org",
-      "username": "tractusx"
+      "username": "tractusxbot"
     },
     "email": "tractusx-bot@eclipse.org",
     "github.com": {
@@ -3896,7 +3889,15 @@
       "email": "thingweb-bot@eclipse.org",
       "username": "eclipse-thingweb-bot"
     },
+    "gitlab.eclipse.org": {
+      "email": "thingweb-bot@eclipse.org",
+      "username": "thingweb-bot"
+    },
     "id": 372,
+    "oss.sonatype.org": {
+      "email": "thingweb-bot@eclipse.org",
+      "username": "eclipse-thingweb-bot"
+    },
     "projectId": "iot.thingweb",
     "username": "genie.thingweb"
   },
@@ -5034,12 +5035,61 @@
     "username": "genie.sealman"
   },
   {
+    "email": "arche-bot@eclipse.org",
+    "github.com": {
+      "email": "arche-bot@eclipse.org",
+      "username": "eclipse-arche-bot"
+    },
+    "id": 491,
+    "projectId": "automotive.arche",
+    "username": "genie.arche"
+  },
+  {
+    "github.com": {
+      "email": "rust-bot@eclipse.org",
+      "username": "eclipse-rust-bot"
+    },
+    "id": 492,
+    "projectId": "foundation-internal.sig.rust",
+    "username": "genie.rust"
+  },
+  {
     "github.com": {
       "email": "orcwg-bot@eclipse.org",
       "username": "eclipse-orcwg-bot"
     },
-    "id": 490,
-    "projectId": "wg.orcwg",
-    "username": "genie.orcwg"
+    "id": 493,
+    "projectId": "foundation-internal.wg.orc",
+    "username": "genie.orc"
+  },
+  {
+    "email": "oscat-bot@eclipse.org",
+    "github.com": {
+      "email": "oscat-bot@eclipse.org",
+      "username": "eclipse-oscat-bot"
+    },
+    "id": 494,
+    "projectId": "iot.oscat",
+    "username": "genie.oscat"
+  },
+  {
+    "email": "biscuit-bot@eclipse.org",
+    "github.com": {
+      "email": "biscuit-bot@eclipse.org",
+      "username": "eclipse-biscuit-bot"
+    },
+    "id": 495,
+    "projectId": "technology.biscuit",
+    "username": "genie.biscuit"
+  },
+  {
+    "email": "ers-bot@eclipse.org",
+    "github.com": {
+      "email": "ers-bot@eclipse.org",
+      "username": "eclipse-ers-bot"
+    },
+    "id": 496,
+    "projectId": "technology.ers",
+    "username": "genie.ers"
   }
 ]
