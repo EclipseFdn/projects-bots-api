@@ -18,7 +18,6 @@
     "username": "genie.che"
   },
   {
-    "email": "che4z-bot@eclipse.org",
     "github.com": {
       "email": "che4z-bot@eclipse.org",
       "username": "eclipse-che4z-bot"
@@ -891,7 +890,6 @@
     "username": "genie.kapua"
   },
   {
-    "email": "keti-inbox@eclipse.org",
     "github.com": {
       "email": "keti-bot@eclipse.org",
       "username": "eclipse-keti-bot"
@@ -1165,7 +1163,6 @@
     "username": "genie.henshin"
   },
   {
-    "email": "epsilon-bot@eclipse.org",
     "github.com": {
       "email": "epsilon-bot@eclipse.org",
       "username": "eclipse-epsilon-bot"
@@ -1822,7 +1819,6 @@
     "username": "genie.osbp"
   },
   {
-    "email": "osee-bot@eclipse.org",
     "github.com": {
       "email": "osee-bot@eclipse.org",
       "username": "eclipse-osee-bot"
@@ -1904,7 +1900,6 @@
     "username": "genie.reddeer"
   },
   {
-    "email": "scava-bot@eclipse.org",
     "github.com": {
       "email": "scava-bot@eclipse.org",
       "username": "eclipse-scava-bot"
@@ -2541,7 +2536,6 @@
     "username": "genie.transformer"
   },
   {
-    "email": "tycho-bot@eclipse.org",
     "github.com": {
       "email": "tycho-bot@eclipse.org",
       "username": "eclipse-tycho-bot"
@@ -2882,7 +2876,6 @@
     "username": "genie.sumo"
   },
   {
-    "email": "fog05-bot@eclipse.org",
     "github.com": {
       "email": "fog05-bot@eclipse.org",
       "username": "eclipse-fog05-bot"
@@ -3306,7 +3299,6 @@
     "username": "genie.amlen"
   },
   {
-    "email": "kiso-testing-bot@eclipse.org",
     "github.com": {
       "email": "kiso-testing-bot@eclipse.org",
       "username": "eclipse-kiso-testing-bot"
@@ -4841,7 +4833,6 @@
     "username": "genie.agileuml"
   },
   {
-    "email": "fennec-bot@eclipse.org",
     "github.com": {
       "email": "fennec-bot@eclipse.org",
       "username": "eclipse-fennec-bot"
@@ -5091,5 +5082,21 @@
     "id": 496,
     "projectId": "technology.ers",
     "username": "genie.ers"
+  },
+  {
+    "github.com": {},
+    "id": 497,
+    "projectId": "modeling.eff",
+    "username": "genie.eff"
+  },
+  {
+    "email": "tmll-bot@eclipse.org",
+    "github.com": {
+      "email": "tmll-bot@eclipse.org",
+      "username": "eclipse-tmll-bot"
+    },
+    "id": 498,
+    "projectId": "tools.tracecompass.tmll",
+    "username": "genie.tmll"
   }
 ]
