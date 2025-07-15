@@ -18,6 +18,7 @@
     "username": "genie.che"
   },
   {
+    "email": "che4z-bot@eclipse.org",
     "github.com": {
       "email": "che4z-bot@eclipse.org",
       "username": "eclipse-che4z-bot"
@@ -849,6 +850,10 @@
       "email": "hawkbit-bot@eclipse.org",
       "username": "hawkbit-bot"
     },
+    "gitlab.eclipse.org": {
+      "email": "hawkbit-bot@eclipse.org",
+      "username": "hawkbit-bot"
+    },
     "id": 67,
     "oss.sonatype.org": {
       "email": "hawkbit-dev@eclipse.org",
@@ -1163,6 +1168,7 @@
     "username": "genie.henshin"
   },
   {
+    "email": "epsilon-bot@eclipse.org",
     "github.com": {
       "email": "epsilon-bot@eclipse.org",
       "username": "eclipse-epsilon-bot"
@@ -1479,6 +1485,10 @@
   },
   {
     "email": "swtchart-bot@eclipse.org",
+    "github.com": {
+      "email": "swtchart-bot@eclipse.org",
+      "username": "eclipse-swtchart-bot"
+    },
     "id": 127,
     "oss.sonatype.org": {
       "email": "swtchart-bot@eclipse.org",
@@ -1819,6 +1829,7 @@
     "username": "genie.osbp"
   },
   {
+    "email": "osee-bot@eclipse.org",
     "github.com": {
       "email": "osee-bot@eclipse.org",
       "username": "eclipse-osee-bot"
@@ -1900,6 +1911,7 @@
     "username": "genie.reddeer"
   },
   {
+    "email": "scava-bot@eclipse.org",
     "github.com": {
       "email": "scava-bot@eclipse.org",
       "username": "eclipse-scava-bot"
@@ -2188,10 +2200,6 @@
       "username": "eclipse-deeplearning4j-bot"
     },
     "id": 201,
-    "oss.sonatype.org": {
-      "email": "deeplearning4j-bot@eclipse.org",
-      "username": "eclipse-deeplearning4j-bot"
-    },
     "projectId": "technology.deeplearning4j",
     "username": "genie.deeplearning4j"
   },
@@ -2536,6 +2544,7 @@
     "username": "genie.transformer"
   },
   {
+    "email": "tycho-bot@eclipse.org",
     "github.com": {
       "email": "tycho-bot@eclipse.org",
       "username": "eclipse-tycho-bot"
@@ -3299,6 +3308,7 @@
     "username": "genie.amlen"
   },
   {
+    "email": "kiso-testing-bot@eclipse.org",
     "github.com": {
       "email": "kiso-testing-bot@eclipse.org",
       "username": "eclipse-kiso-testing-bot"
@@ -4734,7 +4744,6 @@
     "username": "genie.score"
   },
   {
-    "email": "sommr-bot@eclipse.org",
     "github.com": {
       "email": "sommr-bot@eclipse.org",
       "username": "eclipse-sommr-bot"
@@ -4833,6 +4842,7 @@
     "username": "genie.agileuml"
   },
   {
+    "email": "fennec-bot@eclipse.org",
     "github.com": {
       "email": "fennec-bot@eclipse.org",
       "username": "eclipse-fennec-bot"
@@ -5098,5 +5108,45 @@
     "id": 498,
     "projectId": "tools.tracecompass.tmll",
     "username": "genie.tmll"
+  },
+  {
+    "email": "autoapiframework-bot@eclipse.org",
+    "github.com": {
+      "email": "autoapiframework-bot@eclipse.org",
+      "username": "eclipse-autoapiframework-bot"
+    },
+    "id": 499,
+    "projectId": "automotive.autoapiframework",
+    "username": "genie.autoapiframework"
+  },
+  {
+    "email": "opensovd-bot@eclipse.org",
+    "github.com": {
+      "email": "opensovd-bot@eclipse.org",
+      "username": "eclipse-opensovd-bot"
+    },
+    "id": 500,
+    "projectId": "automotive.opensovd",
+    "username": "genie.opensovd"
+  },
+  {
+    "email": "oct-bot@eclipse.org",
+    "github.com": {
+      "email": "oct-bot@eclipse.org",
+      "username": "eclipse-oct-bot"
+    },
+    "id": 501,
+    "projectId": "ecd.oct",
+    "username": "genie.oct"
+  },
+  {
+    "email": "datagrid-bot@eclipse.org",
+    "github.com": {
+      "email": "datagrid-bot@eclipse.org",
+      "username": "eclipse-datagrid-bot"
+    },
+    "id": 502,
+    "projectId": "technology.datagrid",
+    "username": "genie.datagrid"
   }
 ]
