@@ -718,6 +718,10 @@
     "username": "genie.keyple"
   },
   {
+    "docker.com": {
+      "email": "kura-bot@eclipse.org",
+      "username": "eclipsekura"
+    },
     "email": "kura-bot@eclipse.org",
     "github.com": {
       "email": "kura-bot@eclipse.org",
@@ -1174,6 +1178,10 @@
     "github.com": {
       "email": "chemclipse-bot@eclipse.org",
       "username": "eclipse-chemclipse-bot"
+    },
+    "gitlab.eclipse.org": {
+      "email": "chemclipse-bot@eclipse.org",
+      "username": "chemclipse-bot"
     },
     "id": 124,
     "projectId": "science.chemclipse",
@@ -2604,6 +2612,10 @@
       "email": "pdt-bot@eclipse.org",
       "username": "eclipse-pdt-bot"
     },
+    "gitlab.eclipse.org": {
+      "email": "pdt-bot@eclipse.org",
+      "username": "pdt-bot"
+    },
     "id": 296,
     "projectId": "tools.pdt",
     "username": "genie.pdt"
@@ -3879,6 +3891,10 @@
     "username": "genie.dataspace-cap"
   },
   {
+    "docker.com": {
+      "email": "fa3st-bot@eclipse.org",
+      "username": "eclipsefa3st"
+    },
     "email": "fa3st-bot@eclipse.org",
     "github.com": {
       "email": "fa3st-bot@eclipse.org",
@@ -4301,6 +4317,10 @@
     "username": "genie.agileuml"
   },
   {
+    "docker.com": {
+      "email": "fennec-bot@eclipse.org",
+      "username": "eclipsefennec"
+    },
     "email": "fennec-bot@eclipse.org",
     "github.com": {
       "email": "fennec-bot@eclipse.org",
@@ -4613,5 +4633,99 @@
     "id": 504,
     "projectId": "tools.copilot",
     "username": "genie.copilot"
+  },
+  {
+    "email": "autosd-bot@eclipse.org",
+    "github.com": {
+      "email": "autosd-bot@eclipse.org",
+      "username": "eclipse-autosd-bot"
+    },
+    "id": 505,
+    "projectId": "automotive.autosd",
+    "username": "genie.autosd"
+  },
+  {
+    "email": "openvehicle-api-bot@eclipse.org",
+    "github.com": {
+      "email": "openvehicle-api-bot@eclipse.org",
+      "username": "eclipse-openvehicle-api-bot"
+    },
+    "id": 506,
+    "projectId": "automotive.openvehicle-api",
+    "username": "genie.openvehicle-api"
+  },
+  {
+    "email": "skybt-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "skybt-bot@eclipse.org",
+      "username": "skybt-bot"
+    },
+    "id": 507,
+    "projectId": "automotive.skybt",
+    "username": "genie.skybt"
+  },
+  {
+    "docker.com": {
+      "email": "aerios-bot@eclipse.org",
+      "username": "eclipseaerios"
+    },
+    "email": "aerios-bot@eclipse.org",
+    "github.com": {
+      "email": "aerios-bot@eclipse.org",
+      "username": "eclipse-aerios-bot"
+    },
+    "id": 508,
+    "projectId": "iot.aerios",
+    "username": "genie.aerios"
+  },
+  {
+    "github.com": {},
+    "id": 509,
+    "projectId": "modeling.eff",
+    "username": "genie.eff"
+  },
+  {
+    "email": "cra-attestations-bot@eclipse.org",
+    "github.com": {
+      "email": "cra-attestations-bot@eclipse.org",
+      "username": "eclipse-cra-attestations-bot"
+    },
+    "id": 510,
+    "projectId": "technology.cra-attestations",
+    "username": "genie.cra-attestations"
+  },
+  {
+    "docker.com": {
+      "email": "dataplane-core-bot@eclipse.org",
+      "username": "eclipsedataplanecore"
+    },
+    "email": "dataplane-core-bot@eclipse.org",
+    "github.com": {
+      "email": "dataplane-core-bot@eclipse.org",
+      "username": "eclipse-dataplane-core-bot"
+    },
+    "id": 511,
+    "projectId": "technology.dataplane-core",
+    "username": "genie.dataplane-core"
+  },
+  {
+    "email": "dataplane-signaling-bot@eclipse.org",
+    "github.com": {
+      "email": "dataplane-signaling-bot@eclipse.org",
+      "username": "eclipse-dataplane-signaling-bot"
+    },
+    "id": 512,
+    "projectId": "technology.dataplane-signaling",
+    "username": "genie.dataplane-signaling"
+  },
+  {
+    "email": "disuko-bot@eclipse.org",
+    "github.com": {
+      "email": "disuko-bot@eclipse.org",
+      "username": "eclipse-disuko-bot"
+    },
+    "id": 513,
+    "projectId": "technology.disuko",
+    "username": "genie.disuko"
   }
 ]
