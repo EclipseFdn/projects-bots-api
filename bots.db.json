@@ -882,36 +882,6 @@
     "username": "genie.emf-parsley"
   },
   {
-    "email": "diffmerge-inbox@eclipse.org",
-    "github.com": {
-      "email": "diffmerge-bot@eclipse.org",
-      "username": "eclipse-diffmerge-bot"
-    },
-    "id": 91,
-    "projectId": "modeling.emf.diffmerge",
-    "username": "genie.diffmerge"
-  },
-  {
-    "email": "egf-bot@eclipse.org",
-    "github.com": {
-      "email": "egf-bot@eclipse.org",
-      "username": "eclipse-egf-bot"
-    },
-    "id": 92,
-    "projectId": "modeling.emf.egf",
-    "username": "genie.egf"
-  },
-  {
-    "email": "mwe-bot@eclipse.org",
-    "github.com": {
-      "email": "mwe-bot@eclipse.org",
-      "username": "eclipse-mwe-bot"
-    },
-    "id": 94,
-    "projectId": "modeling.emf.mwe",
-    "username": "genie.mwe"
-  },
-  {
     "email": "emfservices-bot@eclipse.org",
     "github.com": {
       "email": "emfservices-bot@eclipse.org",
@@ -920,16 +890,6 @@
     "id": 95,
     "projectId": "modeling.emfservices",
     "username": "genie.emfservices"
-  },
-  {
-    "email": "henshin-inbox@eclipse.org",
-    "github.com": {
-      "email": "henshin-bot@eclipse.org",
-      "username": "eclipse-henshin-bot"
-    },
-    "id": 96,
-    "projectId": "modeling.emft.henshin",
-    "username": "genie.henshin"
   },
   {
     "email": "epsilon-bot@eclipse.org",
@@ -975,20 +935,6 @@
     "username": "genie.mdht"
   },
   {
-    "docker.com": {
-      "email": "etrice-bot@eclipse.org",
-      "username": "eclipseetrice"
-    },
-    "email": "etrice-bot@eclipse.org",
-    "gitlab.eclipse.org": {
-      "email": "etrice-bot@eclipse.org",
-      "username": "etrice-bot"
-    },
-    "id": 103,
-    "projectId": "modeling.mdt.etrice",
-    "username": "genie.etrice"
-  },
-  {
     "email": "modisco-bot@eclipse.org",
     "github.com": {
       "email": "modisco-bot@eclipse.org",
@@ -997,46 +943,6 @@
     "id": 104,
     "projectId": "modeling.modisco",
     "username": "genie.modisco"
-  },
-  {
-    "email": "rmf-bot@eclipse.org",
-    "github.com": {
-      "email": "rmf-bot@eclipse.org",
-      "username": "eclipse-rmf-bot"
-    },
-    "id": 105,
-    "projectId": "modeling.mdt.rmf",
-    "username": "genie.rmf"
-  },
-  {
-    "email": "atl-bot@eclipse.org",
-    "github.com": {
-      "email": "atl-bot@eclipse.org",
-      "username": "eclipse-atl-bot"
-    },
-    "id": 106,
-    "projectId": "modeling.mmt.atl",
-    "username": "genie.atl"
-  },
-  {
-    "email": "qvtd-inbox@eclipse.org",
-    "github.com": {
-      "email": "qvt-oml-bot@eclipse.org",
-      "username": "eclipse-qvt-oml-bot"
-    },
-    "id": 107,
-    "projectId": "modeling.mmt.qvt-oml",
-    "username": "genie.qvt-oml"
-  },
-  {
-    "email": "qvtd-inbox@eclipse.org",
-    "github.com": {
-      "email": "qvtd-bot@eclipse.org",
-      "username": "eclipse-qvtd-bot"
-    },
-    "id": 108,
-    "projectId": "modeling.mmt.qvtd",
-    "username": "genie.qvtd"
   },
   {
     "docker.com": {
@@ -1050,16 +956,6 @@
     "id": 109,
     "projectId": "modeling.sirius",
     "username": "genie.sirius"
-  },
-  {
-    "email": "xtext-bot@eclipse.org",
-    "github.com": {
-      "email": "xtext-bot@eclipse.org",
-      "username": "genie-xtext"
-    },
-    "id": 110,
-    "projectId": "modeling.tmf.xtext",
-    "username": "genie.xtext"
   },
   {
     "email": "xpect-bot@eclipse.org",
@@ -2064,16 +1960,6 @@
     "username": "genie.edapt"
   },
   {
-    "email": "ocl-bot@eclipse.org",
-    "github.com": {
-      "email": "ocl-bot@eclipse.org",
-      "username": "eclipse-ocl-bot"
-    },
-    "id": 226,
-    "projectId": "modeling.mdt.ocl",
-    "username": "genie.ocl"
-  },
-  {
     "id": 227,
     "projectId": "modeling.smartmdsd",
     "username": "genie.smartmdsd"
@@ -2245,16 +2131,6 @@
     "username": "genie.spatial4j"
   },
   {
-    "email": "cdo-bot@eclipse.org",
-    "github.com": {
-      "email": "cdo-bot@eclipse.org",
-      "username": "eclipse-cdo-bot"
-    },
-    "id": 249,
-    "projectId": "modeling.emf.cdo",
-    "username": "genie.cdo"
-  },
-  {
     "email": "gmf-runtime-bot@eclipse.org",
     "github.com": {
       "email": "gmf-runtime-bot@eclipse.org",
@@ -2329,24 +2205,6 @@
     "username": "genie.tinydtls"
   },
   {
-    "docker.com": {
-      "email": "papyrus-bot@eclipse.org",
-      "username": "eclipsepapyrus"
-    },
-    "email": "papyrus-bot@eclipse.org",
-    "github.com": {
-      "email": "papyrus-bot@eclipse.org",
-      "username": "eclipse-papyrus-bot"
-    },
-    "gitlab.eclipse.org": {
-      "email": "papyrus-bot@eclipse.org",
-      "username": "papyrus-bot"
-    },
-    "id": 258,
-    "projectId": "modeling.mdt.papyrus",
-    "username": "genie.papyrus"
-  },
-  {
     "email": "ice-bot@eclipse.org",
     "github.com": {
       "email": "ice-bot@eclipse.org",
@@ -2407,16 +2265,6 @@
     "id": 265,
     "projectId": "modeling.emfcompare",
     "username": "genie.emfcompare"
-  },
-  {
-    "email": "emfatic-bot@eclipse.org",
-    "github.com": {
-      "email": "emfatic-bot@eclipse.org",
-      "username": "eclipse-emfatic-bot"
-    },
-    "id": 266,
-    "projectId": "modeling.emft.emfatic",
-    "username": "genie.emfatic"
   },
   {
     "email": "corev-bot@eclipse.org",
@@ -2536,16 +2384,6 @@
     "id": 286,
     "projectId": "modeling.efm",
     "username": "genie.efm"
-  },
-  {
-    "email": "uml2-bot@eclipse.org",
-    "github.com": {
-      "email": "uml2-bot@eclipse.org",
-      "username": "eclipse-uml2-bot"
-    },
-    "id": 288,
-    "projectId": "modeling.mdt.uml2",
-    "username": "genie.uml2"
   },
   {
     "email": "viatra-bot@eclipse.org",
@@ -2853,12 +2691,6 @@
     "id": 321,
     "projectId": "modeling.graphiti",
     "username": "genie.graphiti"
-  },
-  {
-    "email": "teneo-bot@eclipse.org",
-    "id": 322,
-    "projectId": "modeling.emf.teneo",
-    "username": "genie.teneo"
   },
   {
     "email": "angus-bot@eclipse.org",
@@ -4727,5 +4559,173 @@
     "id": 513,
     "projectId": "technology.disuko",
     "username": "genie.disuko"
+  },
+  {
+    "email": "atl-bot@eclipse.org",
+    "github.com": {
+      "email": "atl-bot@eclipse.org",
+      "username": "eclipse-atl-bot"
+    },
+    "id": 514,
+    "projectId": "modeling.atl",
+    "username": "genie.atl"
+  },
+  {
+    "email": "cdo-bot@eclipse.org",
+    "github.com": {
+      "email": "cdo-bot@eclipse.org",
+      "username": "eclipse-cdo-bot"
+    },
+    "id": 515,
+    "projectId": "modeling.cdo",
+    "username": "genie.cdo"
+  },
+  {
+    "email": "diffmerge-inbox@eclipse.org",
+    "github.com": {
+      "email": "diffmerge-bot@eclipse.org",
+      "username": "eclipse-diffmerge-bot"
+    },
+    "id": 516,
+    "projectId": "modeling.diffmerge",
+    "username": "genie.diffmerge"
+  },
+  {
+    "email": "egf-bot@eclipse.org",
+    "github.com": {
+      "email": "egf-bot@eclipse.org",
+      "username": "eclipse-egf-bot"
+    },
+    "id": 517,
+    "projectId": "modeling.egf",
+    "username": "genie.egf"
+  },
+  {
+    "email": "emfatic-bot@eclipse.org",
+    "github.com": {
+      "email": "emfatic-bot@eclipse.org",
+      "username": "eclipse-emfatic-bot"
+    },
+    "id": 518,
+    "projectId": "modeling.emfatic",
+    "username": "genie.emfatic"
+  },
+  {
+    "docker.com": {
+      "email": "etrice-bot@eclipse.org",
+      "username": "eclipseetrice"
+    },
+    "email": "etrice-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "etrice-bot@eclipse.org",
+      "username": "etrice-bot"
+    },
+    "id": 519,
+    "projectId": "modeling.etrice",
+    "username": "genie.etrice"
+  },
+  {
+    "email": "henshin-inbox@eclipse.org",
+    "github.com": {
+      "email": "henshin-bot@eclipse.org",
+      "username": "eclipse-henshin-bot"
+    },
+    "id": 520,
+    "projectId": "modeling.henshin",
+    "username": "genie.henshin"
+  },
+  {
+    "email": "mwe-bot@eclipse.org",
+    "github.com": {
+      "email": "mwe-bot@eclipse.org",
+      "username": "eclipse-mwe-bot"
+    },
+    "id": 521,
+    "projectId": "modeling.mwe",
+    "username": "genie.mwe"
+  },
+  {
+    "email": "ocl-bot@eclipse.org",
+    "github.com": {
+      "email": "ocl-bot@eclipse.org",
+      "username": "eclipse-ocl-bot"
+    },
+    "id": 522,
+    "projectId": "modeling.ocl",
+    "username": "genie.ocl"
+  },
+  {
+    "docker.com": {
+      "email": "papyrus-bot@eclipse.org",
+      "username": "eclipsepapyrus"
+    },
+    "email": "papyrus-bot@eclipse.org",
+    "github.com": {
+      "email": "papyrus-bot@eclipse.org",
+      "username": "eclipse-papyrus-bot"
+    },
+    "gitlab.eclipse.org": {
+      "email": "papyrus-bot@eclipse.org",
+      "username": "papyrus-bot"
+    },
+    "id": 523,
+    "projectId": "modeling.papyrus",
+    "username": "genie.papyrus"
+  },
+  {
+    "email": "qvtd-inbox@eclipse.org",
+    "github.com": {
+      "email": "qvtd-bot@eclipse.org",
+      "username": "eclipse-qvtd-bot"
+    },
+    "id": 524,
+    "projectId": "modeling.qvtd",
+    "username": "genie.qvtd"
+  },
+  {
+    "email": "qvtd-inbox@eclipse.org",
+    "github.com": {
+      "email": "qvt-oml-bot@eclipse.org",
+      "username": "eclipse-qvt-oml-bot"
+    },
+    "id": 525,
+    "projectId": "modeling.qvt-oml",
+    "username": "genie.qvt-oml"
+  },
+  {
+    "email": "rmf-bot@eclipse.org",
+    "github.com": {
+      "email": "rmf-bot@eclipse.org",
+      "username": "eclipse-rmf-bot"
+    },
+    "id": 526,
+    "projectId": "modeling.rmf",
+    "username": "genie.rmf"
+  },
+  {
+    "email": "teneo-bot@eclipse.org",
+    "id": 527,
+    "projectId": "modeling.teneo",
+    "username": "genie.teneo"
+  },
+  {
+    "email": "uml2-bot@eclipse.org",
+    "github.com": {
+      "email": "uml2-bot@eclipse.org",
+      "username": "eclipse-uml2-bot"
+    },
+    "id": 528,
+    "projectId": "modeling.uml2",
+    "username": "genie.uml2"
+  },
+  {
+    "email": "xtext-bot@eclipse.org",
+    "github.com": {
+      "email": "xtext-bot@eclipse.org",
+      "username": "genie-xtext"
+    },
+    "id": 529,
+    "projectId": "modeling.xtext",
+    "username": "genie.xtext"
   }
 ]
