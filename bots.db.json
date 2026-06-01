@@ -4923,5 +4923,70 @@
     "id": 547,
     "projectId": "technology.tsf",
     "username": "genie.tsf"
+  },
+  {
+    "email": "sagetea-bot@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "sagetea-bot@eclipse.org",
+      "username": "sagetea-bot"
+    },
+    "id": 548,
+    "projectId": "ecd.sagetea",
+    "username": "genie.sagetea"
+  },
+  {
+    "email": "jakartabatch-bot@eclipse.org",
+    "id": 549,
+    "projectId": "ee4j.batch",
+    "username": "genie.batch"
+  },
+  {
+    "email": "cargotracker-bot@eclipse.org",
+    "id": 550,
+    "projectId": "ee4j.cargotracker",
+    "username": "genie.cargotracker"
+  },
+  {
+    "email": "odi-bot@eclipse.org",
+    "id": 551,
+    "projectId": "ee4j.odi",
+    "username": "genie.odi"
+  },
+  {
+    "email": "portlet-bridge-bot@eclipse.org",
+    "id": 552,
+    "projectId": "ee4j.portlet-bridge",
+    "username": "genie.portlet-bridge"
+  },
+  {
+    "email": "rpc-bot@eclipse.org",
+    "id": 553,
+    "projectId": "ee4j.rpc",
+    "username": "genie.rpc"
+  },
+  {
+    "github.com": {
+      "email": "locationtech-bot@eclipse.org",
+      "username": "eclipse-locationtech-bot"
+    },
+    "id": 554,
+    "projectId": "locationtech",
+    "username": "genie.locationtech"
+  },
+  {
+    "github.com": {},
+    "id": 555,
+    "projectId": "modeling.eff",
+    "username": "genie.eff"
+  },
+  {
+    "email": "dataspace-hub-bot@eclipse.org",
+    "github.com": {
+      "email": "dataspace-hub-bot@eclipse.org",
+      "username": "eclipse-dataspace-hub-bot"
+    },
+    "id": 556,
+    "projectId": "technology.dataspace-hub",
+    "username": "genie.dataspace-hub"
   }
 ]
