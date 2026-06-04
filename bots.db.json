@@ -4988,5 +4988,34 @@
     "id": 556,
     "projectId": "technology.dataspace-hub",
     "username": "genie.dataspace-hub"
+  },
+  {
+    "gitlab.eclipse.org": {
+      "email": "hyper-ai-bot@eclipse.org",
+      "username": "hyper-ai-bot"
+    },
+    "id": 557,
+    "projectId": "research.hyper-ai",
+    "username": "genie.hyper-ai"
+  },
+  {
+    "email": "keypont-bot@eclipse.org",
+    "github.com": {
+      "email": "keypont-bot@eclipse.org",
+      "username": "eclipse-keypont-bot"
+    },
+    "id": 558,
+    "projectId": "technology.keypont",
+    "username": "genie.keypont"
+  },
+  {
+    "email": "keysealer-bot@eclipse.org",
+    "github.com": {
+      "email": "keysealer-bot@eclipse.org",
+      "username": "eclipse-keysealer-bot"
+    },
+    "id": 559,
+    "projectId": "technology.keysealer",
+    "username": "genie.keysealer"
   }
 ]
