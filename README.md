@@ -1,5 +1,9 @@
 # Eclipse Foundation Bots API
 
+This API provides information about existing bot accounts to other systems.
+
+Hosted at https://api.eclipse.org/bots.
+
 ## Build
 
 * Development 
