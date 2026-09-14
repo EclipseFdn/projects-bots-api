@@ -43,6 +43,9 @@ public abstract class Bot {
 	@Nullable
 	@Json(name = "github.com-workflow-bot")
 	public abstract BotAccount workflowBot();
+    @Nullable
+    @Json(name = "github.com-weblate-bot")
+    public abstract BotAccount weblateBot();
 	@Nullable
 	@Json(name = "oss.sonatype.org")
 	public abstract BotAccount ossrh();
