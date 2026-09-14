@@ -689,6 +689,10 @@
     "username": "genie.hono"
   },
   {
+    "docker.com": {
+      "email": "kapua-bot@eclipse.org",
+      "username": "eclipsekapuabot"
+    },
     "email": "kapua-bot@eclipse.org",
     "github.com": {
       "email": "kapua-bot@eclipse.org",
@@ -937,16 +941,6 @@
     "id": 101,
     "projectId": "modeling.mdht",
     "username": "genie.mdht"
-  },
-  {
-    "email": "modisco-bot@eclipse.org",
-    "github.com": {
-      "email": "modisco-bot@eclipse.org",
-      "username": "eclipse-modisco-bot"
-    },
-    "id": 104,
-    "projectId": "modeling.modisco",
-    "username": "genie.modisco"
   },
   {
     "docker.com": {
@@ -1521,6 +1515,10 @@
     "github.com": {
       "email": "sw360-bot@eclipse.org",
       "username": "sw360-bot"
+    },
+    "github.com-weblate-bot": {
+      "email": "hosted@weblate.org",
+      "username": "weblate"
     },
     "id": 175,
     "projectId": "technology.sw360",
@@ -3503,6 +3501,10 @@
     "username": "genie.corinthian"
   },
   {
+    "docker.com": {
+      "email": "csi-bot@eclipse.org",
+      "username": "eclipsecsibot"
+    },
     "email": "csi-bot@eclipse.org",
     "github.com": {
       "email": "csi-bot@eclipse.org",
@@ -4259,7 +4261,6 @@
     "username": "genie.tradista"
   },
   {
-    "email": "xsm-bot@eclipse.org",
     "github.com": {
       "email": "xsm-bot@eclipse.org",
       "username": "eclipse-xsm-bot"
@@ -4853,6 +4854,10 @@
       "email": "openhw-bot@eclipse.org",
       "username": "openhw"
     },
+    "github.com": {
+      "email": "openhw-bot@eclipse.org",
+      "username": "eclipse-openhw-bot"
+    },
     "id": 540,
     "projectId": "openhw",
     "username": "genie.openhw"
@@ -4935,34 +4940,10 @@
     "username": "genie.sagetea"
   },
   {
-    "email": "jakartabatch-bot@eclipse.org",
-    "id": 549,
-    "projectId": "ee4j.batch",
-    "username": "genie.batch"
-  },
-  {
-    "email": "cargotracker-bot@eclipse.org",
-    "id": 550,
-    "projectId": "ee4j.cargotracker",
-    "username": "genie.cargotracker"
-  },
-  {
     "email": "odi-bot@eclipse.org",
     "id": 551,
     "projectId": "ee4j.odi",
     "username": "genie.odi"
-  },
-  {
-    "email": "portlet-bridge-bot@eclipse.org",
-    "id": 552,
-    "projectId": "ee4j.portlet-bridge",
-    "username": "genie.portlet-bridge"
-  },
-  {
-    "email": "rpc-bot@eclipse.org",
-    "id": 553,
-    "projectId": "ee4j.rpc",
-    "username": "genie.rpc"
   },
   {
     "github.com": {
@@ -4972,12 +4953,6 @@
     "id": 554,
     "projectId": "locationtech",
     "username": "genie.locationtech"
-  },
-  {
-    "github.com": {},
-    "id": 555,
-    "projectId": "modeling.eff",
-    "username": "genie.eff"
   },
   {
     "email": "dataspace-hub-bot@eclipse.org",
@@ -5017,5 +4992,110 @@
     "id": 559,
     "projectId": "technology.keysealer",
     "username": "genie.keysealer"
+  },
+  {
+    "email": "ssam-bot@eclipse.org",
+    "github.com": {
+      "email": "ssam-bot@eclipse.org",
+      "username": "eclipse-ssam-bot"
+    },
+    "id": 560,
+    "projectId": "automotive.ssam",
+    "username": "genie.ssam"
+  },
+  {
+    "email": "aascw-bot@eclipse.org",
+    "github.com": {
+      "email": "aascw-bot@eclipse.org",
+      "username": "eclipse-aascw-bot"
+    },
+    "id": 561,
+    "projectId": "dt.aascw",
+    "username": "genie.aascw"
+  },
+  {
+    "email": "enclave-bot@eclipse.org",
+    "github.com": {
+      "email": "enclave-bot@eclipse.org",
+      "username": "eclipse-enclave-bot"
+    },
+    "id": 562,
+    "projectId": "ecd.enclave",
+    "username": "genie.enclave"
+  },
+  {
+    "id": 563,
+    "projectId": "foundation-internal.ai-registry",
+    "username": "genie.ai-registry"
+  },
+  {
+    "email": "security-inbox@eclipse.org",
+    "gitlab.eclipse.org": {
+      "email": "security-bot@eclipse.org",
+      "username": "security-bot"
+    },
+    "id": 564,
+    "projectId": "foundation-internal.security",
+    "username": "genie.security"
+  },
+  {
+    "email": "canon-c-bot@eclipse.org",
+    "github.com": {
+      "email": "canon-c-bot@eclipse.org",
+      "username": "eclipse-canon-c-bot"
+    },
+    "id": 565,
+    "projectId": "iot.threadx.canon-c",
+    "username": "genie.canon-c"
+  },
+  {
+    "email": "atesor-bot@eclipse.org",
+    "github.com": {
+      "email": "atesor-bot@eclipse.org",
+      "username": "eclipse-atesor-bot"
+    },
+    "id": 566,
+    "projectId": "openhw.atesor",
+    "username": "genie.atesor"
+  },
+  {
+    "email": "bucky-bot@eclipse.org",
+    "github.com": {
+      "email": "bucky-bot@eclipse.org",
+      "username": "eclipse-bucky-bot"
+    },
+    "id": 567,
+    "projectId": "technology.bucky",
+    "username": "genie.bucky"
+  },
+  {
+    "email": "pcs-bot@eclipse.org",
+    "github.com": {
+      "email": "pcs2-bot@eclipse.org",
+      "username": "eclipse-pcs2-bot"
+    },
+    "id": 568,
+    "projectId": "technology.pcs",
+    "username": "genie.pcs"
+  },
+  {
+    "email": "qsos-bot@eclipse.org",
+    "github.com": {
+      "email": "qsos-bot@eclipse.org",
+      "username": "eclipse-qsos-bot"
+    },
+    "id": 569,
+    "projectId": "technology.qsos",
+    "username": "genie.qsos"
+  },
+  {
+    "email": "modisco-bot@eclipse.org",
+    "github.com": {
+      "email": "modisco-bot@eclipse.org",
+      "username": "eclipse-modisco-bot"
+    },
+    "id": 570,
+    "projectId": "modeling.modisco",
+    "username": "genie.modisco"
   }
 ]

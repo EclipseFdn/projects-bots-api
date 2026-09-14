@@ -69,5 +69,10 @@ local projectsWithDependabot = [
       email: "41898282+github-actions[bot]@users.noreply.github.com",
       username: "github-actions[bot]",
     },
+  } else if (bot.projectId == "technology.sw360") then {
+    "github.com-weblate-bot": {
+      email: "hosted@weblate.org",
+      username: "weblate",
+    },
   } else {}
 ) for bot in import "../../../bots.db.new.jsonnet"]
