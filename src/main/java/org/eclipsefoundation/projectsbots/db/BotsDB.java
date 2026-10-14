@@ -91,6 +91,7 @@ public class BotsDB {
 		p = p.or(b -> b.dockerHub() != null && b.dockerHub().matches(pattern));
 		p = p.or(b -> b.dependabot() != null && b.dependabot().matches(pattern));
 		// workaround
+		p = p.or(b -> b.coderabbitBot() != null && b.coderabbitBot().matches(pattern));
 		p = p.or(b -> b.workflowBot() != null && b.workflowBot().matches(pattern));
 		p = p.or(b -> b.weblateBot() != null && b.weblateBot().matches(pattern));
 		p = p.or(b -> b.osCiRobot() != null && b.osCiRobot().matches(pattern));

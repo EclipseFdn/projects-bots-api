@@ -74,5 +74,10 @@ local projectsWithDependabot = [
       email: "hosted@weblate.org",
       username: "weblate",
     },
+  } else if (bot.projectId == "technology.qrisp") then {
+    "github.com-coderabbit-bot": {
+      email: "136622811+coderabbitai[bot]@users.noreply.github.com",
+      username: "coderabbitai[bot]",
+    },
   } else {}
 ) for bot in import "../../../bots.db.new.jsonnet"]

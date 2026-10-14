@@ -32,6 +32,9 @@ public abstract class Bot {
 	@Json(name = "gitlab.eclipse.org")
 	public abstract BotAccount gitLab();
 	@Nullable
+	@Json(name = "github.com-coderabbit")
+	public abstract BotAccount coderabbitBot();
+	@Nullable
 	@Json(name = "github.com-dependabot")
 	public abstract BotAccount dependabot();
 	@Nullable
