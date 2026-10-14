@@ -32,7 +32,7 @@ public abstract class Bot {
 	@Json(name = "gitlab.eclipse.org")
 	public abstract BotAccount gitLab();
 	@Nullable
-	@Json(name = "github.com-coderabbit")
+	@Json(name = "github.com-coderabbit-bot")
 	public abstract BotAccount coderabbitBot();
 	@Nullable
 	@Json(name = "github.com-dependabot")
