@@ -3870,6 +3870,10 @@
       "email": "qrisp-bot@eclipse.org",
       "username": "eclipse-qrisp-bot"
     },
+    "github.com-coderabbit-bot": {
+      "email": "136622811+coderabbitai[bot]@users.noreply.github.com",
+      "username": "coderabbitai[bot]"
+    },
     "id": 442,
     "projectId": "technology.qrisp",
     "username": "genie.qrisp"
