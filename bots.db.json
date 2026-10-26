@@ -1297,16 +1297,6 @@
     "username": "genie.jgit"
   },
   {
-    "email": "jnosql-bot@eclipse.org",
-    "github.com": {
-      "email": "jnosql-bot@eclipse.org",
-      "username": "genie-jnosql"
-    },
-    "id": 150,
-    "projectId": "technology.jnosql",
-    "username": "genie.jnosql"
-  },
-  {
     "email": "jubula-bot@eclipse.org",
     "id": 151,
     "projectId": "technology.jubula",
@@ -5101,5 +5091,15 @@
     "id": 570,
     "projectId": "modeling.modisco",
     "username": "genie.modisco"
+  },
+  {
+    "email": "jnosql-bot@eclipse.org",
+    "github.com": {
+      "email": "jnosql-bot@eclipse.org",
+      "username": "genie-jnosql"
+    },
+    "id": 571,
+    "projectId": "ee4j.jnosql",
+    "username": "genie.jnosql"
   }
 ]
