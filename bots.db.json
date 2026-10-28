@@ -755,6 +755,10 @@
       "email": "milo-bot@eclipse.org",
       "username": "eclipse-milo-bot"
     },
+    "gitlab.eclipse.org": {
+      "email": "milo-bot@eclipse.org",
+      "username": "milo-bot"
+    },
     "id": 75,
     "projectId": "iot.milo",
     "username": "genie.milo"
